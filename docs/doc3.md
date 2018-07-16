@@ -1,6 +1,6 @@
 ---
 id: doc3
-title: Polymath Core Modules Directory
+title: Directory
 ---
 
 # Checkpoint Modules: 

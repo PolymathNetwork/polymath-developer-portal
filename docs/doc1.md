@@ -1,7 +1,7 @@
 ---
 id: doc1
 title: Polymath Documentation
-sidebar_label: Docs
+sidebar_label: Documentation
 ---
 Polymath is a platform that enables the creation, issuance and trading of financial instruments on the blockchain. It allows participants to easily launch Securities Tokens through Securities Token Offerings (STOs) in a regulatory-compliant manner. We have built the infrastructure to make this happen and here it is for you to disover:
 
