@@ -1,6 +1,6 @@
-# developer-portal
+# The Polymath Developer Portal
 
-Everything you need to get started developing with Polymath. The Polymath developer portal is powered by Markdown and is built using React.
+## Everything you need to get started developing with Polymath.
 
 In order to contribute to the developer portal and see the results please follow the instructions below:
 
@@ -15,3 +15,4 @@ Once you complete the above you are ready to run it locally and start contributi
 4. The portal should pop up in your browser. If not, please navigate to http://localhost:3000 .
 
 
+The Polymath developer portal is powered by Markdown and is built using React.
