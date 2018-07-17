@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="607px" height="438px" viewBox="0 0 607 438" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Terminal 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-12.7%" y="-13.8%" width="125.5%" height="137.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="18" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="19.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.210711051 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="How-Polymath-Works" transform="translate(-112.000000, -453.000000)">
+            <g id="Terminal-1" filter="url(#filter-1)" transform="translate(151.000000, 474.000000)">
+                <g id="Terminal">
+                    <rect id="Rectangle" stroke="#D8D8D8" stroke-width="2.295" fill="#FFFFFF" x="1.1475" y="1.1475" width="526.905" height="357.705" rx="3.80823391"></rect>
+                    <path d="M3.80823391,0 L525.057268,-4.4408921e-16 C527.160498,-8.30446203e-16 528.865502,1.7050044 528.865502,3.80823391 L528.865502,21.897345 L0,21.897345 L0,3.80823391 C-2.57571329e-16,1.7050044 1.7050044,2.16271383e-15 3.80823391,1.77635684e-15 Z" id="Rectangle-2" fill="#D8D8D8"></path>
+                    <circle id="Oval" fill="#FF5F57" cx="14.2808771" cy="10.4726432" r="5.71235086"></circle>
+                    <circle id="Oval" fill="#FFBD2F" cx="33.3220467" cy="10.4726432" r="5.71235086"></circle>
+                    <circle id="Oval" fill="#27CA41" cx="52.3632162" cy="10.4726432" r="5.71235086"></circle>
+                    <text id="contract-ST20-is-ERC" font-family="CourierNewPSMT, Courier New" font-size="10.8" font-weight="normal">
+                        <tspan x="21.897345" y="59.9946899" fill="#000000">contract ST20 is ERC20 {</tspan>
+                        <tspan x="21.897345" y="71.9946899" fill="#000000"></tspan>
+                        <tspan x="21.897345" y="83.9946899" fill="#000000">    //transfer, transferFrom must respect the result of verifyTransfer</tspan>
+                        <tspan x="21.897345" y="95.9946899" fill="#000000">    </tspan>
+                        <tspan x="47.8215637" y="95.9946899" fill="#D16FE0">function</tspan>
+                        <tspan x="99.6700012" y="95.9946899" fill="#000000"> </tspan>
+                        <tspan x="106.151056" y="95.9946899" fill="#4F9FE9">verifyTransfer</tspan>
+                        <tspan x="196.885822" y="95.9946899" fill="#000000">(</tspan>
+                        <tspan x="203.366876" y="95.9946899" fill="#C89565">address</tspan>
+                        <tspan x="248.734259" y="95.9946899" fill="#000000"> _from, </tspan>
+                        <tspan x="300.582697" y="95.9946899" fill="#D89C62">address</tspan>
+                        <tspan x="345.950079" y="95.9946899" fill="#000000"> _to, uint256 _amount) </tspan>
+                        <tspan x="21.897345" y="107.99469" fill="#000000">	public view returns (bool success);</tspan>
+                        <tspan x="21.897345" y="119.99469" fill="#000000"></tspan>
+                        <tspan x="21.897345" y="131.99469" fill="#000000">    </tspan>
+                    </text>
+                    <text id="//any-increases-to-t" opacity="0.200000003" font-family="CourierNewPSMT, Courier New" font-size="10.8" font-weight="normal">
+                        <tspan x="55.8" y="141.3" fill="#000000">//any increases to totalSupply must happen in mint</tspan>
+                        <tspan x="55.8" y="153.3" fill="#000000">    </tspan>
+                        <tspan x="81.7242188" y="153.3" fill="#D16FE0">function</tspan>
+                        <tspan x="133.572656" y="153.3" fill="#000000"> </tspan>
+                        <tspan x="140.053711" y="153.3" fill="#4F9FE9">mint</tspan>
+                        <tspan x="165.97793" y="153.3" fill="#000000">(</tspan>
+                        <tspan x="172.458984" y="153.3" fill="#C89565">address</tspan>
+                        <tspan x="217.826367" y="153.3" fill="#000000"> _investor, </tspan>
+                        <tspan x="295.599023" y="153.3" fill="#D89C62">uint256</tspan>
+                        <tspan x="340.966406" y="153.3" fill="#000000"> _amount) </tspan>
+                        <tspan x="405.776953" y="153.3" fill="#CB64DC">public </tspan>
+                        <tspan x="55.8" y="165.3" fill="#CB64DC">	returns </tspan>
+                        <tspan x="135.648438" y="165.3" fill="#000000">(</tspan>
+                        <tspan x="142.129492" y="165.3" fill="#D39157">bool</tspan>
+                        <tspan x="168.053711" y="165.3" fill="#000000"> success);</tspan>
+                        <tspan x="55.8" y="177.3" fill="#000000"></tspan>
+                        <tspan x="55.8" y="189.3" fill="#000000">    //any decreases to totalSupply must happen in mint</tspan>
+                        <tspan x="55.8" y="201.3" fill="#000000">    </tspan>
+                        <tspan x="81.7242188" y="201.3" fill="#CB64DC">function</tspan>
+                        <tspan x="133.572656" y="201.3" fill="#000000"> </tspan>
+                        <tspan x="140.053711" y="201.3" fill="#4595E6">burn</tspan>
+                        <tspan x="165.97793" y="201.3" fill="#000000">(</tspan>
+                        <tspan x="172.458984" y="201.3" fill="#C18A5A">address</tspan>
+                        <tspan x="217.826367" y="201.3" fill="#000000"> _investor, </tspan>
+                        <tspan x="295.599023" y="201.3" fill="#D39157">uint256</tspan>
+                        <tspan x="340.966406" y="201.3" fill="#000000"> _amount) </tspan>
+                        <tspan x="405.776953" y="201.3" fill="#C459CC">public </tspan>
+                        <tspan x="55.8" y="213.3" fill="#C459CC">	returns</tspan>
+                        <tspan x="129.167383" y="213.3" fill="#000000"> (</tspan>
+                        <tspan x="142.129492" y="213.3" fill="#CD864D">bool</tspan>
+                        <tspan x="168.053711" y="213.3" fill="#000000"> success);</tspan>
+                        <tspan x="55.8" y="225.3" fill="#000000"></tspan>
+                        <tspan x="55.8" y="237.3" fill="#000000">    //must be emited on any increase to totalSupply</tspan>
+                        <tspan x="55.8" y="249.3" fill="#000000">    </tspan>
+                        <tspan x="81.7242188" y="249.3" fill="#C459D7">event</tspan>
+                        <tspan x="114.129492" y="249.3" fill="#000000"> </tspan>
+                        <tspan x="120.610547" y="249.3" fill="#3C8AE2">Minted</tspan>
+                        <tspan x="159.496875" y="249.3" fill="#000000">(</tspan>
+                        <tspan x="165.97793" y="249.3" fill="#B97F50">address</tspan>
+                        <tspan x="211.345313" y="249.3" fill="#000000"> indexed investor, </tspan>
+                        <tspan x="334.485352" y="249.3" fill="#CD864D">uint256</tspan>
+                        <tspan x="379.852734" y="249.3" fill="#000000"> amount);</tspan>
+                        <tspan x="55.8" y="261.3" fill="#000000">    //must be emited on any decrease to totalSupply</tspan>
+                        <tspan x="55.8" y="273.3" fill="#000000">    </tspan>
+                        <tspan x="81.7242188" y="273.3" fill="#BC4FD1">event</tspan>
+                        <tspan x="114.129492" y="273.3" fill="#000000"> </tspan>
+                        <tspan x="120.610547" y="273.3" fill="#347FDE">Burnt</tspan>
+                        <tspan x="153.01582" y="273.3" fill="#000000">(</tspan>
+                        <tspan x="159.496875" y="273.3" fill="#B07347">address</tspan>
+                        <tspan x="204.864258" y="273.3" fill="#000000"> indexed investor, </tspan>
+                        <tspan x="328.004297" y="273.3" fill="#C67A44">uint256</tspan>
+                        <tspan x="373.37168" y="273.3" fill="#000000"> amount);</tspan>
+                        <tspan x="55.8" y="285.3" fill="#000000"></tspan>
+                        <tspan x="55.8" y="297.3" fill="#000000">}</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

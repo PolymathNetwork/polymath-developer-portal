@@ -14,3 +14,257 @@
 
 @media only screen and (min-width: 1500px) {
 }
+
+@import url('https://fonts.googleapis.com/css?family=Overpass:400,600,700');
+
+html, body{
+    font-family: 'Overpass',sans-serif !important;
+}
+
+.fixedHeaderContainer{
+    background-color: transparent;
+    color: #2a3f7d;
+    position: relative;
+    padding-top: 20px;
+}
+
+.fixedHeaderContainer header .headerTitleWithLogo{
+    display: none;
+}
+
+.navigationSlider .slidingNav ul li a{
+    color: #2a3f7d;
+    padding: 8px 1rem;
+}
+
+.fixedHeaderContainer header img{
+    width: 250px;
+    height: auto;
+}
+
+.homeContainer {
+    padding-top: 8rem;
+}
+
+.button {
+    margin-left: 1rem;
+    padding: 9px 18px !important;
+    color: #2a3f7d;
+    background-color: transparent;
+    border-radius: 0px !important;
+    border: 2px solid #2a3f7d !important;
+}
+
+.btn-blue {
+    color: #fff;
+    background-color: #2a3f7d;
+}
+
+.gridBlock .blockElement {
+    border-radius: 4px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 3rem;
+}
+
+.imageAlignTop .blockImage {
+    margin-bottom: 20px;
+    max-width: 40px;
+}
+.blockContent{
+    color: #2a3f7d;
+}
+
+.blockContent>div>span>p{
+    color: #9ca4aa;
+}
+
+.launchSection h2{
+    color: #fff;
+    padding-top: 7.6rem;
+}
+
+.launchSection-raise {
+    font-family: 'Overpass', sans-serif !important;
+    padding: 1rem;
+    display: inline-block;
+}
+
+.workSection{
+    color: #2a3f7d;
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.workSection-heading{
+    margin-bottom: -1rem;
+}
+
+.workSection-details{
+    margin: 0 auto;
+    padding: 2rem;
+    max-width: 720px;
+}
+
+.workSection-tab{
+    display: table;
+    text-align: left;
+    padding: 2rem;
+}
+
+.workSection-tab-row{
+    display: table-row;
+}
+
+.workSection-tab-col{
+    display: table-cell;
+    padding: 2rem;
+}
+
+.terminal{
+    padding: 0;
+    /* width: 100%; */
+    height: 100%;
+}
+
+.workSection-tab-col-heading{
+    padding-bottom: .5rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.workSection-tab-col-content{
+
+}
+
+.worthSection{
+    text-align: center;
+    color: #2a3f7d;
+    padding-bottom: 5rem;
+}
+
+.worthSection-number{
+    font-size: 2.5rem;
+}
+
+.worthSection-content{
+
+}
+
+.worthSection-companies{
+    padding: 1rem;
+}
+
+.worthSection-companies-img{
+    height: 80px;
+    padding: .6rem 2rem;
+}
+
+.worthSection-seen{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.worthSection-seen-icon{
+    flex-direction: row;
+}
+
+.worthSection-seen-logo{
+    /* padding: 1rem 10rem; */
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    margin: 1rem;
+    height: 152px; 
+    /* width: 20%; */
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.20);
+    /* flex: 1 1 auto;
+    height: 100px;
+    width: 200px;
+    padding: 2rem 5rem; */
+}
+
+.gitter{
+    color: #fff;
+    fill: currentColor;
+    background-color: #ed1965;
+}
+
+.github{
+    background-color: #d2d2d2;
+}
+
+.footer-list {
+    display: flex;
+    list-style: none;
+    /* justify-content: right; */
+    text-align: center;
+}
+
+.footer-list-item {
+    flex: 1 1 auto;
+    /* display: inline-block; */
+}
+
+.footer-list-item-link {
+    text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+    .fixedHeaderContainer {
+        position: fixed;
+        background-color: #fff;
+    }
+    .navigationSlider .slidingNav {
+        /* background: #2a3f7d; */
+        background-color: #fff;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    }
+    .fixedHeaderContainer a {
+        margin: 0 auto;
+    }
+    .navigationSlider .slidingNav ul li a {
+        /* color: #fff; */
+    }
+    .navigationSlider .slidingNav ul {
+        color: #fff;
+        margin-top: 75px;
+        background: #fff;
+    }
+}
+
+@media (max-width: 736px) {
+    .projectTitle{
+        font-size: 2rem;
+    }
+    .workSection-tab-row {
+        display: grid;
+    }
+    .worthSection-seen-logo{
+        height: 114px;
+        width: 75%;
+    }
+}
+
+@media (max-width: 480px) {
+    .projectTitle {
+        font-size: 1.5rem;
+    }
+    .worthSection-seen-logo {
+        height: 85px;
+    }
+}
+
+
+
+.navPusher{
+    padding-top: 0;
+}
+
+.promoSection .promoRow .pluginRowBlock .pluginWrapper{
+    margin: 8px;
+}
