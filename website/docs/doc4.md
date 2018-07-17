@@ -3,8 +3,7 @@ id: doc4
 title: Polymath Tutorials
 ---
 
-This Is Your Guide To Join The Polymath Development Stampede.
-
+This Is Your Guide To Join The Polymath Stampede.
 
 
 ## Tutorial Topics:

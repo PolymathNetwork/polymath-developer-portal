@@ -98,4 +98,8 @@ We ask that you follow the following responsible disclosure guidelines:
 
 4. Give us 3 business days to respond to your report. We will provide our assessment of the severity of the vulnerability and our timeline for patching it based on our internal assessment of when we can have a fix in place.
 
+## Bounty Hunter Showcase: 
+
+Photo / name / what he solved!
+
 [Please Check Out Our Medium Post for More Bug Bounty Program Announcments and Updates on Program Details](https://blog.polymath.network/announcing-the-polymath-network-bug-bounty-3e4a78ac9809)
