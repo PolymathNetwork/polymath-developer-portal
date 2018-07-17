@@ -102,4 +102,4 @@ We ask that you follow the following responsible disclosure guidelines:
 
 Photo / name / what he solved!
 
-[Please Check Out Our Medium Post for More Bug Bounty Program Announcments and Updates on Program Details](https://blog.polymath.network/announcing-the-polymath-network-bug-bounty-3e4a78ac9809)
+## [Please Check Out Our Medium Post for More Bug Bounty Program Announcments and Updates on Program Details](https://blog.polymath.network/announcing-the-polymath-network-bug-bounty-3e4a78ac9809)
