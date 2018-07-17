@@ -1,6 +1,12 @@
 ---
 id: doc3
-title: Getting the dApp Running
+title: Polymath Core Modules Directory
 ---
 
-## SWeg
+## Developer Modudles
+
+| Type       	| How they work         | What it does  |
+| ------------- |:---------------------:|---------------|				
+| Checkpoint:   | right-aligned 		| 				|
+| col 2 is      | centered      		|   			|
+| zebra stripes | are neat     			|    			|

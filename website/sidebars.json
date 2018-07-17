@@ -1,8 +1,8 @@
 {
   "docs": {
-    "Getting Started": ["doc1"],
-    "Intro to Polymath-core": ["doc2"],
-    "Intro to Polymath-issuer": ["doc3"]
+    "Getting Started with Polymath": ["doc1"],
+    "Start Contributing to Polymath": ["doc2"],
+    "Polymath Modules Directory": ["doc3"]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]
