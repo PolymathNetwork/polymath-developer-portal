@@ -155,7 +155,7 @@ const FeatureWork = props => (
         </div>
         < div className = "workSection-tab-col">
           < div className = "workSection-tab-col-heading">contracts / interfaces / IST20.sol</div>
-          < div className = "workSection-tab-col-content" > This is the nterface for the ST20 token standard. It mints new tokens and assigns them to the target _investor. It also enables a Burn function used to burn the securityToken</div>
+          < div className = "workSection-tab-col-content" > This is the nterface for the ST20 token standard. It mints new tokens and assigns them to the target _investor. It also enables a Burn function used to burn the securityToken.</div>
         </div>
       </div>
       <div className="workSection-tab-row">
