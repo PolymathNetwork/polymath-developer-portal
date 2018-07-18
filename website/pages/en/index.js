@@ -137,7 +137,7 @@ const FeatureWork = props => (
     className = "workSection"
     style={{textAlign: 'center'}}>
     < h1 className="workSection-heading"> How Polymath Works</h1>
-    < div className = "workSection-details" > Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+    < div className = "workSection-details" > An interface between financial securities and the blockchain, simplifying the process for issuers to overcome the complex technical and legal challenges token creation. </div>
     <button className="button btn-blue">GET STARTED</button>
     <div className="workSection-tab">
       <div className="workSection-tab-row">
@@ -150,22 +150,22 @@ const FeatureWork = props => (
       </div>
       <div className="workSection-tab-row">
         < div className = "workSection-tab-col">
-          < div className = "workSection-tab-col-heading">function verifyTransfer</div>
-          <div className="workSection-tab-col-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+          < div className = "workSection-tab-col-heading"> modules / STO / ISTO.sol </div>
+          <div className="workSection-tab-col-content">Interface to be implemented by all STO modules. This contract is used to verify the investment, whether the investor provide the allowance to the STO or not.</div>
         </div>
         < div className = "workSection-tab-col">
-          < div className = "workSection-tab-col-heading">function burn</div>
-          < div className = "workSection-tab-col-content" > Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+          < div className = "workSection-tab-col-heading">contracts / interfaces / IST20.sol</div>
+          < div className = "workSection-tab-col-content" > This is the nterface for the ST20 token standard. It mints new tokens and assigns them to the target _investor. It also enables a Burn function used to burn the securityToken</div>
         </div>
       </div>
       <div className="workSection-tab-row">
         < div className = "workSection-tab-col">
-          < div className = "workSection-tab-col-heading">function mint</div>
-          <div className="workSection-tab-col-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+          < div className = "workSection-tab-col-heading"> contracts / SecurityTokenRegistry.sol </div>
+          <div className="workSection-tab-col-content">Registry contract for issuers to register their security tokens. Creates a new Security Token and saves it to the registry. You can add a new custom (Token should follow the ISecurityToken interface) Security Token and save it to the registry.</div>
         </div>
         < div className = "workSection-tab-col">
-          < div className = "workSection-tab-col-heading">functionMinted / functionBurned</div>
-          < div className = "workSection-tab-col-content" > Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+          < div className = "workSection-tab-col-heading">contracts / GeneralPermissionManager.sol</div>
+          < div className = "workSection-tab-col-content" > This module allows issuers to define permissions for any actions or functions in any modules which are attached to their token, and then delegate those permissions to 3rd parties. Permissions are named and then defer to PermissionManager modules to check whether an address trying to perform an action has appropriate permission. </div>
         </div>
       </div>
     </ div>
