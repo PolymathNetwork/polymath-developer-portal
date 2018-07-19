@@ -14,23 +14,23 @@ const users = [
     caption: 'User1',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/img/bull.svg', 
+    image: '/img/bull.svg',
     infoLink: 'https://www.facebook.com',
     pinned: true,
   },
 ];
 
 const siteConfig = {
-  title: 'Polymath Nework Developer Portal' /* title for your website */,
+  title: 'Polymath Network Developer Portal' /* title for your website */,
   tagline: 'What you need to get started developing with Polymath',
-  url: '' /* your website url */,
+  url: 'https://developers.polymath.network' /* your website url */,
   baseUrl: '/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  // projectName: 'Polymath Network Developer Portal',
+  projectName: 'Polymath-Developer-Portal',
   organizationName: 'Polymath',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
@@ -38,10 +38,10 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'Tutorial'},
-    {page: 'help', label: 'Help'},
-    {href: 'https://blog.polymath.network/tech/home', external: true, label: 'Tech Blog'},
+    { doc: 'doc1', label: 'Docs' },
+    { doc: 'doc4', label: 'Tutorial' },
+    { page: 'help', label: 'Help' },
+    { href: 'https://blog.polymath.network/tech/home', external: true, label: 'Tech Blog' },
   ],
 
   // If you have users set above, you add it here:
