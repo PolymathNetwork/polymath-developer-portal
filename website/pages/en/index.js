@@ -130,7 +130,9 @@ const FeatureCallout = props => (
   <div
     className="productShowcaseSection launchSection paddingBottom"
     style={{ textAlign: 'center', background: '#404e87' }}>
-    <h2> Launch Securities Token in Minutes.<br /> <span className="launchSection-raise">Raise Funds</span> </h2>
+    <h2>
+      Launch Securities Token in Minutes.<br /> <span className="launchSection-raise">Raise Funds</span>
+    </h2>
   </div>
 );
 
@@ -140,7 +142,7 @@ const FeatureWork = props => (
     style={{ textAlign: 'center' }}>
     < h1 className="workSection-heading"> How Polymath Works</h1>
     < div className="workSection-details" > An interface between financial securities and the blockchain, simplifying the process for issuers to overcome the complex technical and legal challenges token creation. </div>
-    <button className="button btn-blue">GET STARTED</button>
+    <a className="button btn-blue" href={docUrl('doc4.html')}>GET STARTED</a>
     <div className="workSection-tab">
       <div className="workSection-tab-row">
         < div className="workSection-tab-col terminal">
@@ -153,11 +155,11 @@ const FeatureWork = props => (
       <div className="workSection-tab-row">
         < div className="workSection-tab-col">
           < div className="workSection-tab-col-heading"> modules / STO / ISTO.sol </div>
-          <div className="workSection-tab-col-content">Interface to be implemented by all STO modules. This contract is used to verify the investment, whether the investor provide the allowance to the STO or not.</div>
+          <div className="workSection-tab-col-content">This is an interface to be implemented by all STO modules. This contract is used to verify the investment, whether the investor provide the allowance to the STO or not.</div>
         </div>
         < div className="workSection-tab-col">
           < div className="workSection-tab-col-heading">contracts / interfaces / IST20.sol</div>
-          < div className="workSection-tab-col-content" > This is the interface for the ST20 token standard. It mints new tokens and assigns them to the target investor. It also enables a Burn function used to burn the securityToken.</div>
+          < div className="workSection-tab-col-content" > This is an interface for the ST20 Security Token standard. It mints new tokens and assigns them to the target investor. It also enables a Burn function used to burn the securityToken.</div>
         </div>
       </div>
       <div className="workSection-tab-row">
