@@ -18,4 +18,4 @@ deploy:
   skip_cleanup: true
   local_dir: build/Polymath-Developer-Portal
   on:
-    branch: dev-shannon2
+    branch: master

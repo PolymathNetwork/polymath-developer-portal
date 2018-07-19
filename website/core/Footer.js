@@ -22,14 +22,14 @@ class Footer extends React.Component {
     const currentYear = new Date().getFullYear();
     return (
       <footer>
-        <ul class="footer-list">
-            <li class="footer-list-item" style={{marginTop: '6px'}}>&copy; 2018 Polymath</li>
-            <li class="footer-list-item">
-                <a class="footer-list-item-link" href="#">Terms of use</a>
+        <ul className="footer-list">
+          <li className="footer-list-item" style={{ marginTop: '6px' }}>&copy; 2018 Polymath</li>
+          {/* <li className="footer-list-item">
+                <a className="footer-list-item-link" href="#">Terms of use</a>
             </li>
-            <li class="footer-list-item">
-                <a class="footer-list-item-link" href="#">Privacy Policy</a>
-            </li>
+            <li className="footer-list-item">
+                <a className="footer-list-item-link" href="#">Privacy Policy</a>
+            </li> */}
         </ul>
       </footer>
       // <footer className="nav-footer" id="footer">
