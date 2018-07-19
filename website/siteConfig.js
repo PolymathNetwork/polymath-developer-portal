@@ -23,14 +23,14 @@ const users = [
 const siteConfig = {
   title: 'Polymath Nework Developer Portal' /* title for your website */,
   tagline: 'What you need to get started developing with Polymath',
-  url: '' /* your website url */,
+  url: 'https://developers.polymath.network' /* your website url */,
   baseUrl: '/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  // projectName: 'Polymath Network Developer Portal',
+  projectName: 'Polymath-Developer-Portal',
   organizationName: 'Polymath',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
