@@ -130,7 +130,7 @@ const FeatureCallout = props => (
   <div
     className="productShowcaseSection launchSection paddingBottom"
     style={{ textAlign: 'center', background: '#404e87' }}>
-    < h2 > Launch Securities Token in Minutes.<br /> <span className="launchSection-raise">Raise Funds</span> </h2>
+    <h2> Launch Securities Token in Minutes.<br /> <span className="launchSection-raise">Raise Funds</span> </h2>
   </div>
 );
 
@@ -181,7 +181,6 @@ const FeatureWorth = props => (
     <div className="worthSection-companies">
       <img src='/img/ipwe.png' className="worthSection-companies-img" />
       <img src='/img/corl.png' className="worthSection-companies-img" />
-      <img src='/img/ipwe.png' className="worthSection-companies-img" />
     </div>
     <div className="worthSection-seen">
       {/* <img src="/img/gitter.svg" className="worthSection-seen-logo gitter"/> */}
