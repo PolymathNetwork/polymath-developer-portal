@@ -106,19 +106,21 @@ const Features = props => (
         image: imgUrl('settings.svg'),
         imageAlign: 'top',
         title: 'Solidity Docs',
-        infoLink: 'https://github.com/PolymathNetwork/polymath-core',
+        imageLink: 'https://github.com/PolymathNetwork/polymath-core',
       },
       {
         content: 'Take a walk through the process of an STO',
         image: imgUrl('pop.svg'),
         imageAlign: 'top',
         title: 'STO Tutorial',
+        imageLink: siteConfig.baseUrl + 'docs/doc4.html',
       },
       {
         content: 'Polymath Core TORO v1 .1 .0 ',
         image: imgUrl('pop.svg'),
         imageAlign: 'top',
         title: 'News Releases',
+        imageLink: 'https://blog.polymath.network/polymath-core-toro-v1-2-0-is-out-997e05adc665',
       }
     ]}
   </Block>
