@@ -1,17 +1,21 @@
-# polymath-developer-portal
-Everything you need to get started developing with Polymath. The Polymath developer portal is powered by Markdown and is built using React.
+# The Polymath Developer Portal
 
-In order to contribute to the developer portal and see the results please follow the instructions below:
+Everything you need to get started developing with Polymath.
 
-Once you've cloned the repo, please open your termninal command line and type the following:
+## Installation.
 
-Create a Polymath Developer Portal folder and place all the files within it. Once you complete the above you are ready to run it locally and start contributing to it. 
+To get started, please follow the instructions below using terminal: 
 
-In order to do so, please run the follwing:
+1. Clone repo to your local development environment e.g. git clone git@github.com:PolymathNetwork/polymath-developer-portal.git [nameOfFolder]
+2. Change directory to the directory/folder that you created above e.g. 'cd [nameOfFolder]
+3. Install dependencies by typing 'yarn' or 'npm install'
+3. View the website on your local browser by typing 'yarn start' or 'npm run start'.
+4. Navigate your web browser to http://localhost:3000 (as necessary)
 
-- cd 'the directory/folder that you created above
-- cd into the website folder
-- Type 'yarn run start' or npm run start into your terminal.
-- The portal should pop up in your browser. If not, please navigate to http://localhost:3000 .
+The Polymath developer portal is powered by Markdown and is built using Docusaurus (https://docusaurus.io).
+
+## Contributing
+
+In order to contribute to the developer portal, please submit a pull request or submit an issue to this repo
 
 Start contributing!
