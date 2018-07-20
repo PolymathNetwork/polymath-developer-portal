@@ -89,17 +89,75 @@ class HomeSplash extends React.Component {
   }
 }
 
+const LinkBlock = props => (
+  <div>
+    <p>{props.content}</p>
+    <p>{props.title}</p>
+  </div>
+)
+
 const Block = props => (
   <Container
     padding={['bottom', 'top']}
     id={props.id}
     background={props.background}>
-    <GridBlock align="center" contents={props.children} layout={props.layout} />
-  </Container>
+    {/* <GridBlock align="center" contents={props.children} layout={props.layout} /> */}
+
+    <div class="gridBlock">
+
+      <div class="blockElement alignCenter imageAlignTop fourByGridBlock">
+        <a href="https://github.com/PolymathNetwork/polymath-core">
+          <div class="blockImage">
+            <img src="/img/settings.svg" />
+          </div>
+          <div class="blockContent">
+            <h2>
+              <div><span><p>Solidity Docs</p></span></div>
+            </h2>
+            <div><span><p>Core Ethereum Smart Contracts for Polymath</p></span></div>
+          </div>
+        </a>
+      </div>
+
+
+      <div class="blockElement alignCenter imageAlignTop fourByGridBlock">
+        <a href={`${siteConfig.baseUrl}docs/doc4.html`}>
+          <div class="blockImage">
+            <img src="/img/pop.svg" />
+          </div>
+          <div class="blockContent">
+            <h2>
+              <div><span><p>STO Tutorial</p></span></div>
+            </h2>
+            <div><span><p>Take a walk through the process of a STO</p></span></div>
+          </div>
+        </a>
+      </div>
+
+
+      <div class="blockElement alignCenter imageAlignTop fourByGridBlock">
+        <a href="https://blog.polymath.network/polymath-core-toro-v1-2-0-is-out-997e05adc665">
+          <div class="blockImage">
+            <img src="/img/star.svg" />
+          </div>
+          <div class="blockContent">
+            <h2>
+              <div><span><p>News Releases</p></span></div>
+            </h2>
+            <div><span><p>Polymath Core TORO v1.1.0</p></span></div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+
+
+  </Container >
 );
 
+
 const Features = props => (
-  <Block layout="fourColumn">
+  <Block layout="threeColumn">
     {[
       {
         content: 'Core Ethereum Smart Contracts for Polymath',
@@ -117,7 +175,7 @@ const Features = props => (
       },
       {
         content: 'Polymath Core TORO v1 .1 .0 ',
-        image: imgUrl('pop.svg'),
+        image: imgUrl('star.svg'),
         imageAlign: 'top',
         title: 'News Releases',
         imageLink: 'https://blog.polymath.network/polymath-core-toro-v1-2-0-is-out-997e05adc665',
@@ -131,7 +189,7 @@ const FeatureCallout = props => (
     className="productShowcaseSection launchSection paddingBottom"
     style={{ textAlign: 'center', background: '#404e87' }}>
     <h2>
-      Launch Securities Token in Minutes.<br /> <span className="launchSection-raise">Raise Funds</span>
+      Launch Securities Token in Minutes
     </h2>
   </div>
 );
@@ -145,10 +203,10 @@ const FeatureWork = props => (
     <a className="button btn-blue" href={docUrl('doc4.html')}>GET STARTED</a>
     <div className="workSection-tab">
       <div className="workSection-tab-row">
-        < div className="workSection-tab-col terminal">
+        <div className="workSection-tab-col terminal">
           <img src="/img/Terminal_1.svg" className="wrokSection-img" />
         </div>
-        < div className="workSection-tab-col terminal" >
+        <div className="workSection-tab-col terminal">
           <img src="/img/Terminal_2.svg" className="wrokSection-img" />
         </div>
       </div>

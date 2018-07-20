@@ -20,8 +20,8 @@ KOVAN - https://github.com/kovan-testnet/faucet
 | Contract               | Address                                    |
 | -----------------------|:------------------------------------------:| 
 | TickerRegistry:        | 0xcf82d3f2abdf777f559e98d85f976283595f0d30 | 
-| SecurityTokenRegistry: | 0x00d4671f8c00fcfc2256e008242f07c1428b5836                               |
-| ModuleRegistry:        | 0x719287e2f1dfc7d953d0c1f05fdf27934d9c6f30                           |
+| SecurityTokenRegistry: | 0x00d4671f8c00fcfc2256e008242f07c1428b5836 |
+| ModuleRegistry:        | 0x719287e2f1dfc7d953d0c1f05fdf27934d9c6f30 |
 | CappedSTOFactory:      | 0x30e2c3fa3297808a2e9f176be6cc587cb76259c4 |
 
 ## Setup
