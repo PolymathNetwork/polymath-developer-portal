@@ -22,19 +22,22 @@ class Help extends React.Component {
     let language = this.props.language || '';
     const supportLinks = [
       {
+        title: 'Browse Docs',
         content: `Learn more using the [documentation on this site.](${docUrl(
           'doc1.html',
           language
         )})`,
-        title: 'Browse Docs',
+
       },
       {
-        content: 'Ask questions about the documentation and project',
         title: 'Join the community',
+        content: 'Coming Soon',
+
       },
       {
-        content: "Find out what's new with this project",
         title: 'Stay up to date',
+        content: 'Coming Soon',
+
       },
     ];
 
@@ -45,8 +48,8 @@ class Help extends React.Component {
             <header className="postHeader">
               <h2>Need help?</h2>
             </header>
-            <p>This project is maintained by a dedicated group of people: Charles St-Louis and Satyam - polymath profiles to be added here. Please feel free to ask us questions
-             on our Gitter channel! </p>
+            <p>This project is maintained by  <a href="https://polymath.network" target="_blank">Polymath</a>. Please feel free to ask us questions
+             on our  <a href="https://gitter.im/PolymathNetwork/Lobby/" target="_blank">Gitter</a> channel! </p>
             <GridBlock contents={supportLinks} layout="threeColumn" />
           </div>
         </Container>
