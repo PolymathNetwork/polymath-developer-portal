@@ -202,32 +202,32 @@ const FeatureWork = props => (
     < div className="workSection-details" > An interface between financial securities and the blockchain, simplifying the process for issuers to overcome the complex technical and legal challenges token creation. </div>
     <a className="button btn-blue" href={docUrl('doc4.html')}>GET STARTED</a>
     <div className="workSection-tab">
-      <div className="workSection-tab-row">
-        <div className="workSection-tab-col terminal">
+      <div className="row">
+        <div className="col-1-of-2 terminal">
           <img src="/img/Terminal_1.svg" className="wrokSection-img" />
         </div>
-        <div className="workSection-tab-col terminal">
+        <div className="col-1-of-2 terminal">
           <img src="/img/Terminal_2.svg" className="wrokSection-img" />
         </div>
       </div>
-      <div className="workSection-tab-row">
-        < div className="workSection-tab-col">
-          < div className="workSection-tab-col-heading"> modules / STO / ISTO.sol </div>
-          <div className="workSection-tab-col-content">This is an interface to be implemented by all STO modules. This contract is used to verify the investment, whether the investor provide the allowance to the STO or not.</div>
+      <div className="row">
+        < div className="col-1-of-2">
+          < div className="workSection-tab-heading"> modules / STO / ISTO.sol </div>
+          <div className="workSection-tab-content">This is an interface to be implemented by all STO modules. This contract is used to verify the investment, whether the investor provide the allowance to the STO or not.</div>
         </div>
-        < div className="workSection-tab-col">
-          < div className="workSection-tab-col-heading">contracts / interfaces / IST20.sol</div>
-          < div className="workSection-tab-col-content" > This is an interface for the ST20 Security Token standard. It mints new tokens and assigns them to the target investor. It also enables a Burn function used to burn the securityToken.</div>
+        < div className="col-1-of-2">
+          < div className="workSection-tab-heading">contracts / interfaces / IST20.sol</div>
+          < div className="workSection-tab-content" > This is an interface for the ST20 Security Token standard. It mints new tokens and assigns them to the target investor. It also enables a Burn function used to burn the securityToken.</div>
         </div>
       </div>
-      <div className="workSection-tab-row">
-        < div className="workSection-tab-col">
-          < div className="workSection-tab-col-heading"> contracts / SecurityTokenRegistry.sol </div>
-          <div className="workSection-tab-col-content">Registry contract for issuers to register their security tokens. Creates a new Security Token and saves it to the registry. You can add a new custom Security Token (Token should follow the ISecurityToken interface) and save it to the registry.</div>
+      <div className="row">
+        < div className="col-1-of-2">
+          < div className="workSection-tab-heading"> contracts / SecurityTokenRegistry.sol </div>
+          <div className="workSection-tab-content">Registry contract for issuers to register their security tokens. Creates a new Security Token and saves it to the registry. You can add a new custom Security Token (Token should follow the ISecurityToken interface) and save it to the registry.</div>
         </div>
-        < div className="workSection-tab-col">
-          < div className="workSection-tab-col-heading">contracts / GeneralPermissionManager.sol</div>
-          < div className="workSection-tab-col-content" > This module allows issuers to define permissions for any actions or functions in any modules which are attached to their token, and then delegate those permissions to 3rd parties. Permissions are named and then defer to PermissionManager modules to check whether an address trying to perform an action has appropriate permission. </div>
+        < div className="col-1-of-2">
+          < div className="workSection-tab-heading">contracts / GeneralPermissionManager.sol</div>
+          < div className="workSection-tab-content" > This module allows issuers to define permissions for any actions or functions in any modules which are attached to their token, and then delegate those permissions to 3rd parties. Permissions are named and then defer to PermissionManager modules to check whether an address trying to perform an action has appropriate permission. </div>
         </div>
       </div>
     </ div>

@@ -21,6 +21,80 @@ html, body{
     font-family: 'Overpass',sans-serif !important;
 }
 
+.row {
+    max-width: 114rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row:not(:last-child) {
+    margin-bottom: 4rem;
+}
+
+@media (max-width: 56.25em) {
+    .row:not(:last-child) {
+        margin-bottom: 4rem;
+    }
+}
+
+@media (max-width: 56.25em) {
+    .row {
+        max-width: 50rem;
+        padding: 0 3rem;
+    }
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row [class^="col-"] {
+    float: left;
+}
+
+.row [class^="col-"]:not(:last-child) {
+    margin-right: 6rem;
+}
+
+@media (max-width: 56.25em) {
+    .row [class^="col-"]:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 4rem;
+    }
+}
+
+@media (max-width: 56.25em) {
+    .row [class^="col-"] {
+        width: 100% !important;
+    }
+}
+
+.row .col-1-of-2 {
+    width: calc((100% - 6rem) /2);
+}
+
+.row .col-1-of-3 {
+    width: calc((100% - 2* 6rem) /3);
+}
+
+.row .col-2-of-3 {
+    width: calc((2 * (100% - 2* 6rem) /3) + 6rem);
+}
+
+.row .col-1-of-4 {
+    width: calc((100% - 3* 6rem) /4);
+}
+
+.row .col-2-of-4 {
+    width: calc(2 *((100% - 3* 6rem) /4) + 6rem);
+}
+
+.row .col-3-of-4 {
+    width: calc(3 *((100% - 3* 6rem) /4) + 2 * 6rem);
+}
+
 .fixedHeaderContainer{
     background-color: transparent;
     color: #2a3f7d;
@@ -106,18 +180,9 @@ html, body{
 }
 
 .workSection-tab{
-    display: table;
     text-align: left;
-    padding: 2rem;
-}
-
-.workSection-tab-row{
-    display: table-row;
-}
-
-.workSection-tab-col{
-    display: table-cell;
-    padding: 2rem;
+    padding: 2rem 6rem;
+    margin-top: 3rem;
 }
 
 .terminal{
@@ -126,13 +191,13 @@ html, body{
     height: 100%;
 }
 
-.workSection-tab-col-heading{
+.workSection-tab-heading{
     padding-bottom: .5rem;
     font-weight: 700;
     font-size: 1.5rem;
 }
 
-.workSection-tab-col-content{
+.workSection-tab-content{
 
 }
 
@@ -247,6 +312,12 @@ html, body{
     .worthSection-seen-logo{
         height: 114px;
         width: 75%;
+    }
+    .workSection-tab {
+        padding: 0rem;
+    }
+    .homeContainer {
+        padding-top: 11rem;
     }
 }
 
