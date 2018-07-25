@@ -21,6 +21,14 @@ html, body{
     font-family: 'Overpass',sans-serif !important;
 }
 
+.text-center{
+    text-align: center !important;
+}
+
+.u-margin-bottom-medium{
+    margin-bottom: 5rem;
+}
+
 .row {
     max-width: 114rem;
     width: 100%;
@@ -55,7 +63,7 @@ html, body{
 }
 
 .row [class^="col-"]:not(:last-child) {
-    margin-right: 6rem;
+    margin-right: 2rem;
 }
 
 @media (max-width: 56.25em) {
@@ -76,7 +84,7 @@ html, body{
 }
 
 .row .col-1-of-3 {
-    width: calc((100% - 2* 6rem) /3);
+    width: calc((100% - 2* 2rem) /3);
 }
 
 .row .col-2-of-3 {
@@ -84,7 +92,7 @@ html, body{
 }
 
 .row .col-1-of-4 {
-    width: calc((100% - 3* 6rem) /4);
+    width: calc((100% - 3* 2rem) /4);
 }
 
 .row .col-2-of-4 {
@@ -300,6 +308,9 @@ html, body{
         margin-top: 75px;
         background: #fff;
     }
+    .mainContainer .wrapper .post{
+        padding-top: 5rem;
+    }
 }
 
 @media (max-width: 736px) {
@@ -338,4 +349,63 @@ html, body{
 
 .promoSection .promoRow .pluginRowBlock .pluginWrapper{
     margin: 8px;
+}
+
+.helper{
+
+}
+
+.helper-box{
+    padding: 1rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+    color: #2a3f7d;
+}
+
+.helper-box-heading{
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.helper-box-details{
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.helper-box-social{
+    padding: 5px;
+}
+
+.helper-box-social-icon {
+    height: 20px;
+    /* padding: 10px; */
+}
+
+.helper-box-social-link:not(:first-child){
+    padding: 1rem;
+}
+
+.helper-box-social-icon:not(:first-child){
+    margin-left: 20px;
+}
+
+.github{
+    color: #2a3f7d;
+    fill: currentColor;
+    background: transparent;
+    display: inline-block;
+}
+
+.linkedin{
+    color: #2a3f7d;
+    fill: currentColor;
+}
+
+.headerWrapper {
+    max-width: 1100px;
+}
+
+.navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li.siteNavGroupActive a{
+    color: #fff;
 }
