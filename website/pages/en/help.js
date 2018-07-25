@@ -56,7 +56,7 @@ class Help extends React.Component {
                   <img src="/img/charles.jpg" className="helper-img"/>
                 </div>
                 <div className="helper-box-heading">Charles St. Louis</div>
-                <div className="helper-box-details">Open Source dev& Community Manager</div>
+                <div className="helper-box-details">Open Source Developer and Community Manager</div>
                 <div className="helper-box-social">
                   <a href="https://github.com/CPSTL" className="helper-box-social-link" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"  className="helper-box-social-icon github">
