@@ -1,10 +1,89 @@
 {
   "docs": {
-    "Getting Started with Polymath": ["doc1"],
-    "Start Contributing to Polymath": ["doc2"],
-    "Polymath Modules Directory": ["doc3"]
+    "Getting Started with Polymath": [
+      "doc1"
+    ],
+    "Start Contributing to Polymath": [
+      "doc2"
+    ],
+    "Polymath Modules Directory": [
+      "doc3"
+    ]
   },
   "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "First Category": [
+      "doc4",
+      "doc5"
+    ]
+  },
+  "docs-api": {
+    "HELPERS": [
+      "helpers_PolyToken",
+      "helpers_Util"
+    ],
+    "INTERFACES": [
+      "interfaces_IModule",
+      "interfaces_IModuleFactory",
+      "interfaces_IModuleRegistry",
+      "interfaces_IRegistry",
+      "interfaces_IST20",
+      "interfaces_ISTProxy",
+      "interfaces_ISecurityToken",
+      "interfaces_ISecurityTokenRegistry",
+      "interfaces_ITickerRegistry",
+      "interfaces_ITokenBurner"
+    ],
+    "MOCKS": [
+      "mocks_MockFactory",
+      "mocks_PolyTokenFaucet",
+      "mocks_TestSTOFactory"
+    ],
+    "MODULES / CHECKPOINT": [
+      "modules_Checkpoint_ERC20DividendCheckpoint",
+      "modules_Checkpoint_ERC20DividendCheckpointFactory",
+      "modules_Checkpoint_EtherDividendCheckpoint",
+      "modules_Checkpoint_EtherDividendCheckpointFactory",
+      "modules_Checkpoint_ICheckpoint"
+    ],
+    "MODULES / PERMISSIONMANAGER": [
+      "modules_PermissionManager_GeneralPermissionManager",
+      "modules_PermissionManager_GeneralPermissionManagerFactory",
+      "modules_PermissionManager_IPermissionManager"
+    ],
+    "MODULES / STO": [
+      "modules_STO_CappedSTO",
+      "modules_STO_CappedSTOFactory",
+      "modules_STO_DummySTO",
+      "modules_STO_DummySTOFactory",
+      "modules_STO_ISTO",
+      "modules_STO_PreSaleSTO",
+      "modules_STO_PreSaleSTOFactory"
+    ],
+    "MODULES / TRANSFERMANAGER": [
+      "modules_TransferManager_CountTransferManager",
+      "modules_TransferManager_CountTransferManagerFactory",
+      "modules_TransferManager_GeneralTransferManager",
+      "modules_TransferManager_GeneralTransferManagerFactory",
+      "modules_TransferManager_ITransferManager",
+      "modules_TransferManager_ManualApprovalTransferManager",
+      "modules_TransferManager_ManualApprovalTransferManagerFactory",
+      "modules_TransferManager_PercentageTransferManager",
+      "modules_TransferManager_PercentageTransferManagerFactory"
+    ],
+    "TOKENS": [
+      "tokens_STVersionProxy001",
+      "tokens_STVersionProxy002",
+      "tokens_SecurityToken",
+      "tokens_SecurityTokenV2"
+    ],
+    "UNCATEGORIZED": [
+      "Migrations",
+      "ModuleRegistry",
+      "Pausable",
+      "ReclaimTokens",
+      "Registry",
+      "SecurityTokenRegistry",
+      "TickerRegistry"
+    ]
   }
 }
