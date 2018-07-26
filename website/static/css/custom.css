@@ -25,6 +25,10 @@ html, body{
     text-align: center !important;
 }
 
+.u-margin-bottom-small{
+    margin-bottom: 2rem;
+}
+
 .u-margin-bottom-medium{
     margin-bottom: 5rem;
 }
@@ -351,6 +355,10 @@ html, body{
     margin: 8px;
 }
 
+.helperSection{
+    padding-top: 3rem;
+}
+
 .helper{
 
 }
@@ -409,3 +417,65 @@ html, body{
 .navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li.siteNavGroupActive a{
     color: #fff;
 }
+
+.docsSection {
+
+}
+
+.docsSection-heading{
+
+}
+
+.docsSection-card {
+    border-radius: 4px;
+    box-shadow: 0 10px 20px rgba(0,0,0,.1);
+    padding: 3rem;
+    height: 13rem;
+}
+
+.docsSection-card-heading {
+    font-size: 20px;
+    color: #2a3f7d;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.docsSection-card-icons{
+    text-align: center;
+}
+
+.docsSection-card-icons-link{
+    padding: 1rem;
+}
+
+.docsSection-card-img{
+    height: 40px;
+    margin-top: 20px;
+    color: #2a3f7d;
+    fill: currentColor;
+}
+
+.docsSection-card-img:not(:first-child){
+    margin-left: 30px;
+}
+
+.docsSection-card-details {
+
+}
+
+/* .telegram{
+    color: #0088cc;
+    fill: currentColor;
+}
+
+.reddit{
+    color: #ff4500;
+    fill: currentColor;
+}
+
+.gitter{
+    color: #ed1965;
+    fill: currentColor;
+    background-clip: border-box;
+    background: transparent;
+} */
