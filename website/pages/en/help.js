@@ -19,35 +19,78 @@ function docUrl(doc, language) {
 
 class Help extends React.Component {
   render() {
-    let language = this.props.language || '';
-    const supportLinks = [
-      {
-        title: 'Browse Docs',
-        content: `Learn more using the [documentation on this site.](${docUrl(
-          'doc1.html',
-          language
-        )})`,
+    // let language = this.props.language || '';
+    // const supportLinks = [
+    //   {
+    //     title: 'Browse Docs',
+    //     content: `Learn more using the [documentation on this site.](${docUrl(
+    //       'doc1.html',
+    //       language
+    //     )})`,
 
-      },
-      {
-        title: 'Join the community',
-        content: 'Coming Soon',
+    //   },
+    //   {
+    //     title: 'Join the community',
+    //     content: 'Coming Soon<div>hello</div>',
 
-      },
-      {
-        title: 'Stay up to date',
-        content: 'Coming Soon',
+    //   },
+    //   {
+    //     title: 'Stay up to date',
+    //     content: 'Check our Medium blog for all new releases and articles.',
+    //   },
+    // ];
 
-      },
-    ];
+    const FeatureDocs = props => (
+      <div className="docsSection">
+        <h2 className="docsSection-heading"></h2>
+        <div className="row">
+          <div className="col-1-of-3">
+            <div className="docsSection-card">
+              <div className="docsSection-card-heading">Browse Docs</div>
+              <div className="docsSection-card-details">Learn more using the <br/>
+                <a href="./docs/doc1.html" className="docsSection-card-link">documentation on this site.</a>
+              </div>
+            </div>
+          </div>
+          <div className="col-1-of-3">
+            <div className="docsSection-card">
+              <div className="docsSection-card-heading">Join the community</div>
+              <div className="docsSection-card-icons">
+                <a href="https://t.me/polymathnetwork" target="_blank" className="docsSection-card-icons-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="docsSection-card-img">
+                    <path d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"/>
+                  </svg>
+                </a>
+                <a href="https://www.reddit.com/r/PolymathNetwork/" target="_blank" className="docsSection-card-icons-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="docsSection-card-img">
+                    <path d="M440.3 203.5c-15 0-28.2 6.2-37.9 15.9-35.7-24.7-83.8-40.6-137.1-42.3L293 52.3l88.2 19.8c0 21.6 17.6 39.2 39.2 39.2 22 0 39.7-18.1 39.7-39.7s-17.6-39.7-39.7-39.7c-15.4 0-28.7 9.3-35.3 22l-97.4-21.6c-4.9-1.3-9.7 2.2-11 7.1L246.3 177c-52.9 2.2-100.5 18.1-136.3 42.8-9.7-10.1-23.4-16.3-38.4-16.3-55.6 0-73.8 74.6-22.9 100.1-1.8 7.9-2.6 16.3-2.6 24.7 0 83.8 94.4 151.7 210.3 151.7 116.4 0 210.8-67.9 210.8-151.7 0-8.4-.9-17.2-3.1-25.1 49.9-25.6 31.5-99.7-23.8-99.7zM129.4 308.9c0-22 17.6-39.7 39.7-39.7 21.6 0 39.2 17.6 39.2 39.7 0 21.6-17.6 39.2-39.2 39.2-22 .1-39.7-17.6-39.7-39.2zm214.3 93.5c-36.4 36.4-139.1 36.4-175.5 0-4-3.5-4-9.7 0-13.7 3.5-3.5 9.7-3.5 13.2 0 27.8 28.5 120 29 149 0 3.5-3.5 9.7-3.5 13.2 0 4.1 4 4.1 10.2.1 13.7zm-.8-54.2c-21.6 0-39.2-17.6-39.2-39.2 0-22 17.6-39.7 39.2-39.7 22 0 39.7 17.6 39.7 39.7-.1 21.5-17.7 39.2-39.7 39.2z"/>
+                  </svg>
+                </a>
+                <a href="https://gitter.im/PolymathNetwork/Lobby/" target="_blank" className="docsSection-card-icons-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" className="docsSection-card-img">
+                    <path d="M66.4 322.5H16V0h50.4v322.5zM166.9 76.1h-50.4V512h50.4V76.1zm100.6 0h-50.4V512h50.4V76.1zM368 76h-50.4v247H368V76z"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-1-of-3">
+            <a href="https://medium.com/@polymathnetwork" target="_blank" className="docsSection-card-link">
+              <div className="docsSection-card">
+                <div className="docsSection-card-heading">Stay up to date</div>
+                <div className="docsSection-card-details">Check our Medium blog for all new releases and articles.</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    )
 
     const FeatureHelpers = props => (
       <div className="helperSection">
-        <h2 className="helperSection-heaing">
-          Ask us!
+        <h2 className="helperSection-heading">
+          The Polymath Developer Portal contributors
         </h2>
-        <div className="helperSection-sub u-margin-bottom-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div>
         <div className="helper">
           <div className="row">
             <div className="col-1-of-3">
@@ -123,12 +166,13 @@ class Help extends React.Component {
         <Container className="mainContainer documentContainer postContainer">
           <div className="post">
             <header className="postHeader">
-              <h2>Need help?</h2>
+              <h2>Need Help and can't find an answer?</h2>
             </header>
             <p>This project is maintained by  <a href="https://polymath.network" target="_blank">Polymath</a>. Please feel free to ask us questions
              on our  <a href="https://gitter.im/PolymathNetwork/Lobby/" target="_blank">Gitter</a> channel! </p>
-            <GridBlock contents={supportLinks} layout="threeColumn" />
+            {/* <GridBlock contents={supportLinks} layout="threeColumn" /> */}
           </div>
+          < FeatureDocs />
           < FeatureHelpers / >
         </Container>
       </div>
