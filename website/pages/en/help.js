@@ -91,8 +91,6 @@ class Help extends React.Component {
         <h2 className="helperSection-heading">
           The Polymath Developer Portal contributors
         </h2>
-        <div className="helperSection-sub u-margin-bottom-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div>
         <div className="helper">
           <div className="row">
             <div className="col-1-of-3">
