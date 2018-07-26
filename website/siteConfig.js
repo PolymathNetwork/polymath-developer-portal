@@ -40,6 +40,7 @@ const siteConfig = {
   headerLinks: [
     { doc: 'doc1', label: 'Docs' },
     { doc: 'doc4', label: 'Tutorial' },
+    { doc: 'interfaces_IST20', label: 'API' },
     { page: 'help', label: 'Help' },
     { href: 'https://blog.polymath.network/tech/home', external: true, label: 'Tech Blog' },
   ],
