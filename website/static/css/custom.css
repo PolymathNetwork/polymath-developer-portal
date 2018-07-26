@@ -343,6 +343,13 @@ html, body{
     .worthSection-seen-logo {
         height: 85px;
     }
+    .docsSection-card-icons-link{
+        padding: 6px !important;
+    }
+    .docsSection-card{
+        padding: 1.5rem !important;
+        height: 11rem !important;
+    }
 }
 
 
