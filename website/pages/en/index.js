@@ -89,20 +89,13 @@ class HomeSplash extends React.Component {
   }
 }
 
-const LinkBlock = props => (
-  <div>
-    <p>{props.content}</p>
-    <p>{props.title}</p>
-  </div>
-)
+
 
 const Block = props => (
   <Container
     padding={['bottom', 'top']}
     id={props.id}
     background={props.background}>
-    {/* <GridBlock align="center" contents={props.children} layout={props.layout} /> */}
-
     <div class="gridBlock">
 
       <div class="blockElement alignCenter imageAlignTop fourByGridBlock">
@@ -144,7 +137,7 @@ const Block = props => (
             <h2>
               <div><span><p>News Releases</p></span></div>
             </h2>
-            <div><span><p>Polymath Core TORO v1.1.0</p></span></div>
+            <div><span><p>Polymath Core TORO v1.2.0</p></span></div>
           </div>
         </a>
       </div>
@@ -158,29 +151,7 @@ const Block = props => (
 
 const Features = props => (
   <Block layout="threeColumn">
-    {[
-      {
-        content: 'Core Ethereum Smart Contracts for Polymath',
-        image: imgUrl('settings.svg'),
-        imageAlign: 'top',
-        title: 'Solidity Docs',
-        imageLink: 'https://github.com/PolymathNetwork/polymath-core',
-      },
-      {
-        content: 'Take a walk through the process of an STO',
-        image: imgUrl('pop.svg'),
-        imageAlign: 'top',
-        title: 'STO Tutorial',
-        imageLink: siteConfig.baseUrl + 'docs/doc4.html',
-      },
-      {
-        content: 'Polymath Core TORO v1 .1 .0 ',
-        image: imgUrl('star.svg'),
-        imageAlign: 'top',
-        title: 'News Releases',
-        imageLink: 'https://blog.polymath.network/polymath-core-toro-v1-2-0-is-out-997e05adc665',
-      }
-    ]}
+
   </Block>
 );
 
