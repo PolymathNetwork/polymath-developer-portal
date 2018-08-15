@@ -72,7 +72,7 @@ class Versions extends React.Component {
                           <a href={`${siteConfig.baseUrl}docs/tokens_SecurityToken.html`}>Documentation</a>
                         </td>
                         <td>
-                          <a href={getVersionReleaseNotes(latestVersion)}>Release Notes</a>
+                          <a href={getVersionReleaseNotes(version)}>Release Notes</a>
                         </td>
                       </tr>
                     )
