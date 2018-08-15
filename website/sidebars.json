@@ -4,7 +4,7 @@
       "doc1"
     ],
     "Start Contributing to Polymath": [
-      "doc2"
+      "bug-bounty"
     ],
     "Polymath Modules Directory": [
       "doc3"
@@ -12,7 +12,7 @@
   },
   "docs-other": {
     "First Category": [
-      "doc4",
+      "getting-started",
       "doc5"
     ]
   },

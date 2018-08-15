@@ -81,7 +81,7 @@ class HomeSplash extends React.Component {
           <PromoSection>
             <Button class="btn btn-blue" href="https://blog.polymath.network/create-your-own-security-token-offering-sto-with-polymath-7d37f8cd9a6c" target="_blank">Create an STO</Button>
             <Button href={docUrl('doc1.html', language)}> Polymath Core</Button>
-            <Button href={docUrl('doc2.html', language)}>Bug Bounty Program</Button>
+            <Button href={docUrl('bug-bounty.html', language)}>Bug Bounty Program</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -114,7 +114,7 @@ const Block = props => (
 
 
       <div class="blockElement alignCenter imageAlignTop fourByGridBlock">
-        <a href={`${siteConfig.baseUrl}docs/doc4.html`}>
+        <a href={`${siteConfig.baseUrl}docs/getting-started.html`}>
           <div class="blockImage">
             <img src="/img/pop.svg" />
           </div>
@@ -171,7 +171,7 @@ const FeatureWork = props => (
     style={{ textAlign: 'center' }}>
     < h1 className="workSection-heading"> How Polymath Works</h1>
     < div className="workSection-details" > An interface between financial securities and the blockchain, simplifying the process for issuers to overcome the complex technical and legal challenges token creation. </div>
-    <a className="button btn-blue" href={docUrl('doc4.html')}>GET STARTED</a>
+    <a className="button btn-blue" href={docUrl('getting-started.html')}>GET STARTED</a>
     <div className="workSection-tab">
       <div className="row">
         <div className="col-1-of-2 terminal">
