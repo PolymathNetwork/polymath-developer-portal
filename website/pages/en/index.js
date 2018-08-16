@@ -174,6 +174,7 @@ const FeatureCallout = props => (
           </div>
         </div>
       </div>
+      <a href="https://thesecuritytokenstandard.org" target="_blank" class="button btn-white"> Learn more about Security Tokens</a>
   </div>
 );
 

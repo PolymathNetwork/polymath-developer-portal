@@ -150,6 +150,17 @@ html, body{
     background-color: #2a3f7d;
 }
 
+.btn-white{
+    color:#fff;
+    border: 2px solid #fff !important;
+}
+
+.btn-white:hover{
+    color:#2a3f7d;
+    background-color:#fff;
+    border: 2px solid #fff !important;
+}
+
 .gridBlock .blockElement {
     border-radius: 4px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
