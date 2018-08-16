@@ -81,7 +81,7 @@ class HomeSplash extends React.Component {
           <PromoSection>
             <Button class="btn btn-blue" href="https://blog.polymath.network/create-your-own-security-token-offering-sto-with-polymath-7d37f8cd9a6c" target="_blank">Create an STO</Button>
             <Button href={docUrl('doc1.html', language)}> Polymath Core</Button>
-            <Button href={docUrl('bug-bounty.html', language)}>Bug Bounty Program</Button>
+            <Button href={docUrl('doc2.html', language)}>Bug Bounty Program</Button>
           </PromoSection>
         </div>
       </SplashContainer>
