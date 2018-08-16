@@ -122,7 +122,7 @@ const Block = props => (
             <h2>
               <div><span><p>STO Tutorial</p></span></div>
             </h2>
-            <div><span><p>Take a walk through the process of a STO</p></span></div>
+            <div><span><p>Take a walkthrough the process of creating a STO</p></span></div>
           </div>
         </a>
       </div>
@@ -160,8 +160,20 @@ const FeatureCallout = props => (
     className="productShowcaseSection launchSection paddingBottom"
     style={{ textAlign: 'center', background: '#404e87' }}>
     <h2>
-      Launch Securities Token in Minutes
+      Launch Securities Tokens in Minutes
     </h2>
+    <div className="row" id="sto-section">
+        <div className="col-1-of-2">
+          <h3> What are Security Tokens? </h3>
+          <div className="workSection-tab-content"><p class="section-text">A Security Token is a free, open standard that describes how to build transfer restricted securities tokens on the Ethereum blockchain. While most tokens have no limitations on who can receive, or participate in the token sale, the Security Token restricts token transfers to verified investors only.</p></div>
+        </div>
+        <div className="col-1-of-2">
+          <h3> How do they differ from Utility Tokens? </h3>
+          <div className="workSection-tab-content"> 
+          <p class="section-text">Utility tokens represent access to a network, and your token purchase represents the ability to buy goods or services from that network, product or service.On the other hand, security tokens represent complete or fractional ownership in an asset (like shares in a company).</p>
+          </div>
+        </div>
+      </div>
   </div>
 );
 
@@ -182,13 +194,13 @@ const FeatureWork = props => (
         </div>
       </div>
       <div className="row">
-        < div className="col-1-of-2">
-          < div className="workSection-tab-heading"> modules / STO / ISTO.sol </div>
+        <div className="col-1-of-2">
+          <div className="workSection-tab-heading"> modules / STO / ISTO.sol </div>
           <div className="workSection-tab-content">This is an interface to be implemented by all STO modules. This contract is used to verify the investment, whether the investor provide the allowance to the STO or not.</div>
         </div>
-        < div className="col-1-of-2">
-          < div className="workSection-tab-heading">contracts / interfaces / IST20.sol</div>
-          < div className="workSection-tab-content" > This is an interface for the ST20 Security Token standard. It mints new tokens and assigns them to the target investor. It also enables a Burn function used to burn the securityToken.</div>
+        <div className="col-1-of-2">
+          <div className="workSection-tab-heading">contracts / interfaces / IST20.sol</div>
+          <div className="workSection-tab-content" > This is an interface for the ST20 Security Token standard. It mints new tokens and assigns them to the target investor. It also enables a Burn function used to burn the securityToken.</div>
         </div>
       </div>
       <div className="row">
