@@ -151,13 +151,13 @@ html, body{
 }
 
 .btn-white{
-    color:#fff;
+    color:#fff !important;
     border: 2px solid #fff !important;
 }
 
 .btn-white:hover{
-    color:#2a3f7d;
-    background-color:#fff;
+    color:#2a3f7d !important;
+    background-color:#fff !important;
     border: 2px solid #fff !important;
 }
 
