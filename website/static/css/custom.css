@@ -119,7 +119,7 @@ html, body{
 }
 
 .fixedHeaderContainer header a h3{
-    color:#000;
+    color:#000!important;
 }
 
 .navigationSlider .slidingNav ul li a{
