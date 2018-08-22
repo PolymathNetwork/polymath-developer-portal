@@ -163,27 +163,87 @@ const FeatureCallout = props => (
       Launch Securities Tokens in Minutes
     </h2>
     <div className="row" id="sto-section">
-        <div className="col-1-of-2">
-          <h3> What are Security Tokens? </h3>
-          <div className="workSection-tab-content"><p class="section-text">A Security Token is a free, open standard that describes how to build transfer restricted securities tokens on the Ethereum blockchain. While most tokens have no limitations on who can receive, or participate in the token sale, the Security Token restricts token transfers to verified investors only.</p></div>
-        </div>
-        <div className="col-1-of-2">
-          <h3> How do they differ from Utility Tokens? </h3>
-          <div className="workSection-tab-content"> 
+      <div className="col-1-of-2">
+        <h3> What are Security Tokens? </h3>
+        <div className="workSection-tab-content"><p class="section-text">A Security Token is a free, open standard that describes how to build transfer restricted securities tokens on the Ethereum blockchain. While most tokens have no limitations on who can receive, or participate in the token sale, the Security Token restricts token transfers to verified investors only.</p></div>
+      </div>
+      <div className="col-1-of-2">
+        <h3> How do they differ from Utility Tokens? </h3>
+        <div className="workSection-tab-content">
           <p class="section-text">Utility tokens represent access to a network, and your token purchase represents the ability to buy goods or services from that network, product or service.On the other hand, security tokens represent complete or fractional ownership in an asset (like shares in a company).</p>
-          </div>
         </div>
       </div>
-      <a href="https://thesecuritytokenstandard.org" target="_blank" class="button btn-white"> Learn more about Security Tokens</a>
+    </div>
+
+    <a href="https://thesecuritytokenstandard.org" target="_blank" class="button btn-white"> Learn more about Security Tokens</a>
   </div>
+
+
+
+);
+
+const EventsTimeline = props => (
+  <div
+    className="workSection"
+    style={{ textAlign: 'center' }}>
+    <h1 className="workSection-heading"> Upcoming Events</h1>
+    <div className="workSection-details"> Meet the members of our developer team at any of the upcoming events </div>
+    <div className="row" id="events-section">
+      <div className="col-1-of-4 helper-box">
+        <h3 class="events-title"> Toronto </h3>
+        <div className="workSection-tab-content">
+          <p class="section-text">
+            Boost Blockchain Job Fair
+            <br />
+            August 24, 2018
+        </p>
+        </div>
+      </div>
+      <div className="col-1-of-4 helper-box">
+        <h3 class="events-title"> Berlin </h3>
+        <div className="workSection-tab-content">
+          <p class="section-text">
+            ETH Berlin
+            <br />
+            September 7-9, 2018
+          </p>
+        </div>
+      </div>
+      <div className="col-1-of-4 helper-box">
+        <h3 class="events-title"> Hong Kong </h3>
+        <div className="workSection-tab-content">
+          <p class="section-text">
+            ETHIS
+              <br />
+            September 8-9, 2018
+             </p>
+        </div>
+      </div>
+      <div className="col-1-of-4 helper-box">
+        <h3 class="events-title"> Toronto </h3>
+        <div className="workSection-tab-content">
+          <p class="section-text">
+            Hack-The-North
+            <br />
+            September 14-16, 2018
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <a href="https://thesecuritytokenstandard.org" target="_blank" class="button btn-white"> Learn more about Security Tokens</a>
+  </div>
+
+
+
 );
 
 const FeatureWork = props => (
   <div
     className="workSection"
     style={{ textAlign: 'center' }}>
-    < h1 className="workSection-heading"> How Polymath Works</h1>
-    < div className="workSection-details" > An interface between financial securities and the blockchain, simplifying the process for issuers to overcome the complex technical and legal challenges token creation. </div>
+    <h1 className="workSection-heading"> How Polymath Works</h1>
+    <div className="workSection-details" > An interface between financial securities and the blockchain, simplifying the process for issuers to overcome the complex technical and legal challenges token creation. </div>
     <a className="button btn-blue" href={docUrl('getting-started.html')}>GET STARTED</a>
     <div className="workSection-tab">
       <div className="row">
@@ -257,7 +317,9 @@ class Index extends React.Component {
         <div className="mainContainer">
           <Features />
           <FeatureCallout />
+
           <FeatureWork />
+          <EventsTimeline />
           <FeatureWorth />
           <div className="worthSection">
             <h2>Any Questions? Need Help?</h2>
