@@ -317,8 +317,9 @@ class Index extends React.Component {
         <div className="mainContainer">
           <Features />
           <FeatureCallout />
-          <EventsTimeline />
+
           <FeatureWork />
+          <EventsTimeline />
           <FeatureWorth />
           <div className="worthSection">
             <h2>Any Questions? Need Help?</h2>
