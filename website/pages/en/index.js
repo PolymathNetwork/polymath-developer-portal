@@ -80,7 +80,7 @@ class HomeSplash extends React.Component {
           <ProjectTitle />
           <PromoSection>
             <Button class="btn btn-blue" href="https://blog.polymath.network/create-your-own-security-token-offering-sto-with-polymath-7d37f8cd9a6c" target="_blank">Create an STO</Button>
-            <Button href={docUrl('doc1.html', language)}> Polymath Core</Button>
+            <Button href={docUrl('doc1.html', language)}> Getting Started</Button>
             <Button href={docUrl('doc2.html', language)}>Bug Bounty Program</Button>
           </PromoSection>
         </div>
@@ -189,7 +189,7 @@ const EventsTimeline = props => (
     <h1 className="workSection-heading"> Upcoming Events</h1>
     <div className="workSection-details"> Meet the members of our developer team at any of the upcoming events </div>
     <div className="row" id="events-section">
-      <div className="col-1-of-4 helper-box">
+      {/* <div className="col-1-of-4 helper-box">
         <h3 class="events-title"> Toronto </h3>
         <div className="workSection-tab-content">
           <p class="section-text">
@@ -198,8 +198,8 @@ const EventsTimeline = props => (
             August 24, 2018
         </p>
         </div>
-      </div>
-      <div className="col-1-of-4 helper-box">
+      </div> */}
+      <div className="col-1-of-3 helper-box">
         <h3 class="events-title"> Berlin </h3>
         <div className="workSection-tab-content">
           <p class="section-text">
@@ -209,7 +209,7 @@ const EventsTimeline = props => (
           </p>
         </div>
       </div>
-      <div className="col-1-of-4 helper-box">
+      <div className="col-1-of-3 helper-box">
         <h3 class="events-title"> Hong Kong </h3>
         <div className="workSection-tab-content">
           <p class="section-text">
@@ -219,7 +219,7 @@ const EventsTimeline = props => (
              </p>
         </div>
       </div>
-      <div className="col-1-of-4 helper-box">
+      <div className="col-1-of-3 helper-box">
         <h3 class="events-title"> Toronto </h3>
         <div className="workSection-tab-content">
           <p class="section-text">
