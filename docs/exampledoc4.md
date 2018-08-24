@@ -1,9 +1,10 @@
 ---
 id: doc4
-title: Polymath Tutorials
+title: Polymath Tutorial
+sidebar_label: Polymath Tutorial
 ---
 
-This Is Your Guide To Join The Polymath Stampede.
+This is your Guide to join the Polymath stampede.
 
 
 ## Tutorial Topics:
@@ -264,8 +265,9 @@ The initialisation function can be arbitrarily complex, but here we have a simpl
 
 This tutorial will take you through the process of building your first Security Token Offering (STO) — if you don’t know what an STO is please read this first: https://blog.polymath.network/what-is-a-security-token-offering-sto-4e5a92bf6bca.
 
-Please note, for this tutorial you don’t need to be a blockchain expert — Understanding cryptocurrencies, securities, ICOs or Ethereum could help, but it’s certainly not a prerequisite.
+Please note, for this tutorial you don’t need to be a blockchain expert — understanding cryptocurrencies, securities, ICOs or Ethereum could help, but it’s certainly not a prerequisite.
 
+<!---
 In this walkthrough we will be covering:
 
 1. What You Will Need For This Tutorial
@@ -276,20 +278,24 @@ In this walkthrough we will be covering:
 6. Setting Up Your Offering Details
 7. Whitelisting Your Investors To Participate In Your STO
 
+--->
+
 ## Background / Introductory Video of Polymath
 https://www.youtube.com/watch?v=pOYcro53SOI
 
 ## 1. What You Will Need For This Tutorial
 
-In this tutorial you will need a Metamask account (to download the chrome extension click here: https://metamask.io/). You will then need to fund your account. Go to this site and choose the easiest option for you: https://github.com/kovan-testnet/faucet. If you can’t decide, go ahead and choose the following method: “Gitter Channel (Manual Github Verification. If you want to request to receive Kovan Ether manually (uptime is not guaranteed, and you may have to wait for a verifier to respond), please using the Gitter channel: https://gitter.im/kovan-testnet/faucet”
+In this tutorial you will need a Metamask account (to download the chrome extension click here: https://metamask.io/). You will then need to fund your account. Go to this site and choose the easiest option for you: https://github.com/kovan-testnet/faucet. If you can’t decide, go ahead and choose the following method: “Gitter Channel (Manual Github Verification. If you want to request to receive Kovan Ether manually (uptime is not guaranteed, and you may have to wait for a verifier to respond), please use this Gitter channel: https://gitter.im/kovan-testnet/faucet”
 
 You should see test Ethereum funds populate within 5 minutes, however, time may vary and could take significantly longer depending on how busy the faucet is!
 
-## Let’s get started … head on over to https://polymath-issuer.netlify.com/ and just like you see below, click “Issue Your Security Token”.
+## Let’s get started … head on over to https://tokenstudio.polymath.network/ and just like you see below, click “Create Your Security Token”.
 
 
 
-3. Investors/kyc getting them verified - getting them on the whitelist 
+<!---
+ 3. Investors/kyc getting them verified - getting them on the whitelist 
 4. Kyc - transfer manager and whitelist
 5. How to register and deploy the token 
-6. Offering - what you need for it.
+6. Offering - what you need for it. 
+--->

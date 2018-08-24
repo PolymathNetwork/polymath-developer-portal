@@ -105,7 +105,7 @@ const Block = props => (
           </div>
           <div class="blockContent">
             <h2>
-              <div><span><p>Solidity Docs</p></span></div>
+              <div><span><p>Polymath Core</p></span></div>
             </h2>
             <div><span><p>Core Ethereum Smart Contracts for Polymath</p></span></div>
           </div>
@@ -114,7 +114,7 @@ const Block = props => (
 
 
       <div class="blockElement alignCenter imageAlignTop fourByGridBlock">
-        <a href={`${siteConfig.baseUrl}docs/getting-started.html`}>
+        <a href={`${siteConfig.baseUrl}docs/doc4.html`}>
           <div class="blockImage">
             <img src="/img/pop.svg" />
           </div>
@@ -129,7 +129,7 @@ const Block = props => (
 
 
       <div class="blockElement alignCenter imageAlignTop fourByGridBlock">
-        <a href="https://blog.polymath.network/polymath-core-toro-v1-2-0-is-out-997e05adc665">
+        <a href="https://blog.polymath.network/polymath-core-mainnet-v1-3-0-release-8921e8046508" target="_blank">
           <div class="blockImage">
             <img src="/img/star.svg" />
           </div>
@@ -137,7 +137,7 @@ const Block = props => (
             <h2>
               <div><span><p>News Releases</p></span></div>
             </h2>
-            <div><span><p>Polymath Core TORO v1.2.0</p></span></div>
+            <div><span><p>Polymath Core v1.3.0</p></span></div>
           </div>
         </a>
       </div>

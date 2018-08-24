@@ -1,6 +1,7 @@
 ---
 id: doc5
-title: Development Requirements
+title: Installation
+sidebar_label: Installation
 ---
 
 # Setting up Polymath Core (KOVAN)

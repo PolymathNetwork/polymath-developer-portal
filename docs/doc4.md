@@ -284,11 +284,13 @@ In this tutorial you will need a Metamask account (to download the chrome extens
 
 You should see test Ethereum funds populate within 5 minutes, however, time may vary and could take significantly longer depending on how busy the faucet is!
 
-## Let’s get started … head on over to https://polymath-issuer.netlify.com/ and just like you see below, click “Issue Your Security Token”.
+## Let’s get started … head on over to https://tokenstudio.polymath.network/ and just like you see below, click “Create Your Security Token”.
 
 
 
-3. Investors/kyc getting them verified - getting them on the whitelist 
+<!---
+ 3. Investors/kyc getting them verified - getting them on the whitelist 
 4. Kyc - transfer manager and whitelist
 5. How to register and deploy the token 
-6. Offering - what you need for it.
+6. Offering - what you need for it. 
+--->

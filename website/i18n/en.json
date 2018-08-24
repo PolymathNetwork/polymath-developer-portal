@@ -73,8 +73,10 @@
     "Documentation": "Documentation",
     "doc2": "Developer Bug Bounty Program",
     "doc3": "Directory",
-    "doc4": "Polymath Tutorials",
-    "doc5": "Development Requirements",
+    "doc4": "Polymath Tutorial",
+    "Polymath Tutorial": "Polymath Tutorial",
+    "doc5": "Installation",
+    "Installation": "Installation",
     "Docs": "Docs",
     "Tutorial": "Tutorial",
     "API": "API",
@@ -83,7 +85,7 @@
     "Getting Started with Polymath": "Getting Started with Polymath",
     "Start Contributing to Polymath": "Start Contributing to Polymath",
     "Polymath Modules Directory": "Polymath Modules Directory",
-    "First Category": "First Category",
+    "Tutorials": "Tutorials",
     "HELPERS": "HELPERS",
     "INTERFACES": "INTERFACES",
     "MOCKS": "MOCKS",
@@ -92,7 +94,8 @@
     "MODULES / STO": "MODULES / STO",
     "MODULES / TRANSFERMANAGER": "MODULES / TRANSFERMANAGER",
     "TOKENS": "TOKENS",
-    "UNCATEGORIZED": "UNCATEGORIZED"
+    "UNCATEGORIZED": "UNCATEGORIZED",
+    "First Category": "First Category"
   },
   "pages-strings": {
     "Help Translate|recruit community translators for your project": "Help Translate",

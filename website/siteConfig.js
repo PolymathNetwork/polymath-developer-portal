@@ -77,6 +77,8 @@ const siteConfig = {
     new Date().getFullYear() +
     ' Polymath Network',
 
+  gaGtag: 'UA-124524222-1',
+
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
     theme: 'default',
