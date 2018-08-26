@@ -1,7 +1,8 @@
 ---
-id: doc4
+id: version-1.3.0-doc4
 title: Polymath Tutorial
 sidebar_label: Polymath Tutorial
+original_id: doc4
 ---
 
 This is your Guide to join the Polymath stampede.

@@ -21,6 +21,15 @@ html, body{
     font-family: 'Overpass',sans-serif !important;
 }
 
+a{
+    color:#2a3f7d;
+}
+
+.mainContainer a{
+    color:#2a3f7d;
+    text-decoration:underline !important;
+}
+
 .text-center{
     text-align: center !important;
 }
@@ -118,9 +127,15 @@ html, body{
     display: none;
 }
 
+.fixedHeaderContainer header a, .col-1-of-3 a, .col-1-of-4 a, .blockElement a, .events-wrapper a{
+    text-decoration:none !important;
+}
+
 .fixedHeaderContainer header a h3{
     color:#000!important;
 }
+
+
 
 .navigationSlider .slidingNav ul li a{
     color: #2a3f7d;
@@ -379,9 +394,7 @@ html, body{
     padding-top: 3rem;
 }
 
-.helper{
 
-}
 
 .helper-box{
     padding: 1rem;
@@ -916,3 +929,9 @@ line-height:36.8px;
       transform: translateX(0%);
     }
   }
+
+  @media only screen and (max-width: 400px) {
+    .selected p {
+        font-size: 14px !important;
+    }
+}

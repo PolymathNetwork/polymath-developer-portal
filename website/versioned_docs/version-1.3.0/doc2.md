@@ -1,6 +1,7 @@
 ---
-id: doc2
+id: version-1.3.0-doc2
 title: Developer Bug Bounty Program
+original_id: doc2
 ---
 
 ## Introduction
