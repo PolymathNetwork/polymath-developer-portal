@@ -85,7 +85,7 @@ const siteConfig = {
   },
 
   // Add custom scripts here that would be placed in <script> tags
-  scripts: ['https://buttons.github.io/buttons.js'],
+  scripts: ['https://buttons.github.io/buttons.js', 'https://code.jquery.com/jquery-3.3.1.min.js'],
 
   /* On page navigation for the current documentation page */
   onPageNav: 'separate',

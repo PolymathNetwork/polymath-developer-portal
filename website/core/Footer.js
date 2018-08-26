@@ -22,6 +22,7 @@ class Footer extends React.Component {
     const currentYear = new Date().getFullYear();
     return (
       <footer>
+        <script src={this.props.config.baseUrl + 'js/timeline.js'}></script>
         <ul className="footer-list">
           <li className="footer-list-item" style={{ marginTop: '6px' }}>&copy; 2018 Polymath</li>
           {/* <li className="footer-list-item">

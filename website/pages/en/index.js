@@ -189,16 +189,7 @@ const EventsTimeline = props => (
     <h1 className="workSection-heading"> Upcoming Events</h1>
     <div className="workSection-details"> Meet the members of our developer team at any of the upcoming events </div>
     <div className="row" id="events-section">
-      {/* <div className="col-1-of-4 helper-box">
-        <h3 class="events-title"> Toronto </h3>
-        <div className="workSection-tab-content">
-          <p class="section-text">
-            Boost Blockchain Job Fair
-            <br />
-            August 24, 2018
-        </p>
-        </div>
-      </div> */}
+
       <div className="col-1-of-3 helper-box">
         <h3 class="events-title"> Berlin </h3>
         <div className="workSection-tab-content">
@@ -234,9 +225,11 @@ const EventsTimeline = props => (
     <a href="https://thesecuritytokenstandard.org" target="_blank" class="button btn-white"> Learn more about Security Tokens</a>
   </div>
 
-
-
 );
+
+
+
+
 
 const FeatureWork = props => (
   <div
@@ -319,7 +312,82 @@ class Index extends React.Component {
           <FeatureCallout />
 
           <FeatureWork />
+          <div className="workSection" style={{ textAlign: 'center' }}>
+
+
+            <section class="cd-horizontal-timeline">
+
+              <div class="events-content">
+                <ol>
+                  <li class="selected" data-date="16/01/2018">
+                    <h1 className="workSection-heading">v1 Core Smart Contracts Launch</h1>
+                    <em>Jan 30, 2018</em>
+                    <p>
+                      Polymath-core was deployed to Ethereum main net. Delegates all over the globe have signed up and are ready to be a part of building this new protocol for financial securities. The Polymath-core repositories were available for free and fully open source. We also released Polymath.js, a javascript library for building applications (e.g. security token creators, template creators, etc) on top of Polymath.
+                    </p>
+                  </li>
+
+                  <li data-date="28/02/2018">
+                    <h1 className="workSection-heading">Token Distribution & Airdrop</h1>
+                    <em>Jan 31, 2018</em>
+                    <p>
+                      The Polymath team was blown away with the massive level of interest and engagement. To kick start the project and reward the amazing community we airdropped a total of 10,000,000 POLY token to 40, 000 members.
+                    </p>
+                  </li>
+
+                  <li data-date="20/04/2018">
+                    <h1 className="workSection-heading">dApp on Testnet</h1>
+                    <em>May 16, 2018</em>
+                    <p>
+                      The Polymath dApp was officially released on Tesnet. Both developers and interested issuers could walk through the process of creating and launching a security token offering.
+                    </p>
+                  </li>
+
+                  <li data-date="20/05/2018">
+                    <h1 className="workSection-heading">dApp on MainNet</h1>
+                    <em>August 2, 2018</em>
+                    <p>
+                      The Bulls of Polymath worked tirelessly on our contracts and upgrading our mechanisms for the big mainnet release. From now on, we will continue to add features that make the platform even more versatile in order to meet the various needs of all security token issuers.
+                    </p>
+                  </li>
+
+                  <li data-date="09/07/2018">
+                    <h1 className="workSection-heading">First STO Launch</h1>
+                    <em>Q4 2018</em>
+                    <p>
+                      CORL, the first STO to be launched using the Polymath dApp will occur within the coming months .
+                    </p>
+                  </li>
+
+
+                </ol>
+              </div>
+              <div class="timeline">
+                <div class="events-wrapper">
+                  <div class="events">
+                    <ol>
+                      <li><a href="#0" data-date="16/01/2018" class="selected">v1 Smart <br />Contracts</a></li>
+                      <li><a href="#0" data-date="28/02/2018">Token <br />Airdrop</a></li>
+                      <li><a href="#0" data-date="20/04/2018">TestNet</a></li>
+                      <li><a href="#0" data-date="20/05/2018">MainNet</a></li>
+                      <li><a href="#0" data-date="09/07/2018">First STO Launch</a></li>
+                    </ol>
+
+                    <span class="filling-line" aria-hidden="true"></span>
+                  </div>
+                </div>
+
+                <ul class="cd-timeline-navigation">
+                  <li><a href="#0" class="prev inactive">Prev</a></li>
+                  <li><a href="#0" class="next">Next</a></li>
+                </ul>
+              </div>
+
+            </section>
+
+          </div>
           <EventsTimeline />
+
           <FeatureWorth />
           <div className="worthSection">
             <h2>Any Questions? Need Help?</h2>
