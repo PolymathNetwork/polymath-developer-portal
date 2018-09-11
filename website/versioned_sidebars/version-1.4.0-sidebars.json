@@ -1,0 +1,89 @@
+{
+  "version-1.4.0-docs": {
+    "Getting Started with Polymath": [
+      "version-1.4.0-doc1"
+    ],
+    "Start Contributing to Polymath": [
+      "version-1.4.0-doc2"
+    ],
+    "Polymath Modules Directory": [
+      "version-1.4.0-doc3"
+    ]
+  },
+  "version-1.4.0-docs-other": {
+    "Tutorials": [
+      "version-1.4.0-doc4",
+      "version-1.4.0-doc5"
+    ]
+  },
+  "version-1.4.0-docs-api": {
+    "HELPERS": [
+      "version-1.4.0-helpers_PolyToken",
+      "version-1.4.0-helpers_Util"
+    ],
+    "INTERFACES": [
+      "version-1.4.0-interfaces_IModule",
+      "version-1.4.0-interfaces_IModuleFactory",
+      "version-1.4.0-interfaces_IModuleRegistry",
+      "version-1.4.0-interfaces_IRegistry",
+      "version-1.4.0-interfaces_IST20",
+      "version-1.4.0-interfaces_ISTProxy",
+      "version-1.4.0-interfaces_ISecurityToken",
+      "version-1.4.0-interfaces_ISecurityTokenRegistry",
+      "version-1.4.0-interfaces_ITickerRegistry",
+      "version-1.4.0-interfaces_ITokenBurner"
+    ],
+    "MOCKS": [
+      "version-1.4.0-mocks_MockFactory",
+      "version-1.4.0-mocks_PolyTokenFaucet",
+      "version-1.4.0-mocks_TestSTOFactory"
+    ],
+    "MODULES / CHECKPOINT": [
+      "version-1.4.0-modules_Checkpoint_ERC20DividendCheckpoint",
+      "version-1.4.0-modules_Checkpoint_ERC20DividendCheckpointFactory",
+      "version-1.4.0-modules_Checkpoint_EtherDividendCheckpoint",
+      "version-1.4.0-modules_Checkpoint_EtherDividendCheckpointFactory",
+      "version-1.4.0-modules_Checkpoint_ICheckpoint"
+    ],
+    "MODULES / PERMISSIONMANAGER": [
+      "version-1.4.0-modules_PermissionManager_GeneralPermissionManager",
+      "version-1.4.0-modules_PermissionManager_GeneralPermissionManagerFactory",
+      "version-1.4.0-modules_PermissionManager_IPermissionManager"
+    ],
+    "MODULES / STO": [
+      "version-1.4.0-modules_STO_CappedSTO",
+      "version-1.4.0-modules_STO_CappedSTOFactory",
+      "version-1.4.0-modules_STO_DummySTO",
+      "version-1.4.0-modules_STO_DummySTOFactory",
+      "version-1.4.0-modules_STO_ISTO",
+      "version-1.4.0-modules_STO_PreSaleSTO",
+      "version-1.4.0-modules_STO_PreSaleSTOFactory"
+    ],
+    "MODULES / TRANSFERMANAGER": [
+      "version-1.4.0-modules_TransferManager_CountTransferManager",
+      "version-1.4.0-modules_TransferManager_CountTransferManagerFactory",
+      "version-1.4.0-modules_TransferManager_GeneralTransferManager",
+      "version-1.4.0-modules_TransferManager_GeneralTransferManagerFactory",
+      "version-1.4.0-modules_TransferManager_ITransferManager",
+      "version-1.4.0-modules_TransferManager_ManualApprovalTransferManager",
+      "version-1.4.0-modules_TransferManager_ManualApprovalTransferManagerFactory",
+      "version-1.4.0-modules_TransferManager_PercentageTransferManager",
+      "version-1.4.0-modules_TransferManager_PercentageTransferManagerFactory"
+    ],
+    "TOKENS": [
+      "version-1.4.0-tokens_STVersionProxy001",
+      "version-1.4.0-tokens_STVersionProxy002",
+      "version-1.4.0-tokens_SecurityToken",
+      "version-1.4.0-tokens_SecurityTokenV2"
+    ],
+    "UNCATEGORIZED": [
+      "version-1.4.0-Migrations",
+      "version-1.4.0-ModuleRegistry",
+      "version-1.4.0-Pausable",
+      "version-1.4.0-ReclaimTokens",
+      "version-1.4.0-Registry",
+      "version-1.4.0-SecurityTokenRegistry",
+      "version-1.4.0-TickerRegistry"
+    ]
+  }
+}
