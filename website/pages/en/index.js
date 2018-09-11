@@ -319,19 +319,59 @@ class Index extends React.Component {
 
               <div class="events-content">
                 <ol>
-                  <li class="selected" data-date="16/01/2018">
-                    <h1 className="workSection-heading">v1 Core Smart Contracts Launch</h1>
+                  <li class="selected" data-date="30/01/2018">
+                    <h1 className="workSection-heading">Alpha Release (Deprecated)</h1>
                     <em>Jan 30, 2018</em>
                     <p>
-                      Polymath-core was deployed to Ethereum main net. Delegates all over the globe have signed up and are ready to be a part of building this new protocol for financial securities. The Polymath-core repositories were available for free and fully open source. We also released Polymath.js, a javascript library for building applications (e.g. security token creators, template creators, etc) on top of Polymath.
+                      This version was deprecated
                     </p>
                   </li>
 
-                  <li data-date="28/02/2018">
+                  <li data-date="31/01/2018">
                     <h1 className="workSection-heading">Token Distribution & Airdrop</h1>
                     <em>Jan 31, 2018</em>
                     <p>
                       The Polymath team was blown away with the massive level of interest and engagement. To kick start the project and reward the amazing community we airdropped a total of 10,000,000 POLY token to 40, 000 members.
+                    </p>
+                  </li>
+
+                  <li data-date="11/04/2018">
+                    <h1 className="workSection-heading">v1.0.0 - TORO (Ropsten TestNet)</h1>
+                    <em>Apr 11, 2018</em>
+                    <p>
+                      v1.0.0 was released to Ropsten TestNet. See release <a href="https://github.com/PolymathNetwork/polymath-core/releases/tag/v1.0.0">here</a>
+                    </p>
+                  </li>
+
+                  <li data-date="22/05/2018">
+                    <h1 className="workSection-heading">v1.1.0 - TORO (Kovan TestNet)</h1>
+                    <em>May 22, 2018</em>
+                    <p>
+                      v1.1.0 was released to Kovan TestNet. See release <a href="https://github.com/PolymathNetwork/polymath-core/releases/tag/v1.1.0">here</a>
+                    </p>
+                  </li>
+
+                  <li data-date="15/06/2018">
+                    <h1 className="workSection-heading">v1.2.0 - TORO (Kovan TestNet)</h1>
+                    <em>June 15, 2018</em>
+                    <p>
+                      v1.2.0 was released to Kovan TestNet. See release <a href="https://github.com/PolymathNetwork/polymath-core/releases/tag/v1.2.0">here</a>
+                    </p>
+                  </li>
+
+                  <li data-date="24/07/2018">
+                    <h1 className="workSection-heading">v1.3.0 - TORO (MainNet)</h1>
+                    <em>July 24, 2018</em>
+                    <p>
+                      Polymath-core was deployed to Ethereum MainNet. Delegates all over the globe have signed up and are ready to be a part of building this new protocol for financial securities. The Polymath-core repositories were available for free and fully open source. We also released Polymath.js, a javascript library for building applications (e.g. security token creators, template creators, etc) on top of Polymath.. See release <a href="https://github.com/PolymathNetwork/polymath-core/releases/tag/v1.3.0">here</a>
+                    </p>
+                  </li>
+
+                  <li data-date="26/08/2018">
+                    <h1 className="workSection-heading">v1.4.0 - TORO (Kovan TestNet)</h1>
+                    <em>Aug 26, 2018</em>
+                    <p>
+                      v1.4.0 was released to Kovan TestNet. See release <a href="https://github.com/PolymathNetwork/polymath-core/releases/tag/v1.4.0">here</a>
                     </p>
                   </li>
 
@@ -366,11 +406,19 @@ class Index extends React.Component {
                 <div class="events-wrapper">
                   <div class="events">
                     <ol>
-                      <li><a href="#0" data-date="16/01/2018" class="selected">v1 Smart <br />Contracts</a></li>
-                      <li><a href="#0" data-date="28/02/2018">Token <br />Airdrop</a></li>
-                      <li><a href="#0" data-date="20/04/2018">TestNet</a></li>
-                      <li><a href="#0" data-date="20/05/2018">MainNet</a></li>
+                      <li><a href="#0" data-date="30/01/2018" class="selected">v1 Smart <br />Contracts</a></li>
+                      <li><a href="#0" data-date="31/01/2018">Token Airdrop & Distribution</a></li>
+                      <li><a href="#0" data-date="11/04/2018">v1.0.0 (Ropsten)</a></li>
+                      <li><a href="#0" data-date="20/04/2018">dApp (Ropsten)</a></li>
+                      <li><a href="#0" data-date="20/05/2018">dApp (MainNet)</a></li>
+                      <li><a href="#0" data-date="22/05/2018">v1.1.0 (Kovan)</a></li>
+                      <li><a href="#0" data-date="15/06/2018">v1.2.0 (Kovan)</a></li>
                       <li><a href="#0" data-date="09/07/2018">First STO Launch</a></li>
+                      <li><a href="#0" data-date="24/07/2018">v1.3.0 (MainNet)</a></li>
+                      
+                      <li><a href="#0" data-date="26/08/2018">v1.4.0 (MainNet)</a></li>
+                     
+                      
                     </ol>
 
                     <span class="filling-line" aria-hidden="true"></span>

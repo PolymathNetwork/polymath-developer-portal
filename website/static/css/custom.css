@@ -161,7 +161,7 @@ a{
 }
 
 .btn-blue {
-    color: #fff;
+    color: #fff !important;
     background-color: #2a3f7d;
 }
 
