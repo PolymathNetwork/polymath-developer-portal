@@ -17,23 +17,6 @@
     ]
   },
   "version-1.4.0-docs-api": {
-    "EXTERNAL / MEDIANIZER": [
-      "version-1.4.0-external_Medianizer",
-      "version-1.4.0-external_Medianizer_DSAuth",
-      "version-1.4.0-external_Medianizer_DSAuthEvents",
-      "version-1.4.0-external_Medianizer_DSAuthority",
-      "version-1.4.0-external_Medianizer_DSMath",
-      "version-1.4.0-external_Medianizer_DSNote",
-      "version-1.4.0-external_Medianizer_DSThing",
-      "version-1.4.0-external_Medianizer_DSValue"
-    ],
-    "EXTERNAL / ORACLIZEAPI": [
-      "version-1.4.0-external_oraclizeAPI_Buffer",
-      "version-1.4.0-external_oraclizeAPI_CBOR",
-      "version-1.4.0-external_oraclizeAPI_OraclizeAddrResolverI",
-      "version-1.4.0-external_oraclizeAPI_OraclizeI",
-      "version-1.4.0-external_oraclizeAPI_usingOraclize"
-    ],
     "HELPERS": [
       "version-1.4.0-helpers_PolyToken",
       "version-1.4.0-helpers_Util"

@@ -17,23 +17,6 @@
     ]
   },
   "docs-api": {
-    "EXTERNAL / MEDIANIZER": [
-      "external_Medianizer",
-      "external_Medianizer_DSAuth",
-      "external_Medianizer_DSAuthEvents",
-      "external_Medianizer_DSAuthority",
-      "external_Medianizer_DSMath",
-      "external_Medianizer_DSNote",
-      "external_Medianizer_DSThing",
-      "external_Medianizer_DSValue"
-    ],
-    "EXTERNAL / ORACLIZEAPI": [
-      "external_oraclizeAPI_Buffer",
-      "external_oraclizeAPI_CBOR",
-      "external_oraclizeAPI_OraclizeAddrResolverI",
-      "external_oraclizeAPI_OraclizeI",
-      "external_oraclizeAPI_usingOraclize"
-    ],
     "HELPERS": [
       "helpers_PolyToken",
       "helpers_Util"
