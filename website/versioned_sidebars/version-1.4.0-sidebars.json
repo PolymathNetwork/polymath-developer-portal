@@ -17,6 +17,23 @@
     ]
   },
   "version-1.4.0-docs-api": {
+    "EXTERNAL / MEDIANIZER": [
+      "version-1.4.0-external_Medianizer",
+      "version-1.4.0-external_Medianizer_DSAuth",
+      "version-1.4.0-external_Medianizer_DSAuthEvents",
+      "version-1.4.0-external_Medianizer_DSAuthority",
+      "version-1.4.0-external_Medianizer_DSMath",
+      "version-1.4.0-external_Medianizer_DSNote",
+      "version-1.4.0-external_Medianizer_DSThing",
+      "version-1.4.0-external_Medianizer_DSValue"
+    ],
+    "EXTERNAL / ORACLIZEAPI": [
+      "version-1.4.0-external_oraclizeAPI_Buffer",
+      "version-1.4.0-external_oraclizeAPI_CBOR",
+      "version-1.4.0-external_oraclizeAPI_OraclizeAddrResolverI",
+      "version-1.4.0-external_oraclizeAPI_OraclizeI",
+      "version-1.4.0-external_oraclizeAPI_usingOraclize"
+    ],
     "HELPERS": [
       "version-1.4.0-helpers_PolyToken",
       "version-1.4.0-helpers_Util"
@@ -25,6 +42,7 @@
       "version-1.4.0-interfaces_IModule",
       "version-1.4.0-interfaces_IModuleFactory",
       "version-1.4.0-interfaces_IModuleRegistry",
+      "version-1.4.0-interfaces_IOracle",
       "version-1.4.0-interfaces_IRegistry",
       "version-1.4.0-interfaces_IST20",
       "version-1.4.0-interfaces_ISTProxy",
@@ -32,11 +50,6 @@
       "version-1.4.0-interfaces_ISecurityTokenRegistry",
       "version-1.4.0-interfaces_ITickerRegistry",
       "version-1.4.0-interfaces_ITokenBurner"
-    ],
-    "MOCKS": [
-      "version-1.4.0-mocks_MockFactory",
-      "version-1.4.0-mocks_PolyTokenFaucet",
-      "version-1.4.0-mocks_TestSTOFactory"
     ],
     "MODULES / CHECKPOINT": [
       "version-1.4.0-modules_Checkpoint_ERC20DividendCheckpoint",
@@ -57,7 +70,9 @@
       "version-1.4.0-modules_STO_DummySTOFactory",
       "version-1.4.0-modules_STO_ISTO",
       "version-1.4.0-modules_STO_PreSaleSTO",
-      "version-1.4.0-modules_STO_PreSaleSTOFactory"
+      "version-1.4.0-modules_STO_PreSaleSTOFactory",
+      "version-1.4.0-modules_STO_USDTieredSTO",
+      "version-1.4.0-modules_STO_USDTieredSTOFactory"
     ],
     "MODULES / TRANSFERMANAGER": [
       "version-1.4.0-modules_TransferManager_CountTransferManager",
@@ -69,6 +84,10 @@
       "version-1.4.0-modules_TransferManager_ManualApprovalTransferManagerFactory",
       "version-1.4.0-modules_TransferManager_PercentageTransferManager",
       "version-1.4.0-modules_TransferManager_PercentageTransferManagerFactory"
+    ],
+    "ORACLES": [
+      "version-1.4.0-oracles_MakerDAOOracle",
+      "version-1.4.0-oracles_PolyOracle"
     ],
     "TOKENS": [
       "version-1.4.0-tokens_STVersionProxy001",

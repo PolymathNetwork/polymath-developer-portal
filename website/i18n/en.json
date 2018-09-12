@@ -107,16 +107,19 @@
     "Start Contributing to Polymath": "Start Contributing to Polymath",
     "Polymath Modules Directory": "Polymath Modules Directory",
     "Tutorials": "Tutorials",
+    "EXTERNAL / MEDIANIZER": "EXTERNAL / MEDIANIZER",
+    "EXTERNAL / ORACLIZEAPI": "EXTERNAL / ORACLIZEAPI",
     "HELPERS": "HELPERS",
     "INTERFACES": "INTERFACES",
-    "MOCKS": "MOCKS",
     "MODULES / CHECKPOINT": "MODULES / CHECKPOINT",
     "MODULES / PERMISSIONMANAGER": "MODULES / PERMISSIONMANAGER",
     "MODULES / STO": "MODULES / STO",
     "MODULES / TRANSFERMANAGER": "MODULES / TRANSFERMANAGER",
+    "ORACLES": "ORACLES",
     "TOKENS": "TOKENS",
     "UNCATEGORIZED": "UNCATEGORIZED",
-    "First Category": "First Category"
+    "First Category": "First Category",
+    "MOCKS": "MOCKS"
   },
   "pages-strings": {
     "Help Translate|recruit community translators for your project": "Help Translate",
