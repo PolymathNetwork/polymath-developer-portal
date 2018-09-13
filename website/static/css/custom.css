@@ -27,7 +27,7 @@ a{
 
 .mainContainer a{
     color:#2a3f7d;
-    text-decoration:underline !important;
+    text-decoration:underline;
 }
 
 .text-center{
@@ -156,6 +156,7 @@ a{
     padding: 9px 18px !important;
     color: #2a3f7d;
     background-color: transparent;
+    text-decoration:none;
     border-radius: 0px !important;
     border: 2px solid #2a3f7d !important;
 }
