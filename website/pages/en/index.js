@@ -79,7 +79,7 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
-            <Button class="btn btn-blue" href="https://blog.polymath.network/create-your-own-security-token-offering-sto-with-polymath-7d37f8cd9a6c" target="_blank">Create an STO</Button>
+            <Button className="btn btn-blue" href="https://blog.polymath.network/create-your-own-security-token-offering-sto-with-polymath-7d37f8cd9a6c" target="_blank">Create an STO</Button>
             <Button href={docUrl('doc1.html', language)}> Getting Started</Button>
             <Button href={docUrl('doc2.html', language)}>Bug Bounty Program</Button>
           </PromoSection>
@@ -237,7 +237,7 @@ const FeatureWork = props => (
     style={{ textAlign: 'center' }}>
     <h1 className="workSection-heading"> How Polymath Works</h1>
     <div className="workSection-details" > An interface between financial securities and the blockchain, simplifying the process for issuers to overcome the complex technical and legal challenges token creation. </div>
-    <a className="button btn-blue" href={docUrl('getting-started.html')}>GET STARTED</a>
+    <a className="button btn-blue" href={docUrl('doc1.html')}>GET STARTED</a>
     <div className="workSection-tab">
       <div className="row">
         <div className="col-1-of-2 terminal">
