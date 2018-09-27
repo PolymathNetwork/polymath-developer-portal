@@ -135,7 +135,7 @@ const Block = props => (
           </div>
           <div class="blockContent">
             <h2>
-              <div><span><p>News Releases</p></span></div>
+              <div><span><p>New Releases</p></span></div>
             </h2>
             <div><span><p>Polymath Core v1.3.0</p></span></div>
           </div>
