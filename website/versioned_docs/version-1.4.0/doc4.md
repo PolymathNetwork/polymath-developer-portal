@@ -279,7 +279,7 @@ In this walkthrough we will be covering:
 ## Background / Introductory Video of Polymath
 https://www.youtube.com/watch?v=pOYcro53SOI
 
-## 1. What You Will Need For This Tutorial
+## What You Will Need For This Tutorial
 
 In this tutorial you will need a Metamask account (to download the chrome extension click here: https://metamask.io/). You will then need to fund your account. Go to this site and choose the easiest option for you: https://github.com/kovan-testnet/faucet. If you can’t decide, go ahead and choose the following method: “Gitter Channel (Manual Github Verification. If you want to request to receive Kovan Ether manually (uptime is not guaranteed, and you may have to wait for a verifier to respond), please using the Gitter channel: https://gitter.im/kovan-testnet/faucet”
 
