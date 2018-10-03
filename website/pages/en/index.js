@@ -96,14 +96,14 @@ const Block = props => (
     padding={['bottom', 'top']}
     id={props.id}
     background={props.background}>
-    <div class="gridBlock">
+    <div className="gridBlock">
 
-      <div class="blockElement alignCenter imageAlignTop fourByGridBlock">
+      <div className="blockElement alignCenter imageAlignTop fourByGridBlock">
         <a href="https://github.com/PolymathNetwork/polymath-core">
-          <div class="blockImage">
+          <div className="blockImage">
             <img src="/img/settings.svg" />
           </div>
-          <div class="blockContent">
+          <div className="blockContent">
             <h2>
               <div><span><p>Polymath Core</p></span></div>
             </h2>
@@ -113,12 +113,12 @@ const Block = props => (
       </div>
 
 
-      <div class="blockElement alignCenter imageAlignTop fourByGridBlock">
+      <div className="blockElement alignCenter imageAlignTop fourByGridBlock">
         <a href={`${siteConfig.baseUrl}docs/doc4.html`}>
-          <div class="blockImage">
+          <div className="blockImage">
             <img src="/img/pop.svg" />
           </div>
-          <div class="blockContent">
+          <div className="blockContent">
             <h2>
               <div><span><p>STO Tutorial</p></span></div>
             </h2>
@@ -128,12 +128,12 @@ const Block = props => (
       </div>
 
 
-      <div class="blockElement alignCenter imageAlignTop fourByGridBlock">
+      <div className="blockElement alignCenter imageAlignTop fourByGridBlock">
         <a href="https://blog.polymath.network/polymath-core-mainnet-v1-3-0-release-8921e8046508" target="_blank">
-          <div class="blockImage">
+          <div className="blockImage">
             <img src="/img/star.svg" />
           </div>
-          <div class="blockContent">
+          <div className="blockContent">
             <h2>
               <div><span><p>New Releases</p></span></div>
             </h2>
@@ -165,17 +165,17 @@ const FeatureCallout = props => (
     <div className="row" id="sto-section">
       <div className="col-1-of-2">
         <h3> What are Security Tokens? </h3>
-        <div className="workSection-tab-content"><p class="section-text">A Security Token is a free, open standard that describes how to build transfer restricted securities tokens on the Ethereum blockchain. While most tokens have no limitations on who can receive, or participate in the token sale, the Security Token restricts token transfers to verified investors only.</p></div>
+        <div className="workSection-tab-content"><p className="section-text">A Security Token is a free, open standard that describes how to build transfer restricted securities tokens on the Ethereum blockchain. While most tokens have no limitations on who can receive, or participate in the token sale, the Security Token restricts token transfers to verified investors only.</p></div>
       </div>
       <div className="col-1-of-2">
         <h3> How do they differ from Utility Tokens? </h3>
         <div className="workSection-tab-content">
-          <p class="section-text">Utility tokens represent access to a network, and your token purchase represents the ability to buy goods or services from that network, product or service.On the other hand, security tokens represent complete or fractional ownership in an asset (like shares in a company).</p>
+          <p className="section-text">Utility tokens represent access to a network, and your token purchase represents the ability to buy goods or services from that network, product or service.On the other hand, security tokens represent complete or fractional ownership in an asset (like shares in a company).</p>
         </div>
       </div>
     </div>
 
-    <a href="https://thesecuritytokenstandard.org" target="_blank" class="button btn-white"> Learn more about Security Tokens</a>
+    <a href="https://thesecuritytokenstandard.org" target="_blank" className="button btn-white"> Learn more about Security Tokens</a>
   </div>
 
 
@@ -191,9 +191,9 @@ const EventsTimeline = props => (
     <div className="row" id="events-section">
 
       <div className="col-1-of-3 helper-box">
-        <h3 class="events-title"> Berlin </h3>
+        <h3 className="events-title"> Berlin </h3>
         <div className="workSection-tab-content">
-          <p class="section-text">
+          <p className="section-text">
             ETH Berlin
             <br />
             September 7-9, 2018
@@ -201,9 +201,9 @@ const EventsTimeline = props => (
         </div>
       </div>
       <div className="col-1-of-3 helper-box">
-        <h3 class="events-title"> Hong Kong </h3>
+        <h3 className="events-title"> Hong Kong </h3>
         <div className="workSection-tab-content">
-          <p class="section-text">
+          <p className="section-text">
             ETHIS
               <br />
             September 8-9, 2018
@@ -211,9 +211,9 @@ const EventsTimeline = props => (
         </div>
       </div>
       <div className="col-1-of-3 helper-box">
-        <h3 class="events-title"> Toronto </h3>
+        <h3 className="events-title"> Toronto </h3>
         <div className="workSection-tab-content">
-          <p class="section-text">
+          <p className="section-text">
             Hack-The-North
             <br />
             September 14-16, 2018
@@ -222,7 +222,7 @@ const EventsTimeline = props => (
       </div>
     </div>
 
-    <a href="https://thesecuritytokenstandard.org" target="_blank" class="button btn-white"> Learn more about Security Tokens</a>
+    <a href="https://thesecuritytokenstandard.org" target="_blank" className="button btn-white"> Learn more about Security Tokens</a>
   </div>
 
 );
@@ -309,17 +309,64 @@ class Index extends React.Component {
         <HomeSplash language={language} />
         <div className="mainContainer">
           <Features />
+          <div className="ck_form_container ck_inline" data-ck-version="7">
+				<div className="ck_form ck_minimal">
+					<div className="ck_form_fields">
+						{/* <h3 className="ck_form_title">Get Developer Updates</h3> */}
+						
+
+						<div id="ck_success_msg" style={{display: 'none'}}>
+							<p>Success! Now check your email to confirm your subscription.</p>
+						</div>
+
+					
+						<form id="ck_subscribe_form" className="ck_subscribe_form" action="https://app.convertkit.com/landing_pages/351382/subscribe"
+						 data-remote="true">
+							<input type="hidden" value="{&quot;form_style&quot;:&quot;minimal&quot;,&quot;converted_behavior&quot;:&quot;show&quot;,&quot;days_no_show&quot;:&quot;15&quot;,&quot;delay_seconds&quot;:&quot;10&quot;,&quot;display_devices&quot;:&quot;all&quot;,&quot;display_position&quot;:&quot;br&quot;,&quot;embed_style&quot;:&quot;inline&quot;,&quot;embed_trigger&quot;:&quot;scroll_percentage&quot;,&quot;scroll_percentage&quot;:&quot;70&quot;}"
+							 id="ck_form_options" />
+							<input type="hidden" name="id" value="351382" id="landing_page_id" />
+							<input type="hidden" name="ck_form_recaptcha" value="" id="ck_form_recaptcha" />
+							<div className="ck_errorArea">
+								<div id="ck_error_msg" style={{display: 'none'}}>
+									<p>There was an error submitting your subscription. Please try again.</p>
+								</div>
+							</div>
+              <div style={{float:'left',width:'30%',height:'50px',padding:'11px 0', fontSize:'24px', fontWeight:'bold'}}>
+              <p>Get Developer Updates</p>
+              </div>
+							<div className="ck_control_group ck_email_field_group">
+								<label className="ck_label" for="ck_emailField" style={{display: 'none'}}>Email Address</label>
+								<input type="email" name="email" className="ck_email_address" id="ck_emailField" placeholder="Email Address"
+								 required />
+							</div>
+							<div className="ck_control_group ck_captcha2_h_field_group ck-captcha2-h" style={{position: 'absolute !important',left:'-999em !important'}}>
+								<input type="text" name="captcha2_h" className="ck-captcha2-h" id="ck_captcha2_h" placeholder="We use this field to detect spam bots. If you fill this in, you will be marked as a spammer." />
+							</div>
+
+
+							<button className="subscribe_button ck_subscribe_button btn fields" id="ck_subscribe_button">
+								Join Mailing List
+							</button>
+							<span className="ck_guarantee">
+								We won't send you spam. Unsubscribe at any time.
+							</span>
+						</form>
+					</div>
+
+				</div>
+
+			</div>
           <FeatureCallout />
 
           <FeatureWork />
           <div className="workSection" style={{ textAlign: 'center' }}>
 
 
-            <section class="cd-horizontal-timeline">
+            <section className="cd-horizontal-timeline">
 
-              <div class="events-content">
+              <div className="events-content">
                 <ol>
-                  <li class="selected" data-date="16/01/2018">
+                  <li className="selected" data-date="16/01/2018">
                     <h1 className="workSection-heading">v1 Core Smart Contracts Launch</h1>
                     <em>Jan 30, 2018</em>
                     <p>
@@ -362,24 +409,24 @@ class Index extends React.Component {
 
                 </ol>
               </div>
-              <div class="timeline">
-                <div class="events-wrapper">
-                  <div class="events">
+              <div className="timeline">
+                <div className="events-wrapper">
+                  <div className="events">
                     <ol>
-                      <li><a href="#0" data-date="16/01/2018" class="selected">v1 Smart <br />Contracts</a></li>
+                      <li><a href="#0" data-date="16/01/2018" className="selected">v1 Smart <br />Contracts</a></li>
                       <li><a href="#0" data-date="28/02/2018">Token <br />Airdrop</a></li>
                       <li><a href="#0" data-date="20/04/2018">TestNet</a></li>
                       <li><a href="#0" data-date="20/05/2018">MainNet</a></li>
                       <li><a href="#0" data-date="09/07/2018">First STO Launch</a></li>
                     </ol>
 
-                    <span class="filling-line" aria-hidden="true"></span>
+                    <span className="filling-line" aria-hidden="true"></span>
                   </div>
                 </div>
 
-                <ul class="cd-timeline-navigation">
-                  <li><a href="#0" class="prev inactive">Prev</a></li>
-                  <li><a href="#0" class="next">Next</a></li>
+                <ul className="cd-timeline-navigation">
+                  <li><a href="#0" className="prev inactive">Prev</a></li>
+                  <li><a href="#0" className="next">Next</a></li>
                 </ul>
               </div>
 

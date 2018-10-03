@@ -1,0 +1,329 @@
+.ck_form.ck_minimal {
+    /* divider image */
+    background: #ffffff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+    line-height: 1.5em;
+    overflow: hidden;
+    color: #666;
+    font-size: 16px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    clear: both;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+
+.ck_form.ck_minimal h3.ck_form_title {
+    text-align: center;
+    margin: 0px 0px 10px;
+    font-size: 28px;
+}
+
+.ck_form.ck_minimal h4 {
+    text-align: center;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.ck_form.ck_minimal p {
+    padding: 0px;
+}
+
+.ck_form,
+.ck_form * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: inherit;
+}
+
+.ck_form.ck_minimal .ck_form_fields {
+    width: 100%;
+    float: left;
+    padding: 20px;
+}
+
+/* Form fields */
+
+.ck_errorArea {
+    display: none;
+    /* temporary */
+}
+
+#ck_success_msg {
+    padding: 10px 10px 0px;
+    border: solid 1px #ddd;
+    background: #eee;
+}
+
+.ck_form.ck_minimal input[type="text"],
+.ck_form.ck_minimal input[type="email"] {
+    font-size: 18px;
+    padding: 10px 8px;
+    width: 40%;
+    border: 1px solid #d6d6d6;
+    /* stroke */
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    /* border radius */
+    background-color: #fff;
+    /* layer fill content */
+    margin-bottom: 5px;
+    height: auto;
+    float: left;
+    margin: 0px;
+    margin-right: 2%;
+    height: 50px;
+}
+
+.ck_form input[type="text"]:focus,
+.ck_form input[type="email"]:focus {
+    outline: none;
+    border-color: #aaa;
+}
+
+.ck_form.ck_minimal .ck_subscribe_button {
+    width: 100%;
+    color: #fff;
+    margin: 0px;
+    padding: 11px;
+    font-size: 14px;
+    background: #313a62;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    /* border radius */
+    cursor: pointer;
+    border: none;
+    text-shadow: none;
+    width: 20%;
+    float: left;
+    height: 50px;
+}
+
+
+.ck_form.ck_minimal .ck_guarantee {
+    color: #626262;
+    font-size: 12px;
+    text-align: center;
+    padding: 15px 0px 0px;
+    display: block;
+    clear: both;
+}
+
+.ck_form .ck_powered_by {
+    display: block;
+    color: #aaa;
+    font-size: 12px;
+}
+
+.ck_form .ck_powered_by:hover {
+    display: block;
+    color: #444;
+}
+
+.ck_converted_content {
+    display: none;
+    padding: 5%;
+    background: #fff;
+}
+
+.ck_form.ck_minimal.width400 .ck_subscribe_button,
+.ck_form.ck_minimal.width400 input[type="email"] {
+    width: 100%;
+    float: none;
+    margin-top: 5px;
+}
+
+.ck_slide_up,
+.ck_modal,
+.ck_slide_up .ck_minimal,
+.ck_modal .ck_minimal {
+    min-width: 400px;
+}
+
+.page .ck_form.ck_minimal {
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+
+/* v6 */
+
+.ck_slide_up.ck_form_v6,
+.ck_modal.ck_form_v6,
+.ck_slide_up.ck_form_v6 .ck_minimal,
+.ck_modal.ck_form_v6 .ck_minimal {
+    min-width: 0 !important;
+}
+
+@media all and (min-width: 801px) {
+    .ck_modal.ck_form_v6 .ck_form.ck_minimal {
+        margin-left: -300px;
+        width: 600px;
+    }
+}
+
+.ck_modal.ck_form_v6 .ck_minimal .ck_subscribe_form {
+    padding-top: 20px;
+}
+
+.ck_slide_up.ck_form_v6 .ck_minimal .ck_subscribe_form {
+    padding-top: 10px;
+}
+
+.ck_form_v6 #ck_success_msg {
+    margin-top: 15px;
+    padding: 0px 10px;
+}
+
+.ck_slide_up.ck_form_v6 .ck_minimal+.ck_close_link {
+    top: 5px;
+}
+
+.ck_slide_up.ck_form_v6 .ck_minimal h3.ck_form_title {
+    margin-top: 5px;
+}
+
+
+
+.ck_form_bar {
+    font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+    line-height: 1.5em;
+    overflow: hidden;
+    color: #666;
+    font-size: 16px;
+    border-bottom: solid 1px #d1d1d1;
+    clear: both;
+    margin: 20px 0px;
+    padding: 20px;
+    background: #f9f9f9;
+    width: 100%;
+    position: relative;
+    position: fixed;
+    top: 0px;
+    margin: 0px;
+    left: 0px;
+    z-index: 500;
+}
+
+.ck_form_bar,
+.ck_form_bar * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ck_form_bar .ck_form_bar_title {
+    font-size: 30px;
+    color: #333;
+    text-align: left;
+    margin: 18px 0px;
+    font-weight: normal;
+}
+
+.ck_form_bar_content {
+    width: 50%;
+    float: left;
+}
+
+.ck_form_bar_fields {
+    width: 50%;
+    float: left;
+}
+
+
+/* Form fields */
+
+.ck_errorArea {
+    display: none;
+    /* temporary */
+}
+
+#ck_success_msg {
+    padding: 10px 10px 0px;
+    border: solid 1px #ddd;
+    background: #eee;
+    text-align: center;
+}
+
+.ck_form_bar input[type="text"],
+.ck_form_bar input[type="email"] {
+    font-size: 14px;
+    padding: 10px 8px;
+    width: 100%;
+    border: 1px solid #d6d6d6;
+    /* stroke */
+    background-color: #fff;
+    /* layer fill content */
+    margin-bottom: 5px;
+    height: auto;
+    width: 58%;
+    display: inline-block;
+}
+
+.ck_form_bar input[type="text"]:focus,
+.ck_form_bar input[type="email"]:focus {
+    outline: none;
+    border-color: #aaa;
+}
+
+.ck_checkbox input.optIn {
+    margin-left: -20px;
+    margin-top: 0;
+}
+
+.ck_form_bar .ck_opt_in_prompt {
+    margin-left: 4px;
+}
+
+.ck_form_bar .ck_opt_in_prompt p {
+    display: inline;
+}
+
+.ck_subscribe_form {
+    margin: 0px;
+}
+
+.ck_form_bar .ck_subscribe_button {
+    color: #fff;
+    margin: 10px 0px 0px;
+    padding: 10px 0px;
+    font-size: 16px;
+    background: #0d6db8;
+    cursor: pointer;
+    border: none;
+    text-shadow: none;
+    display: inline-block;
+    width: auto;
+    width: 38%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+/* Trigger the vertical layout with media queries as well */
+
+@media all and (max-width: 1023px) {
+
+    .ck_form_bar_content,
+    .ck_form_bar_fields {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media all and (max-width: 611px) {
+    .ck_form_bar input[type="email"] {
+        width: 100%;
+    }
+
+    .ck_form_bar .ck_subscribe_button {
+        width: 100%;
+    }
+}
