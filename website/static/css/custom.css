@@ -1004,7 +1004,7 @@ line-height:36.8px;
 .ck_form.ck_minimal input[type="email"] {
     font-size: 18px;
     padding: 10px 8px;
-    width: 40%;
+    width: 60%;
     border: 1px solid #d6d6d6;
     /* stroke */
     -moz-border-radius: 3px;
@@ -1016,8 +1016,8 @@ line-height:36.8px;
     margin-bottom: 5px;
     height: auto;
     float: left;
-    margin: 0px;
     margin-right: 2%;
+    margin-left:5%;
     height: 50px;
 }
 

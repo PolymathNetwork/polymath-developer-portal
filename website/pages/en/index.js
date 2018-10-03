@@ -312,7 +312,7 @@ class Index extends React.Component {
           <div className="ck_form_container ck_inline" data-ck-version="7">
 				<div className="ck_form ck_minimal">
 					<div className="ck_form_fields">
-						{/* <h3 className="ck_form_title">Get Developer Updates</h3> */}
+						<h3 className="ck_form_title">Get Developer Updates</h3>
 						
 
 						<div id="ck_success_msg" style={{display: 'none'}}>
@@ -331,9 +331,7 @@ class Index extends React.Component {
 									<p>There was an error submitting your subscription. Please try again.</p>
 								</div>
 							</div>
-              <div style={{float:'left',width:'30%',height:'50px',padding:'11px 0', fontSize:'24px', fontWeight:'bold'}}>
-              <p>Get Developer Updates</p>
-              </div>
+              
 							<div className="ck_control_group ck_email_field_group">
 								<label className="ck_label" for="ck_emailField" style={{display: 'none'}}>Email Address</label>
 								<input type="email" name="email" className="ck_email_address" id="ck_emailField" placeholder="Email Address"
