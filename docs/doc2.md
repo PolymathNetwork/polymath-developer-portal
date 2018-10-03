@@ -1,6 +1,7 @@
 ---
 id: doc2
 title: Developer Bug Bounty Program
+sidebar_label: Bug Bounty
 ---
 
 ## View our bounties:
@@ -30,11 +31,3 @@ We ask that you follow the following responsible disclosure guidelines:
 
 4. Give us 3 business days to respond to your report. We will provide our assessment of the severity of the vulnerability and our timeline for patching it based on our internal assessment of when we can have a fix in place.
 
-
-
-
-<!---
-## Bounty Hunter Showcase: 
-
-Photo / name / what he/she solved!
---->

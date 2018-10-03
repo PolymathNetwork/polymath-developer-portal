@@ -4,120 +4,960 @@
     "next": "Next",
     "previous": "Previous",
     "tagline": "What you need to get started developing with Polymath",
-    "es_openzeppelin-solidity_contracts_math_Math": "Math",
-    "es_openzeppelin-solidity_contracts_math_SafeMath": "SafeMath",
-    "es_openzeppelin-solidity_contracts_ownership_Ownable": "Ownable",
-    "es_openzeppelin-solidity_contracts_ReentrancyGuard": "ReentrancyGuard",
-    "es_openzeppelin-solidity_contracts_token_ERC20_BasicToken": "BasicToken",
-    "es_openzeppelin-solidity_contracts_token_ERC20_DetailedERC20": "DetailedERC20",
-    "es_openzeppelin-solidity_contracts_token_ERC20_ERC20": "ERC20",
-    "es_openzeppelin-solidity_contracts_token_ERC20_ERC20Basic": "ERC20Basic",
-    "es_openzeppelin-solidity_contracts_token_ERC20_MintableToken": "MintableToken",
-    "es_openzeppelin-solidity_contracts_token_ERC20_StandardToken": "StandardToken",
-    "external_Medianizer_DSAuth": "DSAuth",
-    "external_Medianizer_DSAuthEvents": "DSAuthEvents",
-    "external_Medianizer_DSAuthority": "DSAuthority",
-    "external_Medianizer_DSMath": "DSMath",
-    "external_Medianizer_DSNote": "DSNote",
-    "external_Medianizer_DSThing": "DSThing",
-    "external_Medianizer_DSValue": "DSValue",
-    "external_Medianizer": "Medianizer",
-    "external_oraclizeAPI_Buffer": "Buffer",
-    "external_oraclizeAPI_CBOR": "CBOR",
-    "external_oraclizeAPI_OraclizeAddrResolverI": "OraclizeAddrResolverI",
-    "external_oraclizeAPI_OraclizeI": "OraclizeI",
-    "external_oraclizeAPI_usingOraclize": "usingOraclize",
-    "helpers_PolyToken_IERC20": "IERC20",
-    "helpers_PolyToken_SafeMath": "SafeMath",
-    "helpers_PolyToken": "PolyToken",
-    "helpers_Util": "Util",
-    "interfaces_IERC20": "IERC20",
-    "interfaces_IModule": "IModule",
-    "interfaces_IModuleFactory": "IModuleFactory",
-    "interfaces_IModuleRegistry": "IModuleRegistry",
-    "interfaces_IOracle": "IOracle",
-    "interfaces_IRegistry": "IRegistry",
-    "interfaces_ISecurityToken": "ISecurityToken",
-    "interfaces_ISecurityTokenRegistry": "ISecurityTokenRegistry",
-    "interfaces_IST20": "IST20",
-    "interfaces_ISTProxy": "ISTProxy",
-    "interfaces_ITickerRegistry": "ITickerRegistry",
-    "interfaces_ITokenBurner": "ITokenBurner",
-    "Migrations": "Migrations",
-    "mocks_MockFactory": "MockFactory",
-    "mocks_MockOracle": "MockOracle",
-    "mocks_MockPolyOracle": "MockPolyOracle",
-    "mocks_MockTokenBurner": "MockTokenBurner",
-    "mocks_PolyTokenFaucet": "PolyTokenFaucet",
-    "mocks_TestSTOFactory": "TestSTOFactory",
-    "ModuleRegistry": "ModuleRegistry",
-    "modules_Checkpoint_ERC20DividendCheckpoint": "ERC20DividendCheckpoint",
-    "modules_Checkpoint_ERC20DividendCheckpointFactory": "ERC20DividendCheckpointFactory",
-    "modules_Checkpoint_EtherDividendCheckpoint": "EtherDividendCheckpoint",
-    "modules_Checkpoint_EtherDividendCheckpointFactory": "EtherDividendCheckpointFactory",
-    "modules_Checkpoint_ICheckpoint": "ICheckpoint",
-    "modules_PermissionManager_GeneralPermissionManager": "GeneralPermissionManager",
-    "modules_PermissionManager_GeneralPermissionManagerFactory": "GeneralPermissionManagerFactory",
-    "modules_PermissionManager_IPermissionManager": "IPermissionManager",
-    "modules_STO_CappedSTO": "CappedSTO",
-    "modules_STO_CappedSTOFactory": "CappedSTOFactory",
-    "modules_STO_DummySTO": "DummySTO",
-    "modules_STO_DummySTOFactory": "DummySTOFactory",
-    "modules_STO_ISTO": "ISTO",
-    "modules_STO_PreSaleSTO": "PreSaleSTO",
-    "modules_STO_PreSaleSTOFactory": "PreSaleSTOFactory",
-    "modules_STO_USDTieredSTO": "USDTieredSTO",
-    "modules_STO_USDTieredSTOFactory": "USDTieredSTOFactory",
-    "modules_TransferManager_CountTransferManager": "CountTransferManager",
-    "modules_TransferManager_CountTransferManagerFactory": "CountTransferManagerFactory",
-    "modules_TransferManager_GeneralTransferManager": "GeneralTransferManager",
-    "modules_TransferManager_GeneralTransferManagerFactory": "GeneralTransferManagerFactory",
-    "modules_TransferManager_ITransferManager": "ITransferManager",
-    "modules_TransferManager_ManualApprovalTransferManager": "ManualApprovalTransferManager",
-    "modules_TransferManager_ManualApprovalTransferManagerFactory": "ManualApprovalTransferManagerFactory",
-    "modules_TransferManager_PercentageTransferManager": "PercentageTransferManager",
-    "modules_TransferManager_PercentageTransferManagerFactory": "PercentageTransferManagerFactory",
-    "oracles_MakerDAOOracle": "MakerDAOOracle",
-    "oracles_PolyOracle": "PolyOracle",
-    "Pausable": "Pausable",
-    "PolymathRegistry": "PolymathRegistry",
-    "ReclaimTokens": "ReclaimTokens",
-    "Registry": "Registry",
-    "RegistryUpdater": "RegistryUpdater",
-    "SecurityTokenRegistry": "SecurityTokenRegistry",
-    "TickerRegistry": "TickerRegistry",
-    "tokens_SecurityToken": "SecurityToken",
-    "tokens_SecurityTokenV2": "SecurityTokenV2",
-    "tokens_STVersionProxy001": "STVersionProxy001",
-    "tokens_STVersionProxy002": "STVersionProxy002",
-    "doc1": "Polymath Documentation",
-    "Documentation": "Documentation",
-    "doc2": "Developer Bug Bounty Program",
-    "doc3": "Directory",
-    "doc4": "Polymath Tutorial",
-    "Polymath Tutorial": "Polymath Tutorial",
-    "doc5": "Installation",
-    "Installation": "Installation",
-    "Docs": "Docs",
-    "Tutorial": "Tutorial",
-    "API": "API",
-    "Help": "Help",
-    "Tech Blog": "Tech Blog",
-    "Getting Started with Polymath": "Getting Started with Polymath",
-    "Start Contributing to Polymath": "Start Contributing to Polymath",
-    "Polymath Modules Directory": "Polymath Modules Directory",
-    "Tutorials": "Tutorials",
-    "HELPERS": "HELPERS",
-    "INTERFACES": "INTERFACES",
-    "MODULES / CHECKPOINT": "MODULES / CHECKPOINT",
-    "MODULES / PERMISSIONMANAGER": "MODULES / PERMISSIONMANAGER",
-    "MODULES / STO": "MODULES / STO",
-    "MODULES / TRANSFERMANAGER": "MODULES / TRANSFERMANAGER",
-    "ORACLES": "ORACLES",
-    "TOKENS": "TOKENS",
-    "UNCATEGORIZED": "UNCATEGORIZED",
-    "MOCKS": "MOCKS",
-    "First Category": "First Category"
+    "docs": {
+      "es_openzeppelin-solidity_contracts_math_Math": {
+        "title": "Math"
+      },
+      "es_openzeppelin-solidity_contracts_math_SafeMath": {
+        "title": "SafeMath"
+      },
+      "es_openzeppelin-solidity_contracts_ownership_Ownable": {
+        "title": "Ownable"
+      },
+      "es_openzeppelin-solidity_contracts_ReentrancyGuard": {
+        "title": "ReentrancyGuard"
+      },
+      "es_openzeppelin-solidity_contracts_token_ERC20_BasicToken": {
+        "title": "BasicToken"
+      },
+      "es_openzeppelin-solidity_contracts_token_ERC20_DetailedERC20": {
+        "title": "DetailedERC20"
+      },
+      "es_openzeppelin-solidity_contracts_token_ERC20_ERC20": {
+        "title": "ERC20"
+      },
+      "es_openzeppelin-solidity_contracts_token_ERC20_ERC20Basic": {
+        "title": "ERC20Basic"
+      },
+      "es_openzeppelin-solidity_contracts_token_ERC20_MintableToken": {
+        "title": "MintableToken"
+      },
+      "es_openzeppelin-solidity_contracts_token_ERC20_StandardToken": {
+        "title": "StandardToken"
+      },
+      "external_Medianizer_DSAuth": {
+        "title": "DSAuth"
+      },
+      "external_Medianizer_DSAuthEvents": {
+        "title": "DSAuthEvents"
+      },
+      "external_Medianizer_DSAuthority": {
+        "title": "DSAuthority"
+      },
+      "external_Medianizer_DSMath": {
+        "title": "DSMath"
+      },
+      "external_Medianizer_DSNote": {
+        "title": "DSNote"
+      },
+      "external_Medianizer_DSThing": {
+        "title": "DSThing"
+      },
+      "external_Medianizer_DSValue": {
+        "title": "DSValue"
+      },
+      "external_Medianizer": {
+        "title": "Medianizer"
+      },
+      "external_oraclizeAPI_Buffer": {
+        "title": "Buffer"
+      },
+      "external_oraclizeAPI_CBOR": {
+        "title": "CBOR"
+      },
+      "external_oraclizeAPI_OraclizeAddrResolverI": {
+        "title": "OraclizeAddrResolverI"
+      },
+      "external_oraclizeAPI_OraclizeI": {
+        "title": "OraclizeI"
+      },
+      "external_oraclizeAPI_usingOraclize": {
+        "title": "usingOraclize"
+      },
+      "helpers_PolyToken_IERC20": {
+        "title": "IERC20"
+      },
+      "helpers_PolyToken_SafeMath": {
+        "title": "SafeMath"
+      },
+      "helpers_PolyToken": {
+        "title": "PolyToken"
+      },
+      "helpers_Util": {
+        "title": "Util"
+      },
+      "interfaces_IERC20": {
+        "title": "IERC20"
+      },
+      "interfaces_IModule": {
+        "title": "IModule"
+      },
+      "interfaces_IModuleFactory": {
+        "title": "IModuleFactory"
+      },
+      "interfaces_IModuleRegistry": {
+        "title": "IModuleRegistry"
+      },
+      "interfaces_IOracle": {
+        "title": "IOracle"
+      },
+      "interfaces_IRegistry": {
+        "title": "IRegistry"
+      },
+      "interfaces_ISecurityToken": {
+        "title": "ISecurityToken"
+      },
+      "interfaces_ISecurityTokenRegistry": {
+        "title": "ISecurityTokenRegistry"
+      },
+      "interfaces_IST20": {
+        "title": "IST20"
+      },
+      "interfaces_ISTProxy": {
+        "title": "ISTProxy"
+      },
+      "interfaces_ITickerRegistry": {
+        "title": "ITickerRegistry"
+      },
+      "interfaces_ITokenBurner": {
+        "title": "ITokenBurner"
+      },
+      "Migrations": {
+        "title": "Migrations"
+      },
+      "mocks_MockFactory": {
+        "title": "MockFactory"
+      },
+      "mocks_MockOracle": {
+        "title": "MockOracle"
+      },
+      "mocks_MockPolyOracle": {
+        "title": "MockPolyOracle"
+      },
+      "mocks_MockTokenBurner": {
+        "title": "MockTokenBurner"
+      },
+      "mocks_PolyTokenFaucet": {
+        "title": "PolyTokenFaucet"
+      },
+      "mocks_TestSTOFactory": {
+        "title": "TestSTOFactory"
+      },
+      "ModuleRegistry": {
+        "title": "ModuleRegistry"
+      },
+      "modules_Checkpoint_ERC20DividendCheckpoint": {
+        "title": "ERC20DividendCheckpoint"
+      },
+      "modules_Checkpoint_ERC20DividendCheckpointFactory": {
+        "title": "ERC20DividendCheckpointFactory"
+      },
+      "modules_Checkpoint_EtherDividendCheckpoint": {
+        "title": "EtherDividendCheckpoint"
+      },
+      "modules_Checkpoint_EtherDividendCheckpointFactory": {
+        "title": "EtherDividendCheckpointFactory"
+      },
+      "modules_Checkpoint_ICheckpoint": {
+        "title": "ICheckpoint"
+      },
+      "modules_PermissionManager_GeneralPermissionManager": {
+        "title": "GeneralPermissionManager"
+      },
+      "modules_PermissionManager_GeneralPermissionManagerFactory": {
+        "title": "GeneralPermissionManagerFactory"
+      },
+      "modules_PermissionManager_IPermissionManager": {
+        "title": "IPermissionManager"
+      },
+      "modules_STO_CappedSTO": {
+        "title": "CappedSTO"
+      },
+      "modules_STO_CappedSTOFactory": {
+        "title": "CappedSTOFactory"
+      },
+      "modules_STO_DummySTO": {
+        "title": "DummySTO"
+      },
+      "modules_STO_DummySTOFactory": {
+        "title": "DummySTOFactory"
+      },
+      "modules_STO_ISTO": {
+        "title": "ISTO"
+      },
+      "modules_STO_PreSaleSTO": {
+        "title": "PreSaleSTO"
+      },
+      "modules_STO_PreSaleSTOFactory": {
+        "title": "PreSaleSTOFactory"
+      },
+      "modules_STO_USDTieredSTO": {
+        "title": "USDTieredSTO"
+      },
+      "modules_STO_USDTieredSTOFactory": {
+        "title": "USDTieredSTOFactory"
+      },
+      "modules_TransferManager_CountTransferManager": {
+        "title": "CountTransferManager"
+      },
+      "modules_TransferManager_CountTransferManagerFactory": {
+        "title": "CountTransferManagerFactory"
+      },
+      "modules_TransferManager_GeneralTransferManager": {
+        "title": "GeneralTransferManager"
+      },
+      "modules_TransferManager_GeneralTransferManagerFactory": {
+        "title": "GeneralTransferManagerFactory"
+      },
+      "modules_TransferManager_ITransferManager": {
+        "title": "ITransferManager"
+      },
+      "modules_TransferManager_ManualApprovalTransferManager": {
+        "title": "ManualApprovalTransferManager"
+      },
+      "modules_TransferManager_ManualApprovalTransferManagerFactory": {
+        "title": "ManualApprovalTransferManagerFactory"
+      },
+      "modules_TransferManager_PercentageTransferManager": {
+        "title": "PercentageTransferManager"
+      },
+      "modules_TransferManager_PercentageTransferManagerFactory": {
+        "title": "PercentageTransferManagerFactory"
+      },
+      "oracles_MakerDAOOracle": {
+        "title": "MakerDAOOracle"
+      },
+      "oracles_PolyOracle": {
+        "title": "PolyOracle"
+      },
+      "Pausable": {
+        "title": "Pausable"
+      },
+      "PolymathRegistry": {
+        "title": "PolymathRegistry"
+      },
+      "ReclaimTokens": {
+        "title": "ReclaimTokens"
+      },
+      "Registry": {
+        "title": "Registry"
+      },
+      "RegistryUpdater": {
+        "title": "RegistryUpdater"
+      },
+      "SecurityTokenRegistry": {
+        "title": "SecurityTokenRegistry"
+      },
+      "TickerRegistry": {
+        "title": "TickerRegistry"
+      },
+      "tokens_SecurityToken": {
+        "title": "SecurityToken"
+      },
+      "tokens_SecurityTokenV2": {
+        "title": "SecurityTokenV2"
+      },
+      "tokens_STVersionProxy001": {
+        "title": "STVersionProxy001"
+      },
+      "tokens_STVersionProxy002": {
+        "title": "STVersionProxy002"
+      },
+      "doc1": {
+        "title": "Polymath Documentation",
+        "sidebar_label": "Documentation"
+      },
+      "doc2": {
+        "title": "Developer Bug Bounty Program",
+        "sidebar_label": "Bug Bounty"
+      },
+      "doc3": {
+        "title": "Directory"
+      },
+      "doc4": {
+        "title": "Polymath Tutorial",
+        "sidebar_label": "Polymath Tutorial"
+      },
+      "doc5": {
+        "title": "Installation",
+        "sidebar_label": "Installation"
+      },
+      "version-1.2.0-es_openzeppelin-solidity_contracts_math_Math": {
+        "title": "Math"
+      },
+      "version-1.2.0-es_openzeppelin-solidity_contracts_math_SafeMath": {
+        "title": "SafeMath"
+      },
+      "version-1.2.0-es_openzeppelin-solidity_contracts_ownership_Ownable": {
+        "title": "Ownable"
+      },
+      "version-1.2.0-es_openzeppelin-solidity_contracts_token_ERC20_BasicToken": {
+        "title": "BasicToken"
+      },
+      "version-1.2.0-es_openzeppelin-solidity_contracts_token_ERC20_DetailedERC20": {
+        "title": "DetailedERC20"
+      },
+      "version-1.2.0-es_openzeppelin-solidity_contracts_token_ERC20_ERC20": {
+        "title": "ERC20"
+      },
+      "version-1.2.0-es_openzeppelin-solidity_contracts_token_ERC20_ERC20Basic": {
+        "title": "ERC20Basic"
+      },
+      "version-1.2.0-es_openzeppelin-solidity_contracts_token_ERC20_MintableToken": {
+        "title": "MintableToken"
+      },
+      "version-1.2.0-es_openzeppelin-solidity_contracts_token_ERC20_StandardToken": {
+        "title": "StandardToken"
+      },
+      "version-1.2.0-helpers_PolyToken": {
+        "title": "PolyToken"
+      },
+      "version-1.2.0-helpers_Util": {
+        "title": "Util"
+      },
+      "version-1.2.0-interfaces_IModule": {
+        "title": "IModule"
+      },
+      "version-1.2.0-interfaces_IModuleFactory": {
+        "title": "IModuleFactory"
+      },
+      "version-1.2.0-interfaces_IModuleRegistry": {
+        "title": "IModuleRegistry"
+      },
+      "version-1.2.0-interfaces_IRegistry": {
+        "title": "IRegistry"
+      },
+      "version-1.2.0-interfaces_ISecurityToken": {
+        "title": "ISecurityToken"
+      },
+      "version-1.2.0-interfaces_ISecurityTokenRegistry": {
+        "title": "ISecurityTokenRegistry"
+      },
+      "version-1.2.0-interfaces_IST20": {
+        "title": "IST20"
+      },
+      "version-1.2.0-interfaces_ISTProxy": {
+        "title": "ISTProxy"
+      },
+      "version-1.2.0-interfaces_ITickerRegistry": {
+        "title": "ITickerRegistry"
+      },
+      "version-1.2.0-interfaces_ITokenBurner": {
+        "title": "ITokenBurner"
+      },
+      "version-1.2.0-Migrations": {
+        "title": "Migrations"
+      },
+      "version-1.2.0-mocks_MockFactory": {
+        "title": "MockFactory"
+      },
+      "version-1.2.0-mocks_PolyTokenFaucet": {
+        "title": "PolyTokenFaucet"
+      },
+      "version-1.2.0-mocks_TestSTOFactory": {
+        "title": "TestSTOFactory"
+      },
+      "version-1.2.0-ModuleRegistry": {
+        "title": "ModuleRegistry"
+      },
+      "version-1.2.0-modules_Checkpoint_ERC20DividendCheckpoint": {
+        "title": "ERC20DividendCheckpoint"
+      },
+      "version-1.2.0-modules_Checkpoint_ERC20DividendCheckpointFactory": {
+        "title": "ERC20DividendCheckpointFactory"
+      },
+      "version-1.2.0-modules_Checkpoint_EtherDividendCheckpoint": {
+        "title": "EtherDividendCheckpoint"
+      },
+      "version-1.2.0-modules_Checkpoint_EtherDividendCheckpointFactory": {
+        "title": "EtherDividendCheckpointFactory"
+      },
+      "version-1.2.0-modules_Checkpoint_ICheckpoint": {
+        "title": "ICheckpoint"
+      },
+      "version-1.2.0-modules_PermissionManager_GeneralPermissionManager": {
+        "title": "GeneralPermissionManager"
+      },
+      "version-1.2.0-modules_PermissionManager_GeneralPermissionManagerFactory": {
+        "title": "GeneralPermissionManagerFactory"
+      },
+      "version-1.2.0-modules_PermissionManager_IPermissionManager": {
+        "title": "IPermissionManager"
+      },
+      "version-1.2.0-modules_STO_CappedSTO": {
+        "title": "CappedSTO"
+      },
+      "version-1.2.0-modules_STO_CappedSTOFactory": {
+        "title": "CappedSTOFactory"
+      },
+      "version-1.2.0-modules_STO_DummySTO": {
+        "title": "DummySTO"
+      },
+      "version-1.2.0-modules_STO_DummySTOFactory": {
+        "title": "DummySTOFactory"
+      },
+      "version-1.2.0-modules_STO_ISTO": {
+        "title": "ISTO"
+      },
+      "version-1.2.0-modules_STO_PreSaleSTO": {
+        "title": "PreSaleSTO"
+      },
+      "version-1.2.0-modules_STO_PreSaleSTOFactory": {
+        "title": "PreSaleSTOFactory"
+      },
+      "version-1.2.0-modules_TransferManager_CountTransferManager": {
+        "title": "CountTransferManager"
+      },
+      "version-1.2.0-modules_TransferManager_CountTransferManagerFactory": {
+        "title": "CountTransferManagerFactory"
+      },
+      "version-1.2.0-modules_TransferManager_GeneralTransferManager": {
+        "title": "GeneralTransferManager"
+      },
+      "version-1.2.0-modules_TransferManager_GeneralTransferManagerFactory": {
+        "title": "GeneralTransferManagerFactory"
+      },
+      "version-1.2.0-modules_TransferManager_ITransferManager": {
+        "title": "ITransferManager"
+      },
+      "version-1.2.0-modules_TransferManager_ManualApprovalTransferManager": {
+        "title": "ManualApprovalTransferManager"
+      },
+      "version-1.2.0-modules_TransferManager_ManualApprovalTransferManagerFactory": {
+        "title": "ManualApprovalTransferManagerFactory"
+      },
+      "version-1.2.0-modules_TransferManager_PercentageTransferManager": {
+        "title": "PercentageTransferManager"
+      },
+      "version-1.2.0-modules_TransferManager_PercentageTransferManagerFactory": {
+        "title": "PercentageTransferManagerFactory"
+      },
+      "version-1.2.0-Pausable": {
+        "title": "Pausable"
+      },
+      "version-1.2.0-ReclaimTokens": {
+        "title": "ReclaimTokens"
+      },
+      "version-1.2.0-Registry": {
+        "title": "Registry"
+      },
+      "version-1.2.0-SecurityTokenRegistry": {
+        "title": "SecurityTokenRegistry"
+      },
+      "version-1.2.0-TickerRegistry": {
+        "title": "TickerRegistry"
+      },
+      "version-1.2.0-tokens_SecurityToken": {
+        "title": "SecurityToken"
+      },
+      "version-1.2.0-tokens_SecurityTokenV2": {
+        "title": "SecurityTokenV2"
+      },
+      "version-1.2.0-tokens_STVersionProxy001": {
+        "title": "STVersionProxy001"
+      },
+      "version-1.2.0-tokens_STVersionProxy002": {
+        "title": "STVersionProxy002"
+      },
+      "version-1.2.0-doc1": {
+        "title": "Polymath Documentation",
+        "sidebar_label": "Documentation"
+      },
+      "version-1.2.0-doc2": {
+        "title": "Developer Bug Bounty Program"
+      },
+      "version-1.2.0-doc3": {
+        "title": "Directory"
+      },
+      "version-1.2.0-doc4": {
+        "title": "Polymath Tutorials"
+      },
+      "version-1.2.0-doc5": {
+        "title": "Development Requirements"
+      },
+      "version-1.3.0-es_openzeppelin-solidity_contracts_math_Math": {
+        "title": "Math"
+      },
+      "version-1.3.0-es_openzeppelin-solidity_contracts_math_SafeMath": {
+        "title": "SafeMath"
+      },
+      "version-1.3.0-es_openzeppelin-solidity_contracts_ownership_Ownable": {
+        "title": "Ownable"
+      },
+      "version-1.3.0-es_openzeppelin-solidity_contracts_ReentrancyGuard": {
+        "title": "ReentrancyGuard"
+      },
+      "version-1.3.0-es_openzeppelin-solidity_contracts_token_ERC20_BasicToken": {
+        "title": "BasicToken"
+      },
+      "version-1.3.0-es_openzeppelin-solidity_contracts_token_ERC20_DetailedERC20": {
+        "title": "DetailedERC20"
+      },
+      "version-1.3.0-es_openzeppelin-solidity_contracts_token_ERC20_ERC20": {
+        "title": "ERC20"
+      },
+      "version-1.3.0-es_openzeppelin-solidity_contracts_token_ERC20_ERC20Basic": {
+        "title": "ERC20Basic"
+      },
+      "version-1.3.0-es_openzeppelin-solidity_contracts_token_ERC20_StandardToken": {
+        "title": "StandardToken"
+      },
+      "version-1.3.0-helpers_PolyToken_IERC20": {
+        "title": "IERC20"
+      },
+      "version-1.3.0-helpers_PolyToken_SafeMath": {
+        "title": "SafeMath"
+      },
+      "version-1.3.0-helpers_PolyToken": {
+        "title": "PolyToken"
+      },
+      "version-1.3.0-helpers_Util": {
+        "title": "Util"
+      },
+      "version-1.3.0-interfaces_IERC20": {
+        "title": "IERC20"
+      },
+      "version-1.3.0-interfaces_IModule": {
+        "title": "IModule"
+      },
+      "version-1.3.0-interfaces_IModuleFactory": {
+        "title": "IModuleFactory"
+      },
+      "version-1.3.0-interfaces_IModuleRegistry": {
+        "title": "IModuleRegistry"
+      },
+      "version-1.3.0-interfaces_ISecurityToken": {
+        "title": "ISecurityToken"
+      },
+      "version-1.3.0-interfaces_ISecurityTokenRegistry": {
+        "title": "ISecurityTokenRegistry"
+      },
+      "version-1.3.0-interfaces_IST20": {
+        "title": "IST20"
+      },
+      "version-1.3.0-interfaces_ISTProxy": {
+        "title": "ISTProxy"
+      },
+      "version-1.3.0-interfaces_ITickerRegistry": {
+        "title": "ITickerRegistry"
+      },
+      "version-1.3.0-interfaces_ITokenBurner": {
+        "title": "ITokenBurner"
+      },
+      "version-1.3.0-Migrations": {
+        "title": "Migrations"
+      },
+      "version-1.3.0-mocks_MockFactory": {
+        "title": "MockFactory"
+      },
+      "version-1.3.0-mocks_PolyTokenFaucet": {
+        "title": "PolyTokenFaucet"
+      },
+      "version-1.3.0-mocks_TestSTOFactory": {
+        "title": "TestSTOFactory"
+      },
+      "version-1.3.0-ModuleRegistry": {
+        "title": "ModuleRegistry"
+      },
+      "version-1.3.0-modules_Checkpoint_ERC20DividendCheckpoint": {
+        "title": "ERC20DividendCheckpoint"
+      },
+      "version-1.3.0-modules_Checkpoint_ERC20DividendCheckpointFactory": {
+        "title": "ERC20DividendCheckpointFactory"
+      },
+      "version-1.3.0-modules_Checkpoint_EtherDividendCheckpoint": {
+        "title": "EtherDividendCheckpoint"
+      },
+      "version-1.3.0-modules_Checkpoint_EtherDividendCheckpointFactory": {
+        "title": "EtherDividendCheckpointFactory"
+      },
+      "version-1.3.0-modules_Checkpoint_ICheckpoint": {
+        "title": "ICheckpoint"
+      },
+      "version-1.3.0-modules_PermissionManager_GeneralPermissionManager": {
+        "title": "GeneralPermissionManager"
+      },
+      "version-1.3.0-modules_PermissionManager_GeneralPermissionManagerFactory": {
+        "title": "GeneralPermissionManagerFactory"
+      },
+      "version-1.3.0-modules_PermissionManager_IPermissionManager": {
+        "title": "IPermissionManager"
+      },
+      "version-1.3.0-modules_STO_CappedSTO": {
+        "title": "CappedSTO"
+      },
+      "version-1.3.0-modules_STO_CappedSTOFactory": {
+        "title": "CappedSTOFactory"
+      },
+      "version-1.3.0-modules_STO_DummySTO": {
+        "title": "DummySTO"
+      },
+      "version-1.3.0-modules_STO_DummySTOFactory": {
+        "title": "DummySTOFactory"
+      },
+      "version-1.3.0-modules_STO_ISTO": {
+        "title": "ISTO"
+      },
+      "version-1.3.0-modules_STO_PreSaleSTO": {
+        "title": "PreSaleSTO"
+      },
+      "version-1.3.0-modules_STO_PreSaleSTOFactory": {
+        "title": "PreSaleSTOFactory"
+      },
+      "version-1.3.0-modules_TransferManager_CountTransferManager": {
+        "title": "CountTransferManager"
+      },
+      "version-1.3.0-modules_TransferManager_CountTransferManagerFactory": {
+        "title": "CountTransferManagerFactory"
+      },
+      "version-1.3.0-modules_TransferManager_GeneralTransferManager": {
+        "title": "GeneralTransferManager"
+      },
+      "version-1.3.0-modules_TransferManager_GeneralTransferManagerFactory": {
+        "title": "GeneralTransferManagerFactory"
+      },
+      "version-1.3.0-modules_TransferManager_ITransferManager": {
+        "title": "ITransferManager"
+      },
+      "version-1.3.0-modules_TransferManager_ManualApprovalTransferManager": {
+        "title": "ManualApprovalTransferManager"
+      },
+      "version-1.3.0-modules_TransferManager_ManualApprovalTransferManagerFactory": {
+        "title": "ManualApprovalTransferManagerFactory"
+      },
+      "version-1.3.0-modules_TransferManager_PercentageTransferManager": {
+        "title": "PercentageTransferManager"
+      },
+      "version-1.3.0-modules_TransferManager_PercentageTransferManagerFactory": {
+        "title": "PercentageTransferManagerFactory"
+      },
+      "version-1.3.0-Pausable": {
+        "title": "Pausable"
+      },
+      "version-1.3.0-PolymathRegistry": {
+        "title": "PolymathRegistry"
+      },
+      "version-1.3.0-ReclaimTokens": {
+        "title": "ReclaimTokens"
+      },
+      "version-1.3.0-RegistryUpdater": {
+        "title": "RegistryUpdater"
+      },
+      "version-1.3.0-SecurityTokenRegistry": {
+        "title": "SecurityTokenRegistry"
+      },
+      "version-1.3.0-TickerRegistry": {
+        "title": "TickerRegistry"
+      },
+      "version-1.3.0-tokens_SecurityToken": {
+        "title": "SecurityToken"
+      },
+      "version-1.3.0-tokens_SecurityTokenV2": {
+        "title": "SecurityTokenV2"
+      },
+      "version-1.3.0-tokens_STVersionProxy001": {
+        "title": "STVersionProxy001"
+      },
+      "version-1.3.0-tokens_STVersionProxy002": {
+        "title": "STVersionProxy002"
+      },
+      "version-1.3.0-doc1": {
+        "title": "Polymath Documentation",
+        "sidebar_label": "Documentation"
+      },
+      "version-1.3.0-doc2": {
+        "title": "Developer Bug Bounty Program"
+      },
+      "version-1.3.0-doc4": {
+        "title": "Polymath Tutorial",
+        "sidebar_label": "Polymath Tutorial"
+      },
+      "version-1.4.0-es_openzeppelin-solidity_contracts_math_Math": {
+        "title": "Math"
+      },
+      "version-1.4.0-es_openzeppelin-solidity_contracts_math_SafeMath": {
+        "title": "SafeMath"
+      },
+      "version-1.4.0-es_openzeppelin-solidity_contracts_ownership_Ownable": {
+        "title": "Ownable"
+      },
+      "version-1.4.0-es_openzeppelin-solidity_contracts_ReentrancyGuard": {
+        "title": "ReentrancyGuard"
+      },
+      "version-1.4.0-es_openzeppelin-solidity_contracts_token_ERC20_BasicToken": {
+        "title": "BasicToken"
+      },
+      "version-1.4.0-es_openzeppelin-solidity_contracts_token_ERC20_DetailedERC20": {
+        "title": "DetailedERC20"
+      },
+      "version-1.4.0-es_openzeppelin-solidity_contracts_token_ERC20_ERC20": {
+        "title": "ERC20"
+      },
+      "version-1.4.0-es_openzeppelin-solidity_contracts_token_ERC20_ERC20Basic": {
+        "title": "ERC20Basic"
+      },
+      "version-1.4.0-es_openzeppelin-solidity_contracts_token_ERC20_StandardToken": {
+        "title": "StandardToken"
+      },
+      "version-1.4.0-external_Medianizer_DSAuth": {
+        "title": "DSAuth"
+      },
+      "version-1.4.0-external_Medianizer_DSAuthEvents": {
+        "title": "DSAuthEvents"
+      },
+      "version-1.4.0-external_Medianizer_DSAuthority": {
+        "title": "DSAuthority"
+      },
+      "version-1.4.0-external_Medianizer_DSMath": {
+        "title": "DSMath"
+      },
+      "version-1.4.0-external_Medianizer_DSNote": {
+        "title": "DSNote"
+      },
+      "version-1.4.0-external_Medianizer_DSThing": {
+        "title": "DSThing"
+      },
+      "version-1.4.0-external_Medianizer_DSValue": {
+        "title": "DSValue"
+      },
+      "version-1.4.0-external_Medianizer": {
+        "title": "Medianizer"
+      },
+      "version-1.4.0-external_oraclizeAPI_Buffer": {
+        "title": "Buffer"
+      },
+      "version-1.4.0-external_oraclizeAPI_CBOR": {
+        "title": "CBOR"
+      },
+      "version-1.4.0-external_oraclizeAPI_OraclizeAddrResolverI": {
+        "title": "OraclizeAddrResolverI"
+      },
+      "version-1.4.0-external_oraclizeAPI_OraclizeI": {
+        "title": "OraclizeI"
+      },
+      "version-1.4.0-external_oraclizeAPI_usingOraclize": {
+        "title": "usingOraclize"
+      },
+      "version-1.4.0-helpers_PolyToken_IERC20": {
+        "title": "IERC20"
+      },
+      "version-1.4.0-helpers_PolyToken_SafeMath": {
+        "title": "SafeMath"
+      },
+      "version-1.4.0-helpers_PolyToken": {
+        "title": "PolyToken"
+      },
+      "version-1.4.0-helpers_Util": {
+        "title": "Util"
+      },
+      "version-1.4.0-interfaces_IERC20": {
+        "title": "IERC20"
+      },
+      "version-1.4.0-interfaces_IModule": {
+        "title": "IModule"
+      },
+      "version-1.4.0-interfaces_IModuleFactory": {
+        "title": "IModuleFactory"
+      },
+      "version-1.4.0-interfaces_IModuleRegistry": {
+        "title": "IModuleRegistry"
+      },
+      "version-1.4.0-interfaces_IOracle": {
+        "title": "IOracle"
+      },
+      "version-1.4.0-interfaces_ISecurityToken": {
+        "title": "ISecurityToken"
+      },
+      "version-1.4.0-interfaces_ISecurityTokenRegistry": {
+        "title": "ISecurityTokenRegistry"
+      },
+      "version-1.4.0-interfaces_IST20": {
+        "title": "IST20"
+      },
+      "version-1.4.0-interfaces_ISTProxy": {
+        "title": "ISTProxy"
+      },
+      "version-1.4.0-interfaces_ITickerRegistry": {
+        "title": "ITickerRegistry"
+      },
+      "version-1.4.0-interfaces_ITokenBurner": {
+        "title": "ITokenBurner"
+      },
+      "version-1.4.0-Migrations": {
+        "title": "Migrations"
+      },
+      "version-1.4.0-mocks_MockFactory": {
+        "title": "MockFactory"
+      },
+      "version-1.4.0-mocks_MockOracle": {
+        "title": "MockOracle"
+      },
+      "version-1.4.0-mocks_MockPolyOracle": {
+        "title": "MockPolyOracle"
+      },
+      "version-1.4.0-mocks_MockTokenBurner": {
+        "title": "MockTokenBurner"
+      },
+      "version-1.4.0-mocks_PolyTokenFaucet": {
+        "title": "PolyTokenFaucet"
+      },
+      "version-1.4.0-mocks_TestSTOFactory": {
+        "title": "TestSTOFactory"
+      },
+      "version-1.4.0-ModuleRegistry": {
+        "title": "ModuleRegistry"
+      },
+      "version-1.4.0-modules_Checkpoint_ERC20DividendCheckpoint": {
+        "title": "ERC20DividendCheckpoint"
+      },
+      "version-1.4.0-modules_Checkpoint_ERC20DividendCheckpointFactory": {
+        "title": "ERC20DividendCheckpointFactory"
+      },
+      "version-1.4.0-modules_Checkpoint_EtherDividendCheckpoint": {
+        "title": "EtherDividendCheckpoint"
+      },
+      "version-1.4.0-modules_Checkpoint_EtherDividendCheckpointFactory": {
+        "title": "EtherDividendCheckpointFactory"
+      },
+      "version-1.4.0-modules_Checkpoint_ICheckpoint": {
+        "title": "ICheckpoint"
+      },
+      "version-1.4.0-modules_PermissionManager_GeneralPermissionManager": {
+        "title": "GeneralPermissionManager"
+      },
+      "version-1.4.0-modules_PermissionManager_GeneralPermissionManagerFactory": {
+        "title": "GeneralPermissionManagerFactory"
+      },
+      "version-1.4.0-modules_PermissionManager_IPermissionManager": {
+        "title": "IPermissionManager"
+      },
+      "version-1.4.0-modules_STO_CappedSTO": {
+        "title": "CappedSTO"
+      },
+      "version-1.4.0-modules_STO_CappedSTOFactory": {
+        "title": "CappedSTOFactory"
+      },
+      "version-1.4.0-modules_STO_DummySTO": {
+        "title": "DummySTO"
+      },
+      "version-1.4.0-modules_STO_DummySTOFactory": {
+        "title": "DummySTOFactory"
+      },
+      "version-1.4.0-modules_STO_ISTO": {
+        "title": "ISTO"
+      },
+      "version-1.4.0-modules_STO_PreSaleSTO": {
+        "title": "PreSaleSTO"
+      },
+      "version-1.4.0-modules_STO_PreSaleSTOFactory": {
+        "title": "PreSaleSTOFactory"
+      },
+      "version-1.4.0-modules_STO_USDTieredSTO": {
+        "title": "USDTieredSTO"
+      },
+      "version-1.4.0-modules_STO_USDTieredSTOFactory": {
+        "title": "USDTieredSTOFactory"
+      },
+      "version-1.4.0-modules_TransferManager_CountTransferManager": {
+        "title": "CountTransferManager"
+      },
+      "version-1.4.0-modules_TransferManager_CountTransferManagerFactory": {
+        "title": "CountTransferManagerFactory"
+      },
+      "version-1.4.0-modules_TransferManager_GeneralTransferManager": {
+        "title": "GeneralTransferManager"
+      },
+      "version-1.4.0-modules_TransferManager_GeneralTransferManagerFactory": {
+        "title": "GeneralTransferManagerFactory"
+      },
+      "version-1.4.0-modules_TransferManager_ITransferManager": {
+        "title": "ITransferManager"
+      },
+      "version-1.4.0-modules_TransferManager_ManualApprovalTransferManager": {
+        "title": "ManualApprovalTransferManager"
+      },
+      "version-1.4.0-modules_TransferManager_ManualApprovalTransferManagerFactory": {
+        "title": "ManualApprovalTransferManagerFactory"
+      },
+      "version-1.4.0-modules_TransferManager_PercentageTransferManager": {
+        "title": "PercentageTransferManager"
+      },
+      "version-1.4.0-modules_TransferManager_PercentageTransferManagerFactory": {
+        "title": "PercentageTransferManagerFactory"
+      },
+      "version-1.4.0-oracles_MakerDAOOracle": {
+        "title": "MakerDAOOracle"
+      },
+      "version-1.4.0-oracles_PolyOracle": {
+        "title": "PolyOracle"
+      },
+      "version-1.4.0-Pausable": {
+        "title": "Pausable"
+      },
+      "version-1.4.0-PolymathRegistry": {
+        "title": "PolymathRegistry"
+      },
+      "version-1.4.0-ReclaimTokens": {
+        "title": "ReclaimTokens"
+      },
+      "version-1.4.0-RegistryUpdater": {
+        "title": "RegistryUpdater"
+      },
+      "version-1.4.0-SecurityTokenRegistry": {
+        "title": "SecurityTokenRegistry"
+      },
+      "version-1.4.0-TickerRegistry": {
+        "title": "TickerRegistry"
+      },
+      "version-1.4.0-tokens_SecurityToken": {
+        "title": "SecurityToken"
+      },
+      "version-1.4.0-tokens_SecurityTokenV2": {
+        "title": "SecurityTokenV2"
+      },
+      "version-1.4.0-tokens_STVersionProxy001": {
+        "title": "STVersionProxy001"
+      },
+      "version-1.4.0-tokens_STVersionProxy002": {
+        "title": "STVersionProxy002"
+      },
+      "version-1.4.0-doc1": {
+        "title": "Polymath Documentation",
+        "sidebar_label": "Documentation"
+      },
+      "version-1.4.0-doc2": {
+        "title": "Developer Bug Bounty Program",
+        "sidebar_label": "Bug Bounty"
+      },
+      "version-1.4.0-doc4": {
+        "title": "Polymath Tutorials"
+      }
+    },
+    "links": {
+      "Docs": "Docs",
+      "Bug Bounty": "Bug Bounty",
+      "Tutorial": "Tutorial",
+      "API": "API",
+      "Help": "Help",
+      "Tech Blog": "Tech Blog"
+    },
+    "categories": {
+      "Getting Started with Polymath": "Getting Started with Polymath",
+      "Start Contributing to Polymath": "Start Contributing to Polymath",
+      "Polymath Modules Directory": "Polymath Modules Directory",
+      "Tutorials": "Tutorials",
+      "HELPERS": "HELPERS",
+      "INTERFACES": "INTERFACES",
+      "MODULES / CHECKPOINT": "MODULES / CHECKPOINT",
+      "MODULES / PERMISSIONMANAGER": "MODULES / PERMISSIONMANAGER",
+      "MODULES / STO": "MODULES / STO",
+      "MODULES / TRANSFERMANAGER": "MODULES / TRANSFERMANAGER",
+      "ORACLES": "ORACLES",
+      "TOKENS": "TOKENS",
+      "UNCATEGORIZED": "UNCATEGORIZED",
+      "MOCKS": "MOCKS",
+      "First Category": "First Category"
+    }
   },
   "pages-strings": {
     "Help Translate|recruit community translators for your project": "Help Translate",

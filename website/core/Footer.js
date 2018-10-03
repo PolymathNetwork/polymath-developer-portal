@@ -23,6 +23,53 @@ class Footer extends React.Component {
     return (
       <footer>
         <script src={this.props.config.baseUrl + 'js/timeline.js'}></script>
+        <div className="ck_form_container ck_inline" data-ck-version="7">
+				<div className="ck_form ck_minimal">
+					<div className="ck_form_fields">
+						{/* <h3 className="ck_form_title">Get Developer Updates</h3> */}
+						
+
+						<div id="ck_success_msg" style={{display: 'none'}}>
+							<p>Success! Now check your email to confirm your subscription.</p>
+						</div>
+
+					
+						<form id="ck_subscribe_form" className="ck_subscribe_form" action="https://app.convertkit.com/landing_pages/351382/subscribe"
+						 data-remote="true">
+							<input type="hidden" value="{&quot;form_style&quot;:&quot;minimal&quot;,&quot;converted_behavior&quot;:&quot;show&quot;,&quot;days_no_show&quot;:&quot;15&quot;,&quot;delay_seconds&quot;:&quot;10&quot;,&quot;display_devices&quot;:&quot;all&quot;,&quot;display_position&quot;:&quot;br&quot;,&quot;embed_style&quot;:&quot;inline&quot;,&quot;embed_trigger&quot;:&quot;scroll_percentage&quot;,&quot;scroll_percentage&quot;:&quot;70&quot;}"
+							 id="ck_form_options" />
+							<input type="hidden" name="id" value="351382" id="landing_page_id" />
+							<input type="hidden" name="ck_form_recaptcha" value="" id="ck_form_recaptcha" />
+							<div className="ck_errorArea">
+								<div id="ck_error_msg" style={{display: 'none'}}>
+									<p>There was an error submitting your subscription. Please try again.</p>
+								</div>
+							</div>
+              <div style={{float:'left',width:'30%',height:'50px',padding:'11px 0', fontSize:'24px', fontWeight:'bold'}}>
+              <p>Get Developer Updates</p>
+              </div>
+							<div className="ck_control_group ck_email_field_group">
+								<label className="ck_label" for="ck_emailField" style={{display: 'none'}}>Email Address</label>
+								<input type="email" name="email" className="ck_email_address" id="ck_emailField" placeholder="Email Address"
+								 required />
+							</div>
+							<div className="ck_control_group ck_captcha2_h_field_group ck-captcha2-h" style={{position: 'absolute !important',left:'-999em !important'}}>
+								<input type="text" name="captcha2_h" className="ck-captcha2-h" id="ck_captcha2_h" placeholder="We use this field to detect spam bots. If you fill this in, you will be marked as a spammer." />
+							</div>
+
+
+							<button className="subscribe_button ck_subscribe_button btn fields" id="ck_subscribe_button">
+								Join Mailing List
+							</button>
+							<span className="ck_guarantee">
+								We won't send you spam. Unsubscribe at any time.
+							</span>
+						</form>
+					</div>
+
+				</div>
+
+			</div>
         <ul className="footer-list">
           <li className="footer-list-item" style={{ marginTop: '6px' }}>&copy; 2018 Polymath</li>
           {/* <li className="footer-list-item">

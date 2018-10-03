@@ -39,6 +39,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     { doc: 'doc1', label: 'Docs' },
+    { doc: 'doc2', label: 'Bug Bounty' },
     { doc: 'doc4', label: 'Tutorial' },
     { doc: 'interfaces_IST20', label: 'API' },
     { page: 'help', label: 'Help' },
@@ -85,7 +86,7 @@ const siteConfig = {
   },
 
   // Add custom scripts here that would be placed in <script> tags
-  scripts: ['https://buttons.github.io/buttons.js', 'https://code.jquery.com/jquery-3.3.1.min.js'],
+  scripts: ['https://buttons.github.io/buttons.js', 'https://code.jquery.com/jquery-3.3.1.min.js', 'https://assets.convertkit.com/assets/CKJS4.js?v=21'],
 
   /* On page navigation for the current documentation page */
   onPageNav: 'separate',
