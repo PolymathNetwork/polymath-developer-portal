@@ -300,6 +300,60 @@ const FeatureWorth = props => (
   </div>
 );
 
+const DevTimeline = () =>{
+  const timeline_dates = [
+      {
+        title:'Alpha (deprecated)(mainnet)',
+        date:'09/02/2017',
+        status:'completed'
+      },
+      {
+        title:'v1.0.0 TORO release (Ropsten testnet)',
+        date:'09/02/2017',
+        status:'completed'
+      },
+      {
+        title:'v1.1.0 TORO release (Kovan testnet)',
+        date:'09/02/2017',
+        status:'completed'
+      },
+      {
+        title:'v1.2.0 TORO release (Kovan testnet)',
+        date:'09/02/2017',
+        status:'completed'
+      },
+      {
+        title:'v1.3.0 TORO release (Mainnet)',
+        date:'09/02/2017',
+        status:'current'
+      },
+      {
+        title:'ST and Ticker registration (Mainnet)',
+        date:'09/02/2017',
+        status:''
+      },
+      {
+        title:'first STO launch (Mainnet)',
+        date:'Q4 2018',
+        status:''
+      }
+  ];
+  const timelineItems = timeline_dates.map((milestone) =>
+    <div className={`step ${milestone.status}`}>
+      <div className="title">{milestone.title}</div>
+      <div className="date">{milestone.date}</div>
+    </div>
+  );
+
+  return(
+    <div className="workSection">
+    <div className="timeline">
+    {timelineItems}
+    </div>
+    </div>
+  )
+}
+
 class Index extends React.Component {
   render() {
     let language = this.props.language || '';
@@ -333,7 +387,7 @@ class Index extends React.Component {
 							</div>
               
 							<div className="ck_control_group ck_email_field_group">
-								<label className="ck_label" for="ck_emailField" style={{display: 'none'}}>Email Address</label>
+								<label className="ck_label" style={{display: 'none'}}>Email Address</label>
 								<input type="email" name="email" className="ck_email_address" id="ck_emailField" placeholder="Email Address"
 								 required />
 							</div>
@@ -357,81 +411,13 @@ class Index extends React.Component {
           <FeatureCallout />
 
           <FeatureWork />
-          <div className="workSection" style={{ textAlign: 'center' }}>
-
-
-            <section className="cd-horizontal-timeline">
-
-              <div className="events-content">
-                <ol>
-                  <li className="selected" data-date="16/01/2018">
-                    <h1 className="workSection-heading">v1 Core Smart Contracts Launch</h1>
-                    <em>Jan 30, 2018</em>
-                    <p>
-                      Polymath-core was deployed to Ethereum main net. Delegates all over the globe have signed up and are ready to be a part of building this new protocol for financial securities. The Polymath-core repositories were available for free and fully open source. We also released Polymath.js, a javascript library for building applications (e.g. security token creators, template creators, etc) on top of Polymath.
-                    </p>
-                  </li>
-
-                  <li data-date="28/02/2018">
-                    <h1 className="workSection-heading">Token Distribution & Airdrop</h1>
-                    <em>Jan 31, 2018</em>
-                    <p>
-                      The Polymath team was blown away with the massive level of interest and engagement. To kick start the project and reward the amazing community we airdropped a total of 10,000,000 POLY token to 40, 000 members.
-                    </p>
-                  </li>
-
-                  <li data-date="20/04/2018">
-                    <h1 className="workSection-heading">dApp on Testnet</h1>
-                    <em>May 16, 2018</em>
-                    <p>
-                      The Polymath dApp was officially released on Tesnet. Both developers and interested issuers could walk through the process of creating and launching a security token offering.
-                    </p>
-                  </li>
-
-                  <li data-date="20/05/2018">
-                    <h1 className="workSection-heading">dApp on MainNet</h1>
-                    <em>August 2, 2018</em>
-                    <p>
-                      The Bulls of Polymath worked tirelessly on our contracts and upgrading our mechanisms for the big mainnet release. From now on, we will continue to add features that make the platform even more versatile in order to meet the various needs of all security token issuers.
-                    </p>
-                  </li>
-
-                  <li data-date="09/07/2018">
-                    <h1 className="workSection-heading">First STO Launch</h1>
-                    <em>Q4 2018</em>
-                    <p>
-                      CORL, the first STO to be launched using the Polymath dApp will occur within the coming months .
-                    </p>
-                  </li>
-
-
-                </ol>
-              </div>
-              <div className="timeline">
-                <div className="events-wrapper">
-                  <div className="events">
-                    <ol>
-                      <li><a href="#0" data-date="16/01/2018" className="selected">v1 Smart <br />Contracts</a></li>
-                      <li><a href="#0" data-date="28/02/2018">Token <br />Airdrop</a></li>
-                      <li><a href="#0" data-date="20/04/2018">TestNet</a></li>
-                      <li><a href="#0" data-date="20/05/2018">MainNet</a></li>
-                      <li><a href="#0" data-date="09/07/2018">First STO Launch</a></li>
-                    </ol>
-
-                    <span className="filling-line" aria-hidden="true"></span>
-                  </div>
-                </div>
-
-                <ul className="cd-timeline-navigation">
-                  <li><a href="#0" className="prev inactive">Prev</a></li>
-                  <li><a href="#0" className="next">Next</a></li>
-                </ul>
-              </div>
-
-            </section>
-
-          </div>
+          
+          <DevTimeline />
+          
+          
           <EventsTimeline />
+         
+          
 
           <FeatureWorth />
           <div className="worthSection">
