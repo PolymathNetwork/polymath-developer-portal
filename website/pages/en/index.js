@@ -303,53 +303,66 @@ const FeatureWorth = props => (
 const DevTimeline = () =>{
   const timeline_dates = [
       {
-        title:'Alpha (deprecated)(mainnet)',
-        date:'09/02/2017',
+        version:'Alpha',
+        title:'Deprecated release (mainnet)',
+        date:'03/04/2018',
         status:'completed'
       },
       {
-        title:'v1.0.0 TORO release (Ropsten testnet)',
-        date:'09/02/2017',
+        version:'v1.0.0',
+        title:'TORO release (Ropsten testnet)',
+        date:'11/04/2018',
         status:'completed'
       },
       {
-        title:'v1.1.0 TORO release (Kovan testnet)',
-        date:'09/02/2017',
+        version:'v1.1.0',
+        title:'TORO release (Kovan testnet)',
+        date:'22/05/2018',
         status:'completed'
       },
       {
-        title:'v1.2.0 TORO release (Kovan testnet)',
-        date:'09/02/2017',
+        version:'v1.2.0',
+        title:'TORO release (Kovan testnet)',
+        date:'15/06/2018',
         status:'completed'
       },
       {
-        title:'v1.3.0 TORO release (Mainnet)',
-        date:'09/02/2017',
+        version:'v1.3.0',
+        title:'TORO release (Mainnet)',
+        date:'24/07/2018',
+        status:'completed'
+      },
+      {
+        version:'v1.4.0',
+        title:'TORO release (Kovan testnet)',
+        date:'26/08/2018',
         status:'current'
       },
       {
+        verison:'',
         title:'ST and Ticker registration (Mainnet)',
-        date:'09/02/2017',
+        date:'Q4 2018',
         status:''
       },
       {
-        title:'first STO launch (Mainnet)',
+        version:'',
+        title:'First STO launch (Mainnet)',
         date:'Q4 2018',
         status:''
       }
   ];
   const timelineItems = timeline_dates.map((milestone) =>
     <div className={`step ${milestone.status}`}>
-      <div className="title">{milestone.title}</div>
+      <div className="title">{milestone.version}<br />{milestone.title}</div>
       <div className="date">{milestone.date}</div>
     </div>
   );
 
   return(
     <div className="workSection">
-    <div className="timeline">
-    {timelineItems}
-    </div>
+      <div className="timeline">
+        {timelineItems}
+      </div>
     </div>
   )
 }
