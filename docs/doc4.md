@@ -76,7 +76,7 @@ contract PreSaleSTO {
 
 ```
 
-## Interfaces and Initialisation
+## Interfaces and Initialization
 
 To turn this into a module which can live in the Polymath Ecosystem, we need to add some boiler plate code and inherit from the module interface.
 
@@ -166,7 +166,7 @@ contract PreSaleSTO is ISTO {
 }
 ```
 
-## Module Initialisation
+## Module Initialization
 
 As we’ll see in the next section, all modules are created via factory contracts. A factory contract is responsible for creating and configuring all of its modules.
 
@@ -257,7 +257,7 @@ https://github.com/PolymathNetwork/polymath-core
 If you have any questions about the code or this walkthrough we would love to hear from you! Join our Gitter: https://gitter.im/polymathnetwork and ask all of your questions there!
 
 
-The initialisation function can be arbitrarily complex, but here we have a simple `configure` function that just sets this `endTime` value.
+The initialization function can be arbitrarily complex, but here we have a simple `configure` function that just sets this `endTime` value.
 
 ## 2. Create Your Own Security Token Offering (STO) with Polymath
 
