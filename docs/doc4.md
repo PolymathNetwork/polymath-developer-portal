@@ -29,7 +29,7 @@ TransferManager modules are used in determining whether a token transfer is vali
 
 The corresponding interface to implement is:
 
-[ITransferManager.sol](https://github.com/PolymathNetwork/polymath-core/blob/master/contracts/modules/TransferManager/ITransferManager.sol
+[ITransferManager.sol](https://github.com/PolymathNetwork/polymath-core/blob/master/contracts/modules/TransferManager/ITransferManager.sol)
 
 ## PermissionManager
 
@@ -59,7 +59,7 @@ We’ll start by looking at the module contract which will contain our business 
 
 The basic logic, to allow the issuer to create pre-sale token allocations, would look something like:
 
-``` 
+```
 pragma solidity ^0.4.23;
 
 contract PreSaleSTO {
@@ -289,8 +289,8 @@ You should see test Ethereum funds populate within 5 minutes, however, time may 
 
 
 <!---
- 3. Investors/kyc getting them verified - getting them on the whitelist 
+ 3. Investors/kyc getting them verified - getting them on the whitelist
 4. Kyc - transfer manager and whitelist
-5. How to register and deploy the token 
-6. Offering - what you need for it. 
+5. How to register and deploy the token
+6. Offering - what you need for it.
 --->
