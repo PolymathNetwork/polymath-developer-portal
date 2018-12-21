@@ -129,7 +129,7 @@ const Block = props => (
 
 
       <div className="blockElement alignCenter imageAlignTop fourByGridBlock">
-        <a href="https://blog.polymath.network/polymath-core-mainnet-v1-3-0-release-8921e8046508" target="_blank">
+        <a href="https://blog.polymath.network/polymath-core-v2-0-0-release-2d5b954c4c99" target="_blank">
           <div className="blockImage">
             <img src="/img/star.svg" />
           </div>
@@ -137,7 +137,7 @@ const Block = props => (
             <h2>
               <div><span><p>New Releases</p></span></div>
             </h2>
-            <div><span><p>Polymath Core v1.3.0</p></span></div>
+            <div><span><p>Polymath Core v2.0.0</p></span></div>
           </div>
         </a>
       </div>
