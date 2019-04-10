@@ -1,0 +1,7 @@
+---
+id: version-2.1.0-mocks_SecurityTokenRegistryMock
+title: SecurityTokenRegistryMock
+original_id: mocks_SecurityTokenRegistryMock
+---
+
+<div class="contract-doc"><div class="contract"><h2 class="contract-header"><span class="contract-kind">contract</span> SecurityTokenRegistryMock</h2><p class="base-contracts"><span>is</span> <a href="SecurityTokenRegistry.html">SecurityTokenRegistry</a></p><div class="source">Source: <a href="https://github.com/PolymathNetwork/polymath-core/blob/v2.1.0/contracts/mocks/SecurityTokenRegistryMock.sol" target="_blank">contracts/mocks/SecurityTokenRegistryMock.sol</a></div></div><div class="index"><h2>Index</h2><ul><li><a href="mocks_SecurityTokenRegistryMock.html#changeTheDeployedAddress">changeTheDeployedAddress</a></li></ul></div><div class="reference"><h2>Reference</h2><div class="functions"><h3>Functions</h3><ul><li><div class="item function"><span id="changeTheDeployedAddress" class="anchor-marker"></span><h4 class="name">changeTheDeployedAddress</h4><div class="body"><code class="signature">function <strong>changeTheDeployedAddress</strong><span>(string _ticker, address _newSecurityTokenAddress) </span><span>public </span></code><hr/><div class="description"><p>It is a dummy function Alert! Alert! Do not use it for the mainnet release.</p></div><dl><dt><span class="label-parameters">Parameters:</span></dt><dd><div><code>_ticker</code> - string</div><div><code>_newSecurityTokenAddress</code> - address</div></dd></dl></div></div></li></ul></div></div></div>
