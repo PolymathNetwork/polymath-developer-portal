@@ -1,7 +1,7 @@
 ---
-id: version-2.1.0-version-2.1.0-doc4
+id: version-2.1.0-doc4
 title: Polymath Tutorials
-original_id: version-2.1.0-doc4
+original_id: doc4
 ---
 
 This Is Your Guide To Join The Polymath Stampede. 4
