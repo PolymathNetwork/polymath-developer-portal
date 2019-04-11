@@ -5,16 +5,16 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-const React = require('react');
+const React = require("react");
 
-const CompLibrary = require('../../core/CompLibrary');
+const CompLibrary = require("../../core/CompLibrary");
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
 
 const CWD = process.cwd();
 
-const siteConfig = require(CWD + '/siteConfig.js');
-const versions = require(CWD + '/versions.json');
+const siteConfig = require(CWD + "/siteConfig.js");
+const versions = require(CWD + "/versions.json");
 
 class Versions extends React.Component {
   render() {
@@ -24,7 +24,7 @@ class Versions extends React.Component {
         <Container className="mainContainer versionsContainer">
           <div className="post">
             <header className="postHeader">
-              <h2>{siteConfig.title + ' Versions'}</h2>
+              <h2>{siteConfig.title + " Versions"}</h2>
             </header>
             <p>New versions of this project are released every so often.</p>
             <h3 id="latest">Current version (Stable)</h3>
@@ -33,10 +33,18 @@ class Versions extends React.Component {
                 <tr>
                   <th>{latestVersion}</th>
                   <td>
-                    <a href={`${siteConfig.baseUrl}docs/tokens_SecurityToken.html`}>Documentation</a>
+                    <a
+                      href={`${
+                        siteConfig.baseUrl
+                      }docs/tokens_SecurityToken.html`}
+                    >
+                      Documentation
+                    </a>
                   </td>
                   <td>
-                    <a href={getVersionReleaseNotes(latestVersion)}>Release Notes</a>
+                    <a href={getVersionReleaseNotes(latestVersion)}>
+                      Release Notes
+                    </a>
                   </td>
                 </tr>
               </tbody>
@@ -51,10 +59,18 @@ class Versions extends React.Component {
                 <tr>
                   <th>master</th>
                   <td>
-                    <a href={`${siteConfig.baseUrl}docs/tokens_SecurityToken.html`}>Documentation</a>
+                    <a
+                      href={`${
+                        siteConfig.baseUrl
+                      }docs/tokens_SecurityToken.html`}
+                    >
+                      Documentation
+                    </a>
                   </td>
                   <td>
-                    <a href={getVersionReleaseNotes(latestVersion)}>Release Notes</a>
+                    <a href={getVersionReleaseNotes(latestVersion)}>
+                      Release Notes
+                    </a>
                   </td>
                 </tr>
               </tbody>
@@ -69,10 +85,18 @@ class Versions extends React.Component {
                       <tr>
                         <th>{version}</th>
                         <td>
-                          <a href={`${siteConfig.baseUrl}docs/tokens_SecurityToken.html`}>Documentation</a>
+                          <a
+                            href={`${
+                              siteConfig.baseUrl
+                            }docs/${version}/tokens_SecurityToken.html`}
+                          >
+                            Documentation
+                          </a>
                         </td>
                         <td>
-                          <a href={getVersionReleaseNotes(version)}>Release Notes</a>
+                          <a href={getVersionReleaseNotes(version)}>
+                            Release Notes
+                          </a>
                         </td>
                       </tr>
                     )
@@ -80,8 +104,12 @@ class Versions extends React.Component {
               </tbody>
             </table>
             <p>
-              You can find past versions of this project{' '}
-              <a href="https://github.com/polymathNetwork/polymath-core"> on GitHub </a>.
+              You can find past versions of this project{" "}
+              <a href="https://github.com/polymathNetwork/polymath-core">
+                {" "}
+                on GitHub{" "}
+              </a>
+              .
             </p>
           </div>
         </Container>
@@ -95,9 +123,9 @@ class Versions extends React.Component {
  */
 function getVersionReleaseNotes(version) {
   return [
-    'https://github.com/polymathNetwork/polymath-core/releases/tag/',
-    `v${version}`,
-  ].join('');
+    "https://github.com/polymathNetwork/polymath-core/releases/tag/",
+    `v${version}`
+  ].join("");
 }
 
 module.exports = Versions;
