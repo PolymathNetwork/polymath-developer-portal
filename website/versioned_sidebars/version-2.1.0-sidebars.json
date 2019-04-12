@@ -14,29 +14,88 @@
     ]
   },
   "version-2.1.0-docs-api": {
+    "EXTERNAL": [
+      "version-2.1.0-external_IMedianizer",
+      "version-2.1.0-external_OraclizeAPI"
+    ],
     "HELPERS": [
-      "version-2.1.0-helpers_PolyToken",
-      "version-2.1.0-helpers_Util"
+      "version-2.1.0-helpers_PolyToken"
     ],
     "INTERFACES": [
+      "version-2.1.0-interfaces_IBoot",
+      "version-2.1.0-interfaces_IERC20",
+      "version-2.1.0-interfaces_IFeatureRegistry",
       "version-2.1.0-interfaces_IModule",
       "version-2.1.0-interfaces_IModuleFactory",
       "version-2.1.0-interfaces_IModuleRegistry",
       "version-2.1.0-interfaces_IOracle",
-      "version-2.1.0-interfaces_IRegistry",
-      "version-2.1.0-interfaces_IST20",
-      "version-2.1.0-interfaces_ISTProxy",
+      "version-2.1.0-interfaces_IOwnable",
+      "version-2.1.0-interfaces_IPolymathRegistry",
+      "version-2.1.0-interfaces_ISTFactory",
+      "version-2.1.0-interfaces_ISTO",
       "version-2.1.0-interfaces_ISecurityToken",
       "version-2.1.0-interfaces_ISecurityTokenRegistry",
-      "version-2.1.0-interfaces_ITickerRegistry",
-      "version-2.1.0-interfaces_ITokenBurner"
+      "version-2.1.0-interfaces_IUSDTieredSTOProxy"
+    ],
+    "LIBRARIES": [
+      "version-2.1.0-libraries_BokkyPooBahsDateTimeLibrary",
+      "version-2.1.0-libraries_DecimalMath",
+      "version-2.1.0-libraries_Encoder",
+      "version-2.1.0-libraries_KindMath",
+      "version-2.1.0-libraries_TokenLib",
+      "version-2.1.0-libraries_Util",
+      "version-2.1.0-libraries_VersionUtils",
+      "version-2.1.0-libraries_VolumeRestrictionLib"
+    ],
+    "MOCKS": [
+      "version-2.1.0-mocks_DummySTO",
+      "version-2.1.0-mocks_DummySTOFactory",
+      "version-2.1.0-mocks_MockBurnFactory",
+      "version-2.1.0-mocks_MockFactory",
+      "version-2.1.0-mocks_MockModuleRegistry",
+      "version-2.1.0-mocks_MockOracle",
+      "version-2.1.0-mocks_MockPolyOracle",
+      "version-2.1.0-mocks_MockRedemptionManager",
+      "version-2.1.0-mocks_MockWrongTypeFactory",
+      "version-2.1.0-mocks_PolyTokenFaucet",
+      "version-2.1.0-mocks_SecurityTokenRegistryMock",
+      "version-2.1.0-mocks_TestSTOFactory"
+    ],
+    "MODULES": [
+      "version-2.1.0-modules_Module",
+      "version-2.1.0-modules_ModuleFactory",
+      "version-2.1.0-modules_ModuleStorage"
+    ],
+    "MODULES / BURN": [
+      "version-2.1.0-modules_Burn_IBurn"
     ],
     "MODULES / CHECKPOINT": [
+      "version-2.1.0-modules_Checkpoint_DividendCheckpoint",
+      "version-2.1.0-modules_Checkpoint_DividendCheckpointStorage",
       "version-2.1.0-modules_Checkpoint_ERC20DividendCheckpoint",
       "version-2.1.0-modules_Checkpoint_ERC20DividendCheckpointFactory",
+      "version-2.1.0-modules_Checkpoint_ERC20DividendCheckpointStorage",
       "version-2.1.0-modules_Checkpoint_EtherDividendCheckpoint",
       "version-2.1.0-modules_Checkpoint_EtherDividendCheckpointFactory",
       "version-2.1.0-modules_Checkpoint_ICheckpoint"
+    ],
+    "MODULES / EXPERIMENTAL / BURN": [
+      "version-2.1.0-modules_Experimental_Burn_IBurn"
+    ],
+    "MODULES / EXPERIMENTAL / MIXED": [
+      "version-2.1.0-modules_Experimental_Mixed_ScheduledCheckpoint",
+      "version-2.1.0-modules_Experimental_Mixed_ScheduledCheckpointFactory"
+    ],
+    "MODULES / EXPERIMENTAL / TRANSFERMANAGER": [
+      "version-2.1.0-modules_Experimental_TransferManager_BlacklistTransferManager",
+      "version-2.1.0-modules_Experimental_TransferManager_BlacklistTransferManagerFactory",
+      "version-2.1.0-modules_Experimental_TransferManager_LockUpTransferManager",
+      "version-2.1.0-modules_Experimental_TransferManager_LockUpManagerFactory"
+    ],
+    "MODULES / EXPERIMENTAL / WALLET": [
+      "version-2.1.0-modules_Experimental_Wallet_IWallet",
+      "version-2.1.0-modules_Experimental_Wallet_VestingEscrowWallet",
+      "version-2.1.0-modules_Experimental_Wallet_VestingEscrowWalletFactory"
     ],
     "MODULES / PERMISSIONMANAGER": [
       "version-2.1.0-modules_PermissionManager_GeneralPermissionManager",
@@ -46,11 +105,10 @@
     "MODULES / STO": [
       "version-2.1.0-modules_STO_CappedSTO",
       "version-2.1.0-modules_STO_CappedSTOFactory",
-      "version-2.1.0-modules_STO_DummySTO",
-      "version-2.1.0-modules_STO_DummySTOFactory",
-      "version-2.1.0-modules_STO_ISTO",
       "version-2.1.0-modules_STO_PreSaleSTO",
       "version-2.1.0-modules_STO_PreSaleSTOFactory",
+      "version-2.1.0-modules_STO_STO",
+      "version-2.1.0-modules_STO_STOFactory",
       "version-2.1.0-modules_STO_USDTieredSTO",
       "version-2.1.0-modules_STO_USDTieredSTOFactory"
     ],
@@ -63,26 +121,48 @@
       "version-2.1.0-modules_TransferManager_ManualApprovalTransferManager",
       "version-2.1.0-modules_TransferManager_ManualApprovalTransferManagerFactory",
       "version-2.1.0-modules_TransferManager_PercentageTransferManager",
-      "version-2.1.0-modules_TransferManager_PercentageTransferManagerFactory"
+      "version-2.1.0-modules_TransferManager_PercentageTransferManagerFactory",
+      "version-2.1.0-modules_TransferManager_VolumeRestrictionTM",
+      "version-2.1.0-modules_TransferManager_VolumeRestrictionTMFactory"
     ],
     "ORACLES": [
       "version-2.1.0-oracles_MakerDAOOracle",
       "version-2.1.0-oracles_PolyOracle"
     ],
+    "PROXY": [
+      "version-2.1.0-proxy_ERC20DividendCheckpointProxy",
+      "version-2.1.0-proxy_EtherDividendCheckpointProxy",
+      "version-2.1.0-proxy_GeneralTransferManagerProxy",
+      "version-2.1.0-proxy_ModuleRegistryProxy",
+      "version-2.1.0-proxy_OwnedProxy",
+      "version-2.1.0-proxy_OwnedUpgradeabilityProxy",
+      "version-2.1.0-proxy_Proxy",
+      "version-2.1.0-proxy_SecurityTokenRegistryProxy",
+      "version-2.1.0-proxy_USDTieredSTOProxy",
+      "version-2.1.0-proxy_UpgradeabilityProxy",
+      "version-2.1.0-proxy_VestingEscrowWalletProxy",
+      "version-2.1.0-proxy_VolumeRestrictionTMProxy"
+    ],
+    "STORAGE": [
+      "version-2.1.0-storage_EternalStorage",
+      "version-2.1.0-storage_GeneralTransferManagerStorage",
+      "version-2.1.0-storage_USDTieredSTOStorage",
+      "version-2.1.0-storage_VestingEscrowWalletStorage",
+      "version-2.1.0-storage_VolumeRestrictionTMStorage"
+    ],
     "TOKENS": [
-      "version-2.1.0-tokens_STVersionProxy001",
-      "version-2.1.0-tokens_STVersionProxy002",
-      "version-2.1.0-tokens_SecurityToken",
-      "version-2.1.0-tokens_SecurityTokenV2"
+      "version-2.1.0-tokens_STFactory",
+      "version-2.1.0-tokens_SecurityToken"
     ],
     "UNCATEGORIZED": [
       "version-2.1.0-Migrations",
       "version-2.1.0-ModuleRegistry",
       "version-2.1.0-Pausable",
       "version-2.1.0-ReclaimTokens",
-      "version-2.1.0-Registry",
+      "version-2.1.0-PolymathRegistry",
       "version-2.1.0-SecurityTokenRegistry",
-      "version-2.1.0-TickerRegistry"
+      "version-2.1.0-FeatureRegistry",
+      "version-2.1.0-RegistryUpdater"
     ]
   }
 }
