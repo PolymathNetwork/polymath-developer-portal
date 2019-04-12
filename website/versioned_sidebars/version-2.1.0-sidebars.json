@@ -1,0 +1,88 @@
+{
+  "version-2.1.0-docs": {
+    "Getting Started with Polymath": [
+      "version-2.1.0-doc1"
+    ],
+    "Polymath Modules Directory": [
+      "version-2.1.0-doc3"
+    ]
+  },
+  "version-2.1.0-docs-other": {
+    "Tutorials": [
+      "version-2.1.0-doc4",
+      "version-2.1.0-doc5"
+    ]
+  },
+  "version-2.1.0-docs-api": {
+    "HELPERS": [
+      "version-2.1.0-helpers_PolyToken",
+      "version-2.1.0-helpers_Util"
+    ],
+    "INTERFACES": [
+      "version-2.1.0-interfaces_IModule",
+      "version-2.1.0-interfaces_IModuleFactory",
+      "version-2.1.0-interfaces_IModuleRegistry",
+      "version-2.1.0-interfaces_IOracle",
+      "version-2.1.0-interfaces_IRegistry",
+      "version-2.1.0-interfaces_IST20",
+      "version-2.1.0-interfaces_ISTProxy",
+      "version-2.1.0-interfaces_ISecurityToken",
+      "version-2.1.0-interfaces_ISecurityTokenRegistry",
+      "version-2.1.0-interfaces_ITickerRegistry",
+      "version-2.1.0-interfaces_ITokenBurner"
+    ],
+    "MODULES / CHECKPOINT": [
+      "version-2.1.0-modules_Checkpoint_ERC20DividendCheckpoint",
+      "version-2.1.0-modules_Checkpoint_ERC20DividendCheckpointFactory",
+      "version-2.1.0-modules_Checkpoint_EtherDividendCheckpoint",
+      "version-2.1.0-modules_Checkpoint_EtherDividendCheckpointFactory",
+      "version-2.1.0-modules_Checkpoint_ICheckpoint"
+    ],
+    "MODULES / PERMISSIONMANAGER": [
+      "version-2.1.0-modules_PermissionManager_GeneralPermissionManager",
+      "version-2.1.0-modules_PermissionManager_GeneralPermissionManagerFactory",
+      "version-2.1.0-modules_PermissionManager_IPermissionManager"
+    ],
+    "MODULES / STO": [
+      "version-2.1.0-modules_STO_CappedSTO",
+      "version-2.1.0-modules_STO_CappedSTOFactory",
+      "version-2.1.0-modules_STO_DummySTO",
+      "version-2.1.0-modules_STO_DummySTOFactory",
+      "version-2.1.0-modules_STO_ISTO",
+      "version-2.1.0-modules_STO_PreSaleSTO",
+      "version-2.1.0-modules_STO_PreSaleSTOFactory",
+      "version-2.1.0-modules_STO_USDTieredSTO",
+      "version-2.1.0-modules_STO_USDTieredSTOFactory"
+    ],
+    "MODULES / TRANSFERMANAGER": [
+      "version-2.1.0-modules_TransferManager_CountTransferManager",
+      "version-2.1.0-modules_TransferManager_CountTransferManagerFactory",
+      "version-2.1.0-modules_TransferManager_GeneralTransferManager",
+      "version-2.1.0-modules_TransferManager_GeneralTransferManagerFactory",
+      "version-2.1.0-modules_TransferManager_ITransferManager",
+      "version-2.1.0-modules_TransferManager_ManualApprovalTransferManager",
+      "version-2.1.0-modules_TransferManager_ManualApprovalTransferManagerFactory",
+      "version-2.1.0-modules_TransferManager_PercentageTransferManager",
+      "version-2.1.0-modules_TransferManager_PercentageTransferManagerFactory"
+    ],
+    "ORACLES": [
+      "version-2.1.0-oracles_MakerDAOOracle",
+      "version-2.1.0-oracles_PolyOracle"
+    ],
+    "TOKENS": [
+      "version-2.1.0-tokens_STVersionProxy001",
+      "version-2.1.0-tokens_STVersionProxy002",
+      "version-2.1.0-tokens_SecurityToken",
+      "version-2.1.0-tokens_SecurityTokenV2"
+    ],
+    "UNCATEGORIZED": [
+      "version-2.1.0-Migrations",
+      "version-2.1.0-ModuleRegistry",
+      "version-2.1.0-Pausable",
+      "version-2.1.0-ReclaimTokens",
+      "version-2.1.0-Registry",
+      "version-2.1.0-SecurityTokenRegistry",
+      "version-2.1.0-TickerRegistry"
+    ]
+  }
+}

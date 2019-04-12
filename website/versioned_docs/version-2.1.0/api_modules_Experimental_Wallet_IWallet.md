@@ -1,7 +1,7 @@
 ---
-id: version-2.1.0-modules_Experimental_Wallet_IWallet
+id: version-2.1.0-version-2.1.0-modules_Experimental_Wallet_IWallet
 title: IWallet
-original_id: modules_Experimental_Wallet_IWallet
+original_id: version-2.1.0-modules_Experimental_Wallet_IWallet
 ---
 
 <div class="contract-doc"><div class="contract"><h2 class="contract-header"><span class="contract-kind">contract</span> IWallet</h2><p class="base-contracts"><span>is</span> <a href="modules_Module.html">Module</a><span>, </span><a href="Pausable.html">Pausable</a></p><p class="description">Abstract contract.</p><div class="source">Source: <a href="https://github.com/PolymathNetwork/polymath-core/blob/v2.1.0/contracts/modules/Experimental/Wallet/IWallet.sol" target="_blank">contracts/modules/Experimental/Wallet/IWallet.sol</a></div></div><div class="index"><h2>Index</h2><ul><li><a href="modules_Experimental_Wallet_IWallet.html#pause">pause</a></li><li><a href="modules_Experimental_Wallet_IWallet.html#unpause">unpause</a></li></ul></div><div class="reference"><h2>Reference</h2><div class="functions"><h3>Functions</h3><ul><li><div class="item function"><span id="pause" class="anchor-marker"></span><h4 class="name">pause</h4><div class="body"><code class="signature">function <strong>pause</strong><span>() </span><span>public </span></code><hr/><dl><dt><span class="label-modifiers">Modifiers:</span></dt><dd><a href="modules_Module.html#onlyOwner">onlyOwner </a></dd></dl></div></div></li><li><div class="item function"><span id="unpause" class="anchor-marker"></span><h4 class="name">unpause</h4><div class="body"><code class="signature">function <strong>unpause</strong><span>() </span><span>public </span></code><hr/><dl><dt><span class="label-modifiers">Modifiers:</span></dt><dd><a href="modules_Module.html#onlyOwner">onlyOwner </a></dd></dl></div></div></li></ul></div></div></div>

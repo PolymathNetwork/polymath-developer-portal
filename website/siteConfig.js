@@ -39,9 +39,9 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     { doc: "doc1", label: "Docs" },
-    { doc: "doc2", label: "Bug Bounty" },
+    // { doc: "doc2", label: "Bug Bounty" },
     { doc: "doc4", label: "Tutorial" },
-    { doc: "interfaces_IST20", label: "API" },
+    { doc: "interfaces_IST20", label: "Contracts" },
     { page: "help", label: "Help" },
     {
       href: "https://blog.polymath.network/tech/home",

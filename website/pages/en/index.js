@@ -90,9 +90,6 @@ class HomeSplash extends React.Component {
               {" "}
               Getting Started
             </Button>
-            <Button href={docUrl("doc2.html", language)}>
-              Bug Bounty Program
-            </Button>
           </PromoSection>
         </div>
       </SplashContainer>

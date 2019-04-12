@@ -1,26 +1,13 @@
 {
   "docs": {
-    "Getting Started with Polymath": [
-      "doc1"
-    ],
-    "Start Contributing to Polymath": [
-      "doc2"
-    ],
-    "Polymath Modules Directory": [
-      "doc3"
-    ]
+    "Getting Started with Polymath": ["doc1"],
+    "Polymath Modules Directory": ["doc3"]
   },
   "docs-other": {
-    "Tutorials": [
-      "doc4",
-      "doc5"
-    ]
+    "Tutorials": ["doc4", "doc5"]
   },
   "docs-api": {
-    "HELPERS": [
-      "helpers_PolyToken",
-      "helpers_Util"
-    ],
+    "HELPERS": ["helpers_PolyToken", "helpers_Util"],
     "INTERFACES": [
       "interfaces_IModule",
       "interfaces_IModuleFactory",
@@ -68,10 +55,7 @@
       "modules_TransferManager_PercentageTransferManager",
       "modules_TransferManager_PercentageTransferManagerFactory"
     ],
-    "ORACLES": [
-      "oracles_MakerDAOOracle",
-      "oracles_PolyOracle"
-    ],
+    "ORACLES": ["oracles_MakerDAOOracle", "oracles_PolyOracle"],
     "TOKENS": [
       "tokens_STVersionProxy001",
       "tokens_STVersionProxy002",
