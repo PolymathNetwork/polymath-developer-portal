@@ -53,7 +53,7 @@ class Versions extends React.Component {
               This is the version that is configured automatically when you
               first install this project.
             </p>
-            <h3 id="rc">Pre-release versions</h3>
+            {/* <h3 id="rc">Pre-release versions</h3>
             <table className="versions">
               <tbody>
                 <tr>
@@ -75,7 +75,7 @@ class Versions extends React.Component {
                 </tr>
               </tbody>
             </table>
-            <p>Other text describing this section.</p>
+            <p>Other text describing this section.</p> */}
             <h3 id="archive">Past Versions</h3>
             <table className="versions">
               <tbody>
