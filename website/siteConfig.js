@@ -41,7 +41,7 @@ const siteConfig = {
     { doc: "doc1", label: "Docs" },
     // { doc: "doc2", label: "Bug Bounty" },
     { doc: "doc4", label: "Tutorial" },
-    { doc: "version-2.1.0-interfaces_ISecurityToken", label: "Contracts" },
+    { doc: "interfaces_IPolymathRegistry", label: "Contracts" },
     { page: "help", label: "Help" },
     {
       href: "https://blog.polymath.network/tech/home",
