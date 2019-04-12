@@ -30,6 +30,7 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
+  defaultVersionShown: "2.1.0",
   projectName: "Polymath-Developer-Portal",
   organizationName: "Polymath",
   // For top-level user or org sites, the organization is still the same.
@@ -41,7 +42,7 @@ const siteConfig = {
     { doc: "doc1", label: "Docs" },
     // { doc: "doc2", label: "Bug Bounty" },
     { doc: "doc4", label: "Tutorial" },
-    { doc: "interfaces_IPolymathRegistry", label: "Contracts" },
+    { doc: "version-2.1.0-interfaces_ISTO", label: "Contracts" },
     { page: "help", label: "Help" },
     {
       href: "https://blog.polymath.network/tech/home",
