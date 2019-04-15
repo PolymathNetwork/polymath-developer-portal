@@ -42,7 +42,7 @@ const siteConfig = {
     { doc: "doc1", label: "Docs" },
     // { doc: "doc2", label: "Bug Bounty" },
     { doc: "doc4", label: "Tutorial" },
-    { doc: "interfaces_ISTO", label: "Contracts" },
+    { href: "/docs/version-2.1.0-interfaces_ISTO.html", label: "Contracts" },
     { page: "help", label: "Help" },
     {
       href: "https://blog.polymath.network/tech/home",
