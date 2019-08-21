@@ -6,8 +6,8 @@
   "docs-other": {
     "Tutorials": ["doc4", "doc5"]
   },
-  "docs-other2": {
-    "SDK": ["doc1"]
+  "SDK": {
+    "SDK": ["sdkhome"]
   },
   "docs-api": {
     "EXTERNAL": ["external_IMedianizer", "external_OraclizeAPI"],
