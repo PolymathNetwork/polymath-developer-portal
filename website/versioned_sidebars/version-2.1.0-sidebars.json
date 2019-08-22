@@ -11,6 +11,9 @@
     "Tutorials": [
       "version-2.1.0-doc4",
       "version-2.1.0-doc5"
+    ],
+    "SDK":[
+      "version-2.1.0-sdkhome"
     ]
   },
   "version-2.1.0-docs-api": {
