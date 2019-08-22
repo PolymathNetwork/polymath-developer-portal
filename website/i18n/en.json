@@ -480,6 +480,10 @@
         "title": "Installation",
         "sidebar_label": "Installation"
       },
+      "sdkhome": {
+        "title": "Polymath SDK",
+        "sidebar_label": "SDK"
+      },
       "version-1.2.0/version-1.2.0-es_openzeppelin-solidity_contracts_math_Math": {
         "title": "Math"
       },
@@ -1770,11 +1774,16 @@
       },
       "version-2.1.0/version-2.1.0-version-2.1.0-doc4": {
         "title": "Polymath Tutorials"
+      },
+      "version-2.1.0/version-2.1.0-sdkhome": {
+        "title": "Polymath SDK",
+        "sidebar_label": "SDK"
       }
     },
     "links": {
       "Docs": "Docs",
       "Tutorial": "Tutorial",
+      "SDK": "SDK",
       "Contracts": "Contracts",
       "Help": "Help",
       "Tech Blog": "Tech Blog"
@@ -1783,6 +1792,7 @@
       "Getting Started with Polymath": "Getting Started with Polymath",
       "Polymath Modules Directory": "Polymath Modules Directory",
       "Tutorials": "Tutorials",
+      "SDK": "SDK",
       "EXTERNAL": "EXTERNAL",
       "HELPERS": "HELPERS",
       "INTERFACES": "INTERFACES",

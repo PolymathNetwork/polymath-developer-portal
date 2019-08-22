@@ -23,7 +23,7 @@ class Footer extends React.Component {
     return (
       <footer>
         <script
-          charset="utf-8"
+          charSet="utf-8"
           type="text/javascript"
           src="https://js.hsforms.net/forms/v2.js"
         />

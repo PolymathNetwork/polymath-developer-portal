@@ -1,7 +1,7 @@
 ---
 id: sdkhome
 title: Polymath SDK
-sidebar-label: SDK
+sidebar_label: SDK
 ---
 
 # Polymath SDK

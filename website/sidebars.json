@@ -4,9 +4,7 @@
     "Polymath Modules Directory": ["doc3"]
   },
   "docs-other": {
-    "Tutorials": ["doc4", "doc5"]
-  },
-  "SDK": {
+    "Tutorials": ["doc4", "doc5"],
     "SDK": ["sdkhome"]
   },
   "docs-api": {
